@@ -120,6 +120,28 @@ An example, the trade in the reel: Tesla, Monday October 19 2026, real data.
 9. **`/trader-alerts`** rings on the stop, the target and at 3:55 PM to
    flatten whatever is still open.
 
+## Paper trading on a schedule
+
+`/trader-paper` is the Paper Autopilot: the same pipeline, unattended, with
+simulated fills. trader-broker never places an order from a scheduled task
+(nobody is there to say yes), so the autopilot never calls a broker. It runs
+the scanner, the entry timer, the exit planner, the Time Machine, the budget
+and the risk check, then books a simulated buy at the last 5-minute close
+and settles it from the real bars: stop, target or flat by 3:55 PM. The fills
+land in the files trader-risk reads, so your daily limits hold.
+
+```bash
+python3 trader-paper/paper.py tick      # open in the morning, settle and report after the close
+python3 trader-paper/paper.py report    # P&L, win rate, average R -> trader/paper/summary.md
+```
+
+The ledger (`trader/config.json`, `trader/portfolio.json`,
+`trader/state/paper.json`, `trader/state/broker.json`, `trader/paper/`) is
+committed, so a scheduled cloud routine can run `tick` on a fresh checkout,
+commit the ledger and push. It runs twice a weekday: 10:22 AM and 4:22 PM New
+York time. The routine's environment must allow query1.finance.yahoo.com,
+query2.finance.yahoo.com and www.nasdaqtrader.com.
+
 ## The tools
 
 All standard-library Python. The data tools read public endpoints and are
@@ -141,6 +163,7 @@ python3 trader-alerts/alerts.py add --from-plan                        # stop, t
 python3 trader-alerts/alerts.py check                                  # rings what hit, once
 python3 trader-analyst/facts.py TSLA                                   # quarters, growth, EPS
 python3 trader-pelosi/ptr.py index --member pelosi                     # her PTRs this year
+python3 trader-paper/paper.py tick                                     # the paper autopilot
 ```
 
 ```bash
@@ -210,6 +233,8 @@ trader-broker/      SKILL.md, ticket.py, claude_desktop_config.example.json
 trader-alerts/      SKILL.md, alerts.py, alerts.example.json
 trader-analyst/     SKILL.md, facts.py, metrics.example.json
 trader-pelosi/      SKILL.md, ptr.py
+trader-paper/       SKILL.md, paper.py
+trader/             the paper autopilot's ledger
 tests/              unittest suite + offline fixtures
 ```
 

@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+*.tmp
+
+# trader/: the paper autopilot's ledger is committed; per-run scratch is not
+trader/universe.txt
+trader/watchlist.json
+trader/entry.json
+trader/plan.json
+trader/orders.json
+trader/timemachine.json
+trader/prices.json
+trader/state/risk.json
+trader/state/alerts.json
+trader/state/news.json
