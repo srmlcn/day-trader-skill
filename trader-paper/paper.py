@@ -241,16 +241,24 @@ def cmd_open(a, cfg, ap, now):
     done_today = {r["symbol"] for r in entries}
 
     if not a.skip_scan:
+        if not os.path.exists("trader/universe.txt"):
+            print("Building the symbol universe (Nasdaq Trader)...")
+            p = run([skill("trader-scanner", "scan.py"), "universe"], check=False)
+            if p.returncode != 0 or not os.path.exists("trader/universe.txt"):
+                raise PaperError("scan.py universe failed: %s" % (p.stderr or p.stdout).strip()[-400:])
         print("Scanning for opening-range breakouts...")
         p = run([skill("trader-scanner", "scan.py"), "orb", "--quiet", "--show", "0",
                  "--max-confirm", str(ap["scan_max_confirm"]), "--config", a.config]
                 + (["--offline", a.offline] if a.offline else []), now=a.now)
-        tail = [l for l in p.stdout.splitlines() if l.strip()][-3:]
+        tail = [l for l in (p.stdout + p.stderr).splitlines() if l.strip()][-3:]
         print("  " + "\n  ".join(tail))
     wl = read_json("trader/watchlist.json", {}) or {}
     if wl.get("mode") != "orb" or str(wl.get("as_of", ""))[:10] not in (today, ""):
-        print("No ORB watchlist for today. Nothing to do.")
-        return 0
+        if a.skip_scan:
+            print("No ORB watchlist for today. Nothing to do.")
+            return 0
+        # the scan ran but wrote nothing for today: a failure, not a quiet day
+        raise PaperError("the ORB scan wrote no watchlist for %s: %s" % (today, " / ".join(tail) or "no output"))
     hits = [h for h in wl.get("hits", []) if h.get("symbol") not in held | done_today]
 
     ranked = order_hits(hits, ap["min_price"])[: int(ap["max_candidates"])]
@@ -311,7 +319,12 @@ def cmd_open(a, cfg, ap, now):
         p = run([skill("trader-budget", "size.py"), "--config", a.config, "--write"], now=a.now)
         orders = (read_json("trader/orders.json", {}) or {}).get("orders") or []
         if p.returncode != 0 or not orders:
-            skipped.append({"symbol": sym, "why": "budget: %s" % (p.stdout.strip().splitlines() or ["no order"])[-1]})
+            q = run([skill("trader-budget", "size.py"), "--config", a.config, "--json"], now=a.now, check=False)
+            try:
+                why = json.loads(q.stdout)["sizing"].get("refusal") or "no order"
+            except (ValueError, KeyError, TypeError):
+                why = (p.stderr or p.stdout).strip()[-200:] or "no order"
+            skipped.append({"symbol": sym, "why": "budget: %s" % why})
             continue
         p = run([skill("trader-risk", "check.py"), "--config", a.config, "--json"], now=a.now)
         verdict = json.loads(p.stdout)["results"][0]
