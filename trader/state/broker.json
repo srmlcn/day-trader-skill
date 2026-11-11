@@ -1,0 +1,56 @@
+{
+  "orders": [
+    {
+      "at": "2026-11-11T10:22:54-05:00",
+      "date": "2026-11-11",
+      "index": 1,
+      "fingerprint": "ab99f53ba40e51a8",
+      "symbol": "TLN",
+      "side": "buy",
+      "plain": "BUY 9 TLN, market, good for today / stop-loss 374.49 / take-profit 383.61 / max loss about $41.04 if the stop fills at 374.49 (it can fill worse in a fast market)",
+      "status": "placed",
+      "qty": "9",
+      "kind": "entry",
+      "max_loss": 41.04,
+      "stop": 374.49,
+      "broker_order_id": "paper-sim",
+      "note": "simulated fill by trader-paper, no broker"
+    },
+    {
+      "at": "2026-11-11T10:22:54-05:00",
+      "date": "2026-11-11",
+      "status": "filled",
+      "symbol": "TLN",
+      "side": "buy",
+      "qty": "9",
+      "price": 379.24,
+      "plain": "BUY 9 TLN at 379.24"
+    },
+    {
+      "at": "2026-11-11T10:22:54-05:00",
+      "date": "2026-11-11",
+      "index": 1,
+      "fingerprint": "e03dc9479160766c",
+      "symbol": "CRCL",
+      "side": "buy",
+      "plain": "BUY 16 CRCL, market, good for today / stop-loss 65.86 / take-profit 67.76 / max loss about $15.20 if the stop fills at 65.86 (it can fill worse in a fast market)",
+      "status": "placed",
+      "qty": "16",
+      "kind": "entry",
+      "max_loss": 15.2,
+      "stop": 65.86,
+      "broker_order_id": "paper-sim",
+      "note": "simulated fill by trader-paper, no broker"
+    },
+    {
+      "at": "2026-11-11T10:22:54-05:00",
+      "date": "2026-11-11",
+      "status": "filled",
+      "symbol": "CRCL",
+      "side": "buy",
+      "qty": "16",
+      "price": 66.84,
+      "plain": "BUY 16 CRCL at 66.84"
+    }
+  ]
+}

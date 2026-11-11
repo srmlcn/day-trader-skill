@@ -1,0 +1,111 @@
+{
+  "positions": [
+    {
+      "id": "2026-11-11-TLN",
+      "symbol": "TLN",
+      "date": "2026-11-11",
+      "qty": 9,
+      "fill": 379.24,
+      "ref": 379.05,
+      "fill_ts": 1794410400,
+      "fill_time": "10:20 AM",
+      "stop": 374.49,
+      "target": 383.61,
+      "risk_per_share": 4.56,
+      "max_loss": 41.04,
+      "flat_by": "15:55",
+      "opening_range": {
+        "high": 378.98,
+        "low": 370.01,
+        "minutes": 15
+      },
+      "chase_pct": 0.018,
+      "timemachine": {
+        "avg_R": 0.207,
+        "p_target": 0.5963,
+        "p_stop": 0.3883,
+        "verdict": "Leans toward the target: target first 59.6 % vs stop first 38.8 %."
+      }
+    },
+    {
+      "id": "2026-11-11-CRCL",
+      "symbol": "CRCL",
+      "date": "2026-11-11",
+      "qty": 16,
+      "fill": 66.84,
+      "ref": 66.81,
+      "fill_ts": 1794410400,
+      "fill_time": "10:20 AM",
+      "stop": 65.86,
+      "target": 67.76,
+      "risk_per_share": 0.95,
+      "max_loss": 15.2,
+      "flat_by": "15:55",
+      "opening_range": {
+        "high": 66.76,
+        "low": 64.96,
+        "minutes": 15
+      },
+      "chase_pct": 0.075,
+      "timemachine": {
+        "avg_R": 0.053,
+        "p_target": 0.5203,
+        "p_stop": 0.4676,
+        "verdict": "Close to a coin flip: target first 52.0 % vs stop first 46.8 %."
+      }
+    }
+  ],
+  "closed": [],
+  "skipped": [
+    {
+      "symbol": "DELL",
+      "why": "time machine avg R -0.084 <= 0.000",
+      "date": "2026-11-11"
+    },
+    {
+      "symbol": "HWM",
+      "why": "time machine avg R -0.092 <= 0.000",
+      "date": "2026-11-11"
+    },
+    {
+      "symbol": "MPWR",
+      "why": "budget: one share of MPWR costs $1,440.97, more than your cash limit (cash $517.40 in trader/portfolio.json minus the $500 buffer = $17.40 / 1440.97). No order.",
+      "date": "2026-11-11"
+    },
+    {
+      "symbol": "SMCI",
+      "why": "time machine avg R -0.100 <= 0.000",
+      "date": "2026-11-11"
+    },
+    {
+      "symbol": "CBRS",
+      "why": "budget: one share of CBRS costs $99.78, more than your cash limit (cash $517.40 in trader/portfolio.json minus the $500 buffer = $17.40 / 99.78). No order.",
+      "date": "2026-11-11"
+    },
+    {
+      "symbol": "AXTI",
+      "why": "time machine avg R -0.053 <= 0.000",
+      "date": "2026-11-11"
+    },
+    {
+      "symbol": "BMNR",
+      "why": "back under the range high",
+      "date": "2026-11-11"
+    },
+    {
+      "symbol": "TSLA",
+      "why": "budget: one share of TSLA costs $393.82, more than your cash limit (cash $517.40 in trader/portfolio.json minus the $500 buffer = $17.40 / 393.82). No order.",
+      "date": "2026-11-11"
+    },
+    {
+      "symbol": "ONTO",
+      "why": "time machine avg R -0.099 <= 0.000",
+      "date": "2026-11-11"
+    },
+    {
+      "symbol": "LIN",
+      "why": "budget: one share of LIN costs $523.76, more than your cash limit (cash $517.40 in trader/portfolio.json minus the $500 buffer = $17.40 / 523.76). No order.",
+      "date": "2026-11-11"
+    }
+  ]
+}
