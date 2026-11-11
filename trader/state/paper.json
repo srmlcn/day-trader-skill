@@ -1,5 +1,6 @@
 {
-  "positions": [
+  "positions": [],
+  "closed": [
     {
       "id": "2026-11-11-TLN",
       "symbol": "TLN",
@@ -25,7 +26,12 @@
         "p_target": 0.5963,
         "p_stop": 0.3883,
         "verdict": "Leans toward the target: target first 59.6 % vs stop first 38.8 %."
-      }
+      },
+      "exit": 383.86,
+      "exit_reason": "target",
+      "exit_time": "10:55 AM",
+      "pnl": 41.58,
+      "R": 1.013
     },
     {
       "id": "2026-11-11-CRCL",
@@ -52,10 +58,14 @@
         "p_target": 0.5203,
         "p_stop": 0.4676,
         "verdict": "Close to a coin flip: target first 52.0 % vs stop first 46.8 %."
-      }
+      },
+      "exit": 67.76,
+      "exit_reason": "target",
+      "exit_time": "10:35 AM",
+      "pnl": 14.72,
+      "R": 0.968
     }
   ],
-  "closed": [],
   "skipped": [
     {
       "symbol": "DELL",

@@ -51,6 +51,26 @@
       "qty": "16",
       "price": 66.84,
       "plain": "BUY 16 CRCL at 66.84"
+    },
+    {
+      "at": "2026-11-11T10:55:00-05:00",
+      "date": "2026-11-11",
+      "status": "filled",
+      "symbol": "TLN",
+      "side": "sell",
+      "qty": "9",
+      "price": 383.86,
+      "plain": "SELL 9 TLN at 383.86"
+    },
+    {
+      "at": "2026-11-11T10:35:00-05:00",
+      "date": "2026-11-11",
+      "status": "filled",
+      "symbol": "CRCL",
+      "side": "sell",
+      "qty": "16",
+      "price": 67.76,
+      "plain": "SELL 16 CRCL at 67.76"
     }
   ]
 }

@@ -1,29 +1,4 @@
 {
-  "cash": 517.4,
-  "positions": [
-    {
-      "ticker": "TLN",
-      "shares": 9.0,
-      "lots": [
-        {
-          "id": "TLN-1",
-          "date": "2026-11-11",
-          "shares": 9.0,
-          "cost": 3413.16
-        }
-      ]
-    },
-    {
-      "ticker": "CRCL",
-      "shares": 16.0,
-      "lots": [
-        {
-          "id": "CRCL-1",
-          "date": "2026-11-11",
-          "shares": 16.0,
-          "cost": 1069.44
-        }
-      ]
-    }
-  ]
+  "cash": 5056.3,
+  "positions": []
 }
