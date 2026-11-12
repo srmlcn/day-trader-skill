@@ -1,4 +1,41 @@
 {
-  "cash": 5056.3,
-  "positions": []
+  "cash": 573.96,
+  "positions": [
+    {
+      "ticker": "U",
+      "shares": 76.0,
+      "lots": [
+        {
+          "id": "U-1",
+          "date": "2026-11-12",
+          "shares": 76.0,
+          "cost": 3745.28
+        }
+      ]
+    },
+    {
+      "ticker": "APP",
+      "shares": 1.0,
+      "lots": [
+        {
+          "id": "APP-1",
+          "date": "2026-11-12",
+          "shares": 1.0,
+          "cost": 406.85
+        }
+      ]
+    },
+    {
+      "ticker": "CDNS",
+      "shares": 1.0,
+      "lots": [
+        {
+          "id": "CDNS-1",
+          "date": "2026-11-12",
+          "shares": 1.0,
+          "cost": 330.21
+        }
+      ]
+    }
+  ]
 }

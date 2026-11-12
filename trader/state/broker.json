@@ -71,6 +71,84 @@
       "qty": "16",
       "price": 67.76,
       "plain": "SELL 16 CRCL at 67.76"
+    },
+    {
+      "at": "2026-11-12T10:22:43-05:00",
+      "date": "2026-11-12",
+      "index": 1,
+      "fingerprint": "b12b26ce445c7e0a",
+      "symbol": "U",
+      "side": "buy",
+      "plain": "BUY 76 U, market, good for today / stop-loss 48.67 / take-profit 49.85 / max loss about $44.84 if the stop fills at 48.67 (it can fill worse in a fast market)",
+      "status": "placed",
+      "qty": "76",
+      "kind": "entry",
+      "max_loss": 44.84,
+      "stop": 48.67,
+      "broker_order_id": "paper-sim",
+      "note": "simulated fill by trader-paper, no broker"
+    },
+    {
+      "at": "2026-11-12T10:22:43-05:00",
+      "date": "2026-11-12",
+      "status": "filled",
+      "symbol": "U",
+      "side": "buy",
+      "qty": "76",
+      "price": 49.28,
+      "plain": "BUY 76 U at 49.28"
+    },
+    {
+      "at": "2026-11-12T10:22:43-05:00",
+      "date": "2026-11-12",
+      "index": 1,
+      "fingerprint": "b2fa4aebae329abb",
+      "symbol": "APP",
+      "side": "buy",
+      "plain": "BUY 1 APP, market, good for today / stop-loss 402.47 / take-profit 410.83 / max loss about $4.18 if the stop fills at 402.47 (it can fill worse in a fast market)",
+      "status": "placed",
+      "qty": "1",
+      "kind": "entry",
+      "max_loss": 4.18,
+      "stop": 402.47,
+      "broker_order_id": "paper-sim",
+      "note": "simulated fill by trader-paper, no broker"
+    },
+    {
+      "at": "2026-11-12T10:22:43-05:00",
+      "date": "2026-11-12",
+      "status": "filled",
+      "symbol": "APP",
+      "side": "buy",
+      "qty": "1",
+      "price": 406.85,
+      "plain": "BUY 1 APP at 406.85"
+    },
+    {
+      "at": "2026-11-12T10:22:43-05:00",
+      "date": "2026-11-12",
+      "index": 1,
+      "fingerprint": "5b5810d7615f43f6",
+      "symbol": "CDNS",
+      "side": "buy",
+      "plain": "BUY 1 CDNS, market, good for today / stop-loss 326.81 / take-profit 333.27 / max loss about $3.23 if the stop fills at 326.81 (it can fill worse in a fast market)",
+      "status": "placed",
+      "qty": "1",
+      "kind": "entry",
+      "max_loss": 3.23,
+      "stop": 326.81,
+      "broker_order_id": "paper-sim",
+      "note": "simulated fill by trader-paper, no broker"
+    },
+    {
+      "at": "2026-11-12T10:22:43-05:00",
+      "date": "2026-11-12",
+      "status": "filled",
+      "symbol": "CDNS",
+      "side": "buy",
+      "qty": "1",
+      "price": 330.21,
+      "plain": "BUY 1 CDNS at 330.21"
     }
   ]
 }
