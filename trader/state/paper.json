@@ -1,87 +1,5 @@
 {
-  "positions": [
-    {
-      "id": "2026-11-12-U",
-      "symbol": "U",
-      "date": "2026-11-12",
-      "qty": 76,
-      "fill": 49.28,
-      "ref": 49.26,
-      "fill_ts": 1794496800,
-      "fill_time": "10:20 AM",
-      "stop": 48.67,
-      "target": 49.85,
-      "risk_per_share": 0.59,
-      "max_loss": 44.84,
-      "flat_by": "15:55",
-      "opening_range": {
-        "high": 49.25,
-        "low": 48.09,
-        "minutes": 15
-      },
-      "chase_pct": 0.02,
-      "timemachine": {
-        "avg_R": 0.017,
-        "p_target": 0.4963,
-        "p_stop": 0.4799,
-        "verdict": "Close to a coin flip: target first 49.6 % vs stop first 48.0 %."
-      }
-    },
-    {
-      "id": "2026-11-12-APP",
-      "symbol": "APP",
-      "date": "2026-11-12",
-      "qty": 1,
-      "fill": 406.85,
-      "ref": 406.65,
-      "fill_ts": 1794496800,
-      "fill_time": "10:20 AM",
-      "stop": 402.47,
-      "target": 410.83,
-      "risk_per_share": 4.18,
-      "max_loss": 4.18,
-      "flat_by": "15:55",
-      "opening_range": {
-        "high": 406.5,
-        "low": 398.45,
-        "minutes": 15
-      },
-      "chase_pct": 0.037,
-      "timemachine": {
-        "avg_R": 0.081,
-        "p_target": 0.534,
-        "p_stop": 0.452,
-        "verdict": "Close to a coin flip: target first 53.4 % vs stop first 45.2 %."
-      }
-    },
-    {
-      "id": "2026-11-12-CDNS",
-      "symbol": "CDNS",
-      "date": "2026-11-12",
-      "qty": 1,
-      "fill": 330.21,
-      "ref": 330.04,
-      "fill_ts": 1794496800,
-      "fill_time": "10:20 AM",
-      "stop": 326.81,
-      "target": 333.27,
-      "risk_per_share": 3.23,
-      "max_loss": 3.23,
-      "flat_by": "15:55",
-      "opening_range": {
-        "high": 329.27,
-        "low": 324.35,
-        "minutes": 15
-      },
-      "chase_pct": 0.234,
-      "timemachine": {
-        "avg_R": 0.102,
-        "p_target": 0.5281,
-        "p_stop": 0.4271,
-        "verdict": "Leans toward the target: target first 52.8 % vs stop first 42.7 %."
-      }
-    }
-  ],
+  "positions": [],
   "closed": [
     {
       "id": "2026-11-11-TLN",
@@ -146,6 +64,102 @@
       "exit_time": "10:35 AM",
       "pnl": 14.72,
       "R": 0.968
+    },
+    {
+      "id": "2026-11-12-U",
+      "symbol": "U",
+      "date": "2026-11-12",
+      "qty": 76,
+      "fill": 49.28,
+      "ref": 49.26,
+      "fill_ts": 1794496800,
+      "fill_time": "10:20 AM",
+      "stop": 48.67,
+      "target": 49.85,
+      "risk_per_share": 0.59,
+      "max_loss": 44.84,
+      "flat_by": "15:55",
+      "opening_range": {
+        "high": 49.25,
+        "low": 48.09,
+        "minutes": 15
+      },
+      "chase_pct": 0.02,
+      "timemachine": {
+        "avg_R": 0.017,
+        "p_target": 0.4963,
+        "p_stop": 0.4799,
+        "verdict": "Close to a coin flip: target first 49.6 % vs stop first 48.0 %."
+      },
+      "exit": 49.85,
+      "exit_reason": "target",
+      "exit_time": "1:55 PM",
+      "pnl": 43.32,
+      "R": 0.966
+    },
+    {
+      "id": "2026-11-12-APP",
+      "symbol": "APP",
+      "date": "2026-11-12",
+      "qty": 1,
+      "fill": 406.85,
+      "ref": 406.65,
+      "fill_ts": 1794496800,
+      "fill_time": "10:20 AM",
+      "stop": 402.47,
+      "target": 410.83,
+      "risk_per_share": 4.18,
+      "max_loss": 4.18,
+      "flat_by": "15:55",
+      "opening_range": {
+        "high": 406.5,
+        "low": 398.45,
+        "minutes": 15
+      },
+      "chase_pct": 0.037,
+      "timemachine": {
+        "avg_R": 0.081,
+        "p_target": 0.534,
+        "p_stop": 0.452,
+        "verdict": "Close to a coin flip: target first 53.4 % vs stop first 45.2 %."
+      },
+      "exit": 402.47,
+      "exit_reason": "stop",
+      "exit_time": "10:30 AM",
+      "pnl": -4.38,
+      "R": -1.048
+    },
+    {
+      "id": "2026-11-12-CDNS",
+      "symbol": "CDNS",
+      "date": "2026-11-12",
+      "qty": 1,
+      "fill": 330.21,
+      "ref": 330.04,
+      "fill_ts": 1794496800,
+      "fill_time": "10:20 AM",
+      "stop": 326.81,
+      "target": 333.27,
+      "risk_per_share": 3.23,
+      "max_loss": 3.23,
+      "flat_by": "15:55",
+      "opening_range": {
+        "high": 329.27,
+        "low": 324.35,
+        "minutes": 15
+      },
+      "chase_pct": 0.234,
+      "timemachine": {
+        "avg_R": 0.102,
+        "p_target": 0.5281,
+        "p_stop": 0.4271,
+        "verdict": "Leans toward the target: target first 52.8 % vs stop first 42.7 %."
+      },
+      "exit": 333.27,
+      "exit_reason": "target",
+      "exit_time": "11:05 AM",
+      "pnl": 3.06,
+      "R": 0.947
     }
   ],
   "skipped": [

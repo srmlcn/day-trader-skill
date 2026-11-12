@@ -7,3 +7,6 @@
 - 2026-11-12 10:20 AM  BUY 76 U @ 49.28  stop 48.67  target 49.85  max loss $44.84  (time machine avg R 0.017)
 - 2026-11-12 10:20 AM  BUY 1 APP @ 406.85  stop 402.47  target 410.83  max loss $4.18  (time machine avg R 0.081)
 - 2026-11-12 10:20 AM  BUY 1 CDNS @ 330.21  stop 326.81  target 333.27  max loss $3.23  (time machine avg R 0.102)
+- 2026-11-12 1:55 PM  SELL 76 U @ 49.85  target  P&L $+43.32  +0.97R
+- 2026-11-12 10:30 AM  SELL 1 APP @ 402.47  stop  P&L $-4.38  -1.05R
+- 2026-11-12 11:05 AM  SELL 1 CDNS @ 333.27  target  P&L $+3.06  +0.95R

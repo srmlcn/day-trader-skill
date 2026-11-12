@@ -149,6 +149,36 @@
       "qty": "1",
       "price": 330.21,
       "plain": "BUY 1 CDNS at 330.21"
+    },
+    {
+      "at": "2026-11-12T13:55:00-05:00",
+      "date": "2026-11-12",
+      "status": "filled",
+      "symbol": "U",
+      "side": "sell",
+      "qty": "76",
+      "price": 49.85,
+      "plain": "SELL 76 U at 49.85"
+    },
+    {
+      "at": "2026-11-12T10:30:00-05:00",
+      "date": "2026-11-12",
+      "status": "filled",
+      "symbol": "APP",
+      "side": "sell",
+      "qty": "1",
+      "price": 402.47,
+      "plain": "SELL 1 APP at 402.47"
+    },
+    {
+      "at": "2026-11-12T11:05:00-05:00",
+      "date": "2026-11-12",
+      "status": "filled",
+      "symbol": "CDNS",
+      "side": "sell",
+      "qty": "1",
+      "price": 333.27,
+      "plain": "SELL 1 CDNS at 333.27"
     }
   ]
 }
