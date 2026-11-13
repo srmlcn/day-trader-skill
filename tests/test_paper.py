@@ -153,6 +153,21 @@ class EndToEnd(unittest.TestCase):
         self.assertFalse(os.path.exists("trader/state/paper.json"))
         self.assertFalse(os.path.exists("trader/paper/journal.md"))
 
+    def test_live_daily_cap_shrinks_then_stops(self):
+        self._live_cfg()
+        self.cfg.update({"max_loss_per_trade_usd": 6, "max_daily_loss_usd": 12})
+        self._write("trader/config.json", self.cfg)
+        args = ["open", "--live", "--cash", "3000", "--skip-scan", "--offline", CHART, "--now", "2026-10-19 10:22",
+                "--portfolio", "trader/live/portfolio.json", "--broker-state", "trader/live/broker.json",
+                "--state", "trader/live/state.json"]
+        code, out, err = self.run_paper(*(args + ["--loss-today", "8"]))
+        self.assertIn("Max loss this trade: $4.00", out)
+        self.assertNotIn("LIVE ORDER READY", out)  # TSLA risks 6.83 a share: no whole share fits $4
+        code, out, err = self.run_paper(*(args + ["--loss-today", "11.5"]))
+        self.assertEqual(code, 0, err)
+        self.assertIn("no new trades today", out)
+        self.assertFalse(os.path.exists("trader/live/order.json"))
+
     def test_live_skips_a_share_it_cannot_afford(self):
         self._live_cfg()
         code, out, err = self.run_paper("open", "--live", "--cash", "294", "--skip-scan", "--offline", CHART,

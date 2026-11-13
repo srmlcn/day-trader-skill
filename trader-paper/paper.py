@@ -241,6 +241,22 @@ def cmd_open(a, cfg, ap, now):
         write_json(a.portfolio, {"cash": round(float(a.cash), 2), "positions": []})
         if os.path.exists(a.live_out):
             os.remove(a.live_out)
+        # Each live run starts from a fresh checkout, so check.py cannot see today's earlier
+        # trades: the session passes today's realized loss from Robinhood, and this trade may
+        # risk only what is left of the daily cap.
+        loss = max(0.0, float(a.loss_today or 0))
+        daily = float(cfg.get("max_daily_loss_usd") or 0)
+        per = float(cfg.get("max_loss_per_trade_usd") or 0)
+        room = round(min(per, daily - loss), 2) if daily else per
+        if room < 1.0:
+            print("Today's realized loss $%.2f leaves $%.2f of the $%.2f daily cap: no new trades today."
+                  % (loss, max(room, 0), daily))
+            return 0
+        run_cfg = dict(cfg, max_loss_per_trade_usd=room, max_daily_loss_usd=room)
+        a.config = os.path.join(os.path.dirname(a.live_out) or ".", "config.run.json")
+        write_json(a.config, run_cfg)
+        if room < per:
+            print("Max loss this trade: $%.2f (today's loss $%.2f against the $%.2f daily cap)." % (room, loss, daily))
     state = load_state(a.state)
     broker = ticket_mod.load_state(a.broker_state)
     today = day.isoformat()
@@ -542,7 +558,9 @@ def main(argv=None):
         p.add_argument("--no-write", action="store_true")
         p.add_argument("--live", action="store_true",
                        help="open only: write ONE real order to --live-out for the session to place; no simulated fill")
-        p.add_argument("--cash", type=float, help="--live: the account's buying power right now")
+        p.add_argument("--cash", type=float, help="--live: the account's cash right now")
+        p.add_argument("--loss-today", type=float, default=0.0,
+                       help="--live: today's realized loss in dollars (positive), from Robinhood's filled orders")
         p.add_argument("--live-out", default="trader/live/order.json")
     a = ap.parse_args(argv)
     try:
