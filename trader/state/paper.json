@@ -28,33 +28,6 @@
       }
     },
     {
-      "id": "2026-11-13-RMD",
-      "symbol": "RMD",
-      "date": "2026-11-13",
-      "qty": 3,
-      "fill": 241.59,
-      "ref": 241.47,
-      "fill_ts": 1794584100,
-      "fill_time": "10:35 AM",
-      "stop": 240.54,
-      "target": 242.4,
-      "risk_per_share": 0.93,
-      "max_loss": 2.79,
-      "flat_by": "15:55",
-      "opening_range": {
-        "high": 241.39,
-        "low": 239.7,
-        "minutes": 15
-      },
-      "chase_pct": 0.033,
-      "timemachine": {
-        "avg_R": 0.088,
-        "p_target": 0.5439,
-        "p_stop": 0.4557,
-        "verdict": "Close to a coin flip: target first 54.4 % vs stop first 45.6 %."
-      }
-    },
-    {
       "id": "2026-11-13-WEC",
       "symbol": "WEC",
       "date": "2026-11-13",
@@ -242,6 +215,38 @@
       "exit_time": "11:05 AM",
       "pnl": 3.06,
       "R": 0.947
+    },
+    {
+      "id": "2026-11-13-RMD",
+      "symbol": "RMD",
+      "date": "2026-11-13",
+      "qty": 3,
+      "fill": 241.59,
+      "ref": 241.47,
+      "fill_ts": 1794584100,
+      "fill_time": "10:35 AM",
+      "stop": 240.54,
+      "target": 242.4,
+      "risk_per_share": 0.93,
+      "max_loss": 2.79,
+      "flat_by": "15:55",
+      "opening_range": {
+        "high": 241.39,
+        "low": 239.7,
+        "minutes": 15
+      },
+      "chase_pct": 0.033,
+      "timemachine": {
+        "avg_R": 0.088,
+        "p_target": 0.5439,
+        "p_stop": 0.4557,
+        "verdict": "Close to a coin flip: target first 54.4 % vs stop first 45.6 %."
+      },
+      "exit": 240.54,
+      "exit_reason": "stop",
+      "exit_time": "11:00 AM",
+      "pnl": -3.15,
+      "R": -1.129
     }
   ],
   "skipped": [
