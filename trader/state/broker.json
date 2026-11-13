@@ -267,6 +267,26 @@
       "qty": "3",
       "price": 240.54,
       "plain": "SELL 3 RMD at 240.54"
+    },
+    {
+      "at": "2026-11-13T15:55:00-05:00",
+      "date": "2026-11-13",
+      "status": "filled",
+      "symbol": "IBN",
+      "side": "sell",
+      "qty": "108",
+      "price": 34.54,
+      "plain": "SELL 108 IBN at 34.54"
+    },
+    {
+      "at": "2026-11-13T15:55:00-05:00",
+      "date": "2026-11-13",
+      "status": "filled",
+      "symbol": "WEC",
+      "side": "sell",
+      "qty": "1",
+      "price": 117.71,
+      "plain": "SELL 1 WEC at 117.71"
     }
   ]
 }

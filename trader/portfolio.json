@@ -1,29 +1,4 @@
 {
-  "cash": 1248.22,
-  "positions": [
-    {
-      "ticker": "IBN",
-      "shares": 108.0,
-      "lots": [
-        {
-          "id": "IBN-1",
-          "date": "2026-11-13",
-          "shares": 108.0,
-          "cost": 3729.24
-        }
-      ]
-    },
-    {
-      "ticker": "WEC",
-      "shares": 1.0,
-      "lots": [
-        {
-          "id": "WEC-1",
-          "date": "2026-11-13",
-          "shares": 1.0,
-          "cost": 117.69
-        }
-      ]
-    }
-  ]
+  "cash": 5096.25,
+  "positions": []
 }

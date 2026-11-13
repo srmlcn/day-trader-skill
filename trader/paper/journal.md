@@ -14,3 +14,5 @@
 - 2026-11-13 10:35 AM  BUY 3 RMD @ 241.59  stop 240.54  target 242.40  max loss $2.79  (time machine avg R 0.088)
 - 2026-11-13 10:35 AM  BUY 1 WEC @ 117.69  stop 117.18  target 118.08  max loss $0.45  (time machine avg R 0.002)
 - 2026-11-13 11:00 AM  SELL 3 RMD @ 240.54  stop  P&L $-3.15  -1.13R
+- 2026-11-13 3:55 PM  SELL 108 IBN @ 34.54  flat  P&L $+1.08  +0.06R
+- 2026-11-13 3:55 PM  SELL 1 WEC @ 117.71  flat  P&L $+0.02  +0.04R

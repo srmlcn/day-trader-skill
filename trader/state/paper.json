@@ -1,60 +1,5 @@
 {
-  "positions": [
-    {
-      "id": "2026-11-13-IBN",
-      "symbol": "IBN",
-      "date": "2026-11-13",
-      "qty": 108,
-      "fill": 34.53,
-      "ref": 34.51,
-      "fill_ts": 1794584100,
-      "fill_time": "10:35 AM",
-      "stop": 34.35,
-      "target": 34.67,
-      "risk_per_share": 0.16,
-      "max_loss": 17.28,
-      "flat_by": "15:55",
-      "opening_range": {
-        "high": 34.5,
-        "low": 34.2,
-        "minutes": 15
-      },
-      "chase_pct": 0.029,
-      "timemachine": {
-        "avg_R": 0.129,
-        "p_target": 0.4798,
-        "p_stop": 0.3572,
-        "verdict": "Leans toward the target: target first 48.0 % vs stop first 35.7 %."
-      }
-    },
-    {
-      "id": "2026-11-13-WEC",
-      "symbol": "WEC",
-      "date": "2026-11-13",
-      "qty": 1,
-      "fill": 117.69,
-      "ref": 117.63,
-      "fill_ts": 1794584100,
-      "fill_time": "10:35 AM",
-      "stop": 117.18,
-      "target": 118.08,
-      "risk_per_share": 0.45,
-      "max_loss": 0.45,
-      "flat_by": "15:55",
-      "opening_range": {
-        "high": 117.47,
-        "low": 116.9,
-        "minutes": 15
-      },
-      "chase_pct": 0.136,
-      "timemachine": {
-        "avg_R": 0.002,
-        "p_target": 0.4903,
-        "p_stop": 0.4881,
-        "verdict": "Close to a coin flip: target first 49.0 % vs stop first 48.8 %."
-      }
-    }
-  ],
+  "positions": [],
   "closed": [
     {
       "id": "2026-11-11-TLN",
@@ -247,6 +192,70 @@
       "exit_time": "11:00 AM",
       "pnl": -3.15,
       "R": -1.129
+    },
+    {
+      "id": "2026-11-13-IBN",
+      "symbol": "IBN",
+      "date": "2026-11-13",
+      "qty": 108,
+      "fill": 34.53,
+      "ref": 34.51,
+      "fill_ts": 1794584100,
+      "fill_time": "10:35 AM",
+      "stop": 34.35,
+      "target": 34.67,
+      "risk_per_share": 0.16,
+      "max_loss": 17.28,
+      "flat_by": "15:55",
+      "opening_range": {
+        "high": 34.5,
+        "low": 34.2,
+        "minutes": 15
+      },
+      "chase_pct": 0.029,
+      "timemachine": {
+        "avg_R": 0.129,
+        "p_target": 0.4798,
+        "p_stop": 0.3572,
+        "verdict": "Leans toward the target: target first 48.0 % vs stop first 35.7 %."
+      },
+      "exit": 34.54,
+      "exit_reason": "flat",
+      "exit_time": "3:55 PM",
+      "pnl": 1.08,
+      "R": 0.062
+    },
+    {
+      "id": "2026-11-13-WEC",
+      "symbol": "WEC",
+      "date": "2026-11-13",
+      "qty": 1,
+      "fill": 117.69,
+      "ref": 117.63,
+      "fill_ts": 1794584100,
+      "fill_time": "10:35 AM",
+      "stop": 117.18,
+      "target": 118.08,
+      "risk_per_share": 0.45,
+      "max_loss": 0.45,
+      "flat_by": "15:55",
+      "opening_range": {
+        "high": 117.47,
+        "low": 116.9,
+        "minutes": 15
+      },
+      "chase_pct": 0.136,
+      "timemachine": {
+        "avg_R": 0.002,
+        "p_target": 0.4903,
+        "p_stop": 0.4881,
+        "verdict": "Close to a coin flip: target first 49.0 % vs stop first 48.8 %."
+      },
+      "exit": 117.71,
+      "exit_reason": "flat",
+      "exit_time": "3:55 PM",
+      "pnl": 0.02,
+      "R": 0.044
     }
   ],
   "skipped": [
