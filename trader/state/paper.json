@@ -1,5 +1,87 @@
 {
-  "positions": [],
+  "positions": [
+    {
+      "id": "2026-11-13-IBN",
+      "symbol": "IBN",
+      "date": "2026-11-13",
+      "qty": 108,
+      "fill": 34.53,
+      "ref": 34.51,
+      "fill_ts": 1794584100,
+      "fill_time": "10:35 AM",
+      "stop": 34.35,
+      "target": 34.67,
+      "risk_per_share": 0.16,
+      "max_loss": 17.28,
+      "flat_by": "15:55",
+      "opening_range": {
+        "high": 34.5,
+        "low": 34.2,
+        "minutes": 15
+      },
+      "chase_pct": 0.029,
+      "timemachine": {
+        "avg_R": 0.129,
+        "p_target": 0.4798,
+        "p_stop": 0.3572,
+        "verdict": "Leans toward the target: target first 48.0 % vs stop first 35.7 %."
+      }
+    },
+    {
+      "id": "2026-11-13-RMD",
+      "symbol": "RMD",
+      "date": "2026-11-13",
+      "qty": 3,
+      "fill": 241.59,
+      "ref": 241.47,
+      "fill_ts": 1794584100,
+      "fill_time": "10:35 AM",
+      "stop": 240.54,
+      "target": 242.4,
+      "risk_per_share": 0.93,
+      "max_loss": 2.79,
+      "flat_by": "15:55",
+      "opening_range": {
+        "high": 241.39,
+        "low": 239.7,
+        "minutes": 15
+      },
+      "chase_pct": 0.033,
+      "timemachine": {
+        "avg_R": 0.088,
+        "p_target": 0.5439,
+        "p_stop": 0.4557,
+        "verdict": "Close to a coin flip: target first 54.4 % vs stop first 45.6 %."
+      }
+    },
+    {
+      "id": "2026-11-13-WEC",
+      "symbol": "WEC",
+      "date": "2026-11-13",
+      "qty": 1,
+      "fill": 117.69,
+      "ref": 117.63,
+      "fill_ts": 1794584100,
+      "fill_time": "10:35 AM",
+      "stop": 117.18,
+      "target": 118.08,
+      "risk_per_share": 0.45,
+      "max_loss": 0.45,
+      "flat_by": "15:55",
+      "opening_range": {
+        "high": 117.47,
+        "low": 116.9,
+        "minutes": 15
+      },
+      "chase_pct": 0.136,
+      "timemachine": {
+        "avg_R": 0.002,
+        "p_target": 0.4903,
+        "p_stop": 0.4881,
+        "verdict": "Close to a coin flip: target first 49.0 % vs stop first 48.8 %."
+      }
+    }
+  ],
   "closed": [
     {
       "id": "2026-11-11-TLN",
@@ -164,9 +246,39 @@
   ],
   "skipped": [
     {
-      "symbol": "ETN",
-      "why": "time machine avg R -0.005 <= 0.000",
-      "date": "2026-11-12"
+      "symbol": "SHEL",
+      "why": "time machine avg R -0.106 <= 0.000",
+      "date": "2026-11-13"
+    },
+    {
+      "symbol": "MSCI",
+      "why": "time machine avg R -0.042 <= 0.000",
+      "date": "2026-11-13"
+    },
+    {
+      "symbol": "APO",
+      "why": "time machine avg R -0.063 <= 0.000",
+      "date": "2026-11-13"
+    },
+    {
+      "symbol": "ODFL",
+      "why": "budget: one share of ODFL costs $173.98, more than your cash limit (cash $644.29 in trader/portfolio.json minus the $500 buffer = $144.29 / 173.98). No order.",
+      "date": "2026-11-13"
+    },
+    {
+      "symbol": "CB",
+      "why": "budget: one share of CB costs $376.96, more than your cash limit (cash $644.29 in trader/portfolio.json minus the $500 buffer = $144.29 / 376.96). No order.",
+      "date": "2026-11-13"
+    },
+    {
+      "symbol": "CVX",
+      "why": "time machine avg R -0.031 <= 0.000",
+      "date": "2026-11-13"
+    },
+    {
+      "symbol": "ORLY",
+      "why": "time machine avg R -0.010 <= 0.000",
+      "date": "2026-11-13"
     }
   ]
 }

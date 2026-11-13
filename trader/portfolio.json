@@ -1,4 +1,41 @@
 {
-  "cash": 5098.3,
-  "positions": []
+  "cash": 526.6,
+  "positions": [
+    {
+      "ticker": "IBN",
+      "shares": 108.0,
+      "lots": [
+        {
+          "id": "IBN-1",
+          "date": "2026-11-13",
+          "shares": 108.0,
+          "cost": 3729.24
+        }
+      ]
+    },
+    {
+      "ticker": "RMD",
+      "shares": 3.0,
+      "lots": [
+        {
+          "id": "RMD-1",
+          "date": "2026-11-13",
+          "shares": 3.0,
+          "cost": 724.77
+        }
+      ]
+    },
+    {
+      "ticker": "WEC",
+      "shares": 1.0,
+      "lots": [
+        {
+          "id": "WEC-1",
+          "date": "2026-11-13",
+          "shares": 1.0,
+          "cost": 117.69
+        }
+      ]
+    }
+  ]
 }

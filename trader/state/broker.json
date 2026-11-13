@@ -179,6 +179,84 @@
       "qty": "1",
       "price": 333.27,
       "plain": "SELL 1 CDNS at 333.27"
+    },
+    {
+      "at": "2026-11-13T10:37:45-05:00",
+      "date": "2026-11-13",
+      "index": 1,
+      "fingerprint": "64ecf7fa1551a6eb",
+      "symbol": "IBN",
+      "side": "buy",
+      "plain": "BUY 108 IBN, market, good for today / stop-loss 34.35 / take-profit 34.67 / max loss about $17.28 if the stop fills at 34.35 (it can fill worse in a fast market)",
+      "status": "placed",
+      "qty": "108",
+      "kind": "entry",
+      "max_loss": 17.28,
+      "stop": 34.35,
+      "broker_order_id": "paper-sim",
+      "note": "simulated fill by trader-paper, no broker"
+    },
+    {
+      "at": "2026-11-13T10:37:45-05:00",
+      "date": "2026-11-13",
+      "status": "filled",
+      "symbol": "IBN",
+      "side": "buy",
+      "qty": "108",
+      "price": 34.53,
+      "plain": "BUY 108 IBN at 34.53"
+    },
+    {
+      "at": "2026-11-13T10:37:45-05:00",
+      "date": "2026-11-13",
+      "index": 1,
+      "fingerprint": "4db07e203b00eb7f",
+      "symbol": "RMD",
+      "side": "buy",
+      "plain": "BUY 3 RMD, market, good for today / stop-loss 240.54 / take-profit 242.40 / max loss about $2.79 if the stop fills at 240.54 (it can fill worse in a fast market)",
+      "status": "placed",
+      "qty": "3",
+      "kind": "entry",
+      "max_loss": 2.79,
+      "stop": 240.54,
+      "broker_order_id": "paper-sim",
+      "note": "simulated fill by trader-paper, no broker"
+    },
+    {
+      "at": "2026-11-13T10:37:45-05:00",
+      "date": "2026-11-13",
+      "status": "filled",
+      "symbol": "RMD",
+      "side": "buy",
+      "qty": "3",
+      "price": 241.59,
+      "plain": "BUY 3 RMD at 241.59"
+    },
+    {
+      "at": "2026-11-13T10:37:45-05:00",
+      "date": "2026-11-13",
+      "index": 1,
+      "fingerprint": "d248f6ed3f9fd38f",
+      "symbol": "WEC",
+      "side": "buy",
+      "plain": "BUY 1 WEC, market, good for today / stop-loss 117.18 / take-profit 118.08 / max loss about $0.45 if the stop fills at 117.18 (it can fill worse in a fast market)",
+      "status": "placed",
+      "qty": "1",
+      "kind": "entry",
+      "max_loss": 0.45,
+      "stop": 117.18,
+      "broker_order_id": "paper-sim",
+      "note": "simulated fill by trader-paper, no broker"
+    },
+    {
+      "at": "2026-11-13T10:37:45-05:00",
+      "date": "2026-11-13",
+      "status": "filled",
+      "symbol": "WEC",
+      "side": "buy",
+      "qty": "1",
+      "price": 117.69,
+      "plain": "BUY 1 WEC at 117.69"
     }
   ]
 }

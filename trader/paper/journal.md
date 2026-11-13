@@ -10,3 +10,6 @@
 - 2026-11-12 1:55 PM  SELL 76 U @ 49.85  target  P&L $+43.32  +0.97R
 - 2026-11-12 10:30 AM  SELL 1 APP @ 402.47  stop  P&L $-4.38  -1.05R
 - 2026-11-12 11:05 AM  SELL 1 CDNS @ 333.27  target  P&L $+3.06  +0.95R
+- 2026-11-13 10:35 AM  BUY 108 IBN @ 34.53  stop 34.35  target 34.67  max loss $17.28  (time machine avg R 0.129)
+- 2026-11-13 10:35 AM  BUY 3 RMD @ 241.59  stop 240.54  target 242.40  max loss $2.79  (time machine avg R 0.088)
+- 2026-11-13 10:35 AM  BUY 1 WEC @ 117.69  stop 117.18  target 118.08  max loss $0.45  (time machine avg R 0.002)
