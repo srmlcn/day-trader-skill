@@ -13,3 +13,6 @@ trader/prices.json
 trader/state/risk.json
 trader/state/alerts.json
 trader/state/news.json
+
+# live trading: Robinhood is the record; nothing about the real account is committed
+trader/live/

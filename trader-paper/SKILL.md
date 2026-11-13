@@ -103,10 +103,23 @@ commit the ledger files above and push, so the next run starts from them.
 The session's network must reach query1.finance.yahoo.com,
 query2.finance.yahoo.com and www.nasdaqtrader.com.
 
+## Live mode (opt in)
+
+`paper.py open --live --cash CASH --config trader/live-config.json` runs the
+same pipeline against a real account's cash and writes ONE order to
+`trader/live/order.json` instead of a simulated fill. `paper.py` itself still
+places nothing: the scheduled session places that order through the Robinhood
+connector, following `trader-paper/LIVE.md` to the letter (limit entry, the
+stop and target as an OCO right after the fill, flat by the close). It exists
+because an owner chose to let a routine trade a small account they funded with
+money they can afford to lose, with no per-trade yes. The account balance is
+the cap. `--live` refuses a config that does not say `"paper": false`, and the
+simulated commands refuse one that does.
+
 ## What it never does
 
-- Never calls a broker or an order tool, and never asks for API keys.
-- Never runs unless the config says `"paper": true`.
+- Simulated mode never calls a broker or an order tool; neither mode asks for API keys.
+- Simulated fills never run unless the config says `"paper": true`.
 - Never moves a stop, adds to a position or holds overnight.
 - Never reports simulated P&L as if it were real.
 

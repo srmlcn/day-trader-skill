@@ -130,7 +130,46 @@ class EndToEnd(unittest.TestCase):
         self._write("trader/config.json", self.cfg)
         code, out, err = self.run_paper("tick", "--skip-scan", "--offline", CHART, "--now", "2026-10-19 10:22")
         self.assertEqual(code, 2)
-        self.assertIn("only runs on paper", err)
+        self.assertIn("Simulated fills only run on a paper config", err)
+
+    def _live_cfg(self):
+        self.cfg["paper"] = False
+        self.cfg.update({"budget": 294, "cash_buffer_pct": 0, "max_position_pct": 100, "max_order_usd": 3000,
+                         "max_loss_per_trade_usd": 50, "max_trades_per_day": 1})
+        self._write("trader/config.json", self.cfg)
+
+    def test_live_writes_one_order_and_books_nothing(self):
+        self._live_cfg()
+        code, out, err = self.run_paper("open", "--live", "--cash", "3000", "--skip-scan", "--offline", CHART,
+                                        "--now", "2026-10-19 10:22", "--portfolio", "trader/live/portfolio.json",
+                                        "--broker-state", "trader/live/broker.json", "--state", "trader/live/state.json")
+        self.assertEqual(code, 0, err)
+        self.assertIn("LIVE ORDER READY (not placed)", out)
+        with open("trader/live/order.json") as fh:
+            o = json.load(fh)
+        self.assertEqual((o["symbol"], o["qty"]), ("TSLA", 7))
+        self.assertEqual(o["entry"], {"type": "limit", "limit_price": "365.78", "time_in_force": "gfd"})
+        self.assertEqual(o["exit_oco"]["stop_loss_stop_price"], "358.32")
+        self.assertFalse(os.path.exists("trader/state/paper.json"))
+        self.assertFalse(os.path.exists("trader/paper/journal.md"))
+
+    def test_live_skips_a_share_it_cannot_afford(self):
+        self._live_cfg()
+        code, out, err = self.run_paper("open", "--live", "--cash", "294", "--skip-scan", "--offline", CHART,
+                                        "--now", "2026-10-19 10:22", "--portfolio", "trader/live/portfolio.json",
+                                        "--broker-state", "trader/live/broker.json", "--state", "trader/live/state.json")
+        self.assertEqual(code, 0, err)
+        self.assertNotIn("LIVE ORDER READY", out)
+        self.assertIn("more than the cash", out)
+        self.assertFalse(os.path.exists("trader/live/order.json"))
+
+    def test_live_refuses_a_paper_config_and_paper_refuses_live(self):
+        code, out, err = self.run_paper("open", "--live", "--cash", "294", "--skip-scan", "--offline", CHART,
+                                        "--now", "2026-10-19 10:22")
+        self.assertEqual(code, 2)
+        self.assertIn("needs a config that says", err)
+        code, out, err = self.run_paper("tick", "--live", "--now", "2026-10-19 10:22")
+        self.assertEqual(code, 2)
 
     def test_weekend_does_nothing(self):
         code, out, err = self.run_paper("tick", "--skip-scan", "--offline", CHART, "--now", "2026-10-18 10:22")

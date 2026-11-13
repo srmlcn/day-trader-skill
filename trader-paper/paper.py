@@ -58,6 +58,8 @@ AUTOPILOT_DEFAULTS = {
     "stop": "or-mid",
     "target": "1R",
     "scan_max_confirm": 200,
+    "live_min_leg_pct": 0.4,
+    "live_limit_bps": 20,
 }
 
 BAR = 300  # seconds in a 5-minute bar
@@ -100,12 +102,16 @@ def write_json(path, doc):
     os.replace(tmp, path)
 
 
-def load_config(path):
+def load_config(path, live=False):
     cfg = read_json(path)
     if cfg is None:
         raise PaperError("no %s: copy trader-budget/config.example.json there and set your limits" % path)
-    if cfg.get("paper") is not True:
-        raise PaperError("%s does not say \"paper\": true. The autopilot only runs on paper." % path)
+    if live:
+        if cfg.get("paper") is not False:
+            raise PaperError("--live needs a config that says \"paper\": false (trader/live-config.json), not %s" % path)
+    elif cfg.get("paper") is not True:
+        raise PaperError("%s does not say \"paper\": true. Simulated fills only run on a paper config; "
+                         "real orders go through open --live." % path)
     ap = dict(AUTOPILOT_DEFAULTS)
     ap.update(cfg.get("autopilot") or {})
     return cfg, ap
@@ -229,6 +235,12 @@ def cmd_open(a, cfg, ap, now):
     if not is_open:
         print("Market closed today (%s, %s). Nothing to do." % (day, why))
         return 0
+    if a.live:
+        if a.cash is None or a.cash <= 0:
+            raise PaperError("--live needs --cash: the account's buying power from Robinhood")
+        write_json(a.portfolio, {"cash": round(float(a.cash), 2), "positions": []})
+        if os.path.exists(a.live_out):
+            os.remove(a.live_out)
     state = load_state(a.state)
     broker = ticket_mod.load_state(a.broker_state)
     today = day.isoformat()
@@ -301,6 +313,15 @@ def cmd_open(a, cfg, ap, now):
             skipped.append({"symbol": sym, "why": "exit plan: %s" % (p.stderr or p.stdout).strip()[-200:]})
             continue
         plan = read_json("trader/plan.json")
+        if a.live:
+            leg = float(ap["live_min_leg_pct"])
+            near = min(ref - plan["stop"], plan["target"] - ref) / ref * 100.0
+            if near < leg:
+                skipped.append({"symbol": sym, "why": "stop or target %.2f%% from the price (Robinhood OCO wants %.2f%%)" % (near, leg)})
+                continue
+            if ref > a.cash:
+                skipped.append({"symbol": sym, "why": "one share %.2f is more than the cash %.2f" % (ref, a.cash)})
+                continue
 
         tm = None
         if ap["timemachine_gate"]:
@@ -316,17 +337,19 @@ def cmd_open(a, cfg, ap, now):
                 skipped.append({"symbol": sym, "why": "time machine avg R %.3f <= %.3f" % (tm["avg_R"], ap["min_tm_avg_r"])})
                 continue
 
-        p = run([skill("trader-budget", "size.py"), "--config", a.config, "--write"], now=a.now)
+        ledger = ["--config", a.config, "--portfolio", a.portfolio]
+        sizing = ["--budget", "%.2f" % a.cash] if a.live else []
+        p = run([skill("trader-budget", "size.py")] + ledger + sizing + ["--write"], now=a.now)
         orders = (read_json("trader/orders.json", {}) or {}).get("orders") or []
         if p.returncode != 0 or not orders:
-            q = run([skill("trader-budget", "size.py"), "--config", a.config, "--json"], now=a.now, check=False)
+            q = run([skill("trader-budget", "size.py")] + ledger + sizing + ["--json"], now=a.now, check=False)
             try:
                 why = json.loads(q.stdout)["sizing"].get("refusal") or "no order"
             except (ValueError, KeyError, TypeError):
                 why = (p.stderr or p.stdout).strip()[-200:] or "no order"
             skipped.append({"symbol": sym, "why": "budget: %s" % why})
             continue
-        p = run([skill("trader-risk", "check.py"), "--config", a.config, "--json"], now=a.now)
+        p = run([skill("trader-risk", "check.py")] + ledger + ["--state", a.broker_state, "--json"], now=a.now)
         verdict = json.loads(p.stdout)["results"][0]
         if verdict["verdict"] != "PASS":
             skipped.append({"symbol": sym, "why": "risk BLOCK: %s" % "; ".join(verdict["reasons"])})
@@ -334,6 +357,20 @@ def cmd_open(a, cfg, ap, now):
 
         order = orders[0]
         qty = int(order["qty"])
+        if a.live:
+            limit = round(ref * (1 + float(ap["live_limit_bps"]) / 10000.0), 2)
+            live = {"created_by": "trader-paper", "created_at": entry_mod.iso(now), "date": today, "symbol": sym,
+                    "qty": qty, "entry": {"type": "limit", "limit_price": "%.2f" % limit, "time_in_force": "gfd"},
+                    "exit_oco": {"side": "sell", "stop_loss_stop_price": "%.2f" % plan["stop"],
+                                 "take_profit_limit_price": "%.2f" % plan["target"], "time_in_force": "gfd"},
+                    "ref_price": ref, "risk_per_share": plan["risk_per_share"], "max_loss_at_stop": verdict["max_loss"],
+                    "chase_pct": round(chase, 3), "timemachine": tm, "flat_by": plan.get("flat_by"),
+                    "why": order.get("why"), "passed_over": skipped[:10]}
+            write_json(a.live_out, live)
+            print("LIVE ORDER READY (not placed): buy %d %s, limit %.2f; then sell OCO stop %.2f / target %.2f; max loss at the stop $%.2f"
+                  % (qty, sym, limit, plan["stop"], plan["target"], verdict["max_loss"]))
+            print("Wrote %s. The session places it through Robinhood (trader-paper/LIVE.md)." % a.live_out)
+            return 0
         fill = round(ref * (1 + float(ap["slippage_bps"]) / 10000.0), 2)
         nyiso = ticket_mod.ny_iso(now)
         broker = ticket_mod.load_state(a.broker_state)
@@ -503,9 +540,15 @@ def main(argv=None):
         p.add_argument("--skip-scan", action="store_true", help="use the trader/watchlist.json already there")
         p.add_argument("--json", action="store_true")
         p.add_argument("--no-write", action="store_true")
+        p.add_argument("--live", action="store_true",
+                       help="open only: write ONE real order to --live-out for the session to place; no simulated fill")
+        p.add_argument("--cash", type=float, help="--live: the account's buying power right now")
+        p.add_argument("--live-out", default="trader/live/order.json")
     a = ap.parse_args(argv)
     try:
-        cfg, auto = load_config(a.config)
+        if a.live and a.cmd != "open":
+            raise PaperError("--live only goes with open")
+        cfg, auto = load_config(a.config, live=a.live)
         now = now_utc(a.now)
         return {"tick": cmd_tick, "open": cmd_open, "settle": cmd_settle, "report": cmd_report}[a.cmd](a, cfg, auto, now)
     except (PaperError, entry_mod.EntryError, ticket_mod.TicketError, risk_mod.RiskError) as e:
