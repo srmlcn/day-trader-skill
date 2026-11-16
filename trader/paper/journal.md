@@ -21,3 +21,4 @@
 - 2026-11-16 10:20 AM  BUY 2 HDB @ 26.33  stop 26.16  target 26.48  max loss $0.32  (time machine avg R 0.033)
 - 2026-11-16 11:45 AM  SELL 12 AJG @ 286.79  stop  P&L $-27.48  -1.06R
 - 2026-11-16 11:20 AM  SELL 3 SHW @ 351.47  stop  P&L $-6.96  -1.08R
+- 2026-11-16 1:40 PM  SELL 2 HDB @ 26.16  stop  P&L $-0.34  -1.06R

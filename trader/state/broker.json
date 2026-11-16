@@ -385,6 +385,16 @@
       "qty": "3",
       "price": 351.47,
       "plain": "SELL 3 SHW at 351.47"
+    },
+    {
+      "at": "2026-11-16T13:40:00-05:00",
+      "date": "2026-11-16",
+      "status": "filled",
+      "symbol": "HDB",
+      "side": "sell",
+      "qty": "2",
+      "price": 26.16,
+      "plain": "SELL 2 HDB at 26.16"
     }
   ]
 }

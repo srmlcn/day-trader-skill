@@ -1,33 +1,5 @@
 {
-  "positions": [
-    {
-      "id": "2026-11-16-HDB",
-      "symbol": "HDB",
-      "date": "2026-11-16",
-      "qty": 2,
-      "fill": 26.33,
-      "ref": 26.32,
-      "fill_ts": 1794842400,
-      "fill_time": "10:20 AM",
-      "stop": 26.16,
-      "target": 26.48,
-      "risk_per_share": 0.16,
-      "max_loss": 0.32,
-      "flat_by": "15:55",
-      "opening_range": {
-        "high": 26.28,
-        "low": 26.05,
-        "minutes": 15
-      },
-      "chase_pct": 0.152,
-      "timemachine": {
-        "avg_R": 0.033,
-        "p_target": 0.4696,
-        "p_stop": 0.4285,
-        "verdict": "Close to a coin flip: target first 47.0 % vs stop first 42.9 %."
-      }
-    }
-  ],
+  "positions": [],
   "closed": [
     {
       "id": "2026-11-11-TLN",
@@ -348,6 +320,38 @@
       "exit_time": "11:20 AM",
       "pnl": -6.96,
       "R": -1.084
+    },
+    {
+      "id": "2026-11-16-HDB",
+      "symbol": "HDB",
+      "date": "2026-11-16",
+      "qty": 2,
+      "fill": 26.33,
+      "ref": 26.32,
+      "fill_ts": 1794842400,
+      "fill_time": "10:20 AM",
+      "stop": 26.16,
+      "target": 26.48,
+      "risk_per_share": 0.16,
+      "max_loss": 0.32,
+      "flat_by": "15:55",
+      "opening_range": {
+        "high": 26.28,
+        "low": 26.05,
+        "minutes": 15
+      },
+      "chase_pct": 0.152,
+      "timemachine": {
+        "avg_R": 0.033,
+        "p_target": 0.4696,
+        "p_stop": 0.4285,
+        "verdict": "Close to a coin flip: target first 47.0 % vs stop first 42.9 %."
+      },
+      "exit": 26.16,
+      "exit_reason": "stop",
+      "exit_time": "1:40 PM",
+      "pnl": -0.34,
+      "R": -1.062
     }
   ],
   "skipped": [

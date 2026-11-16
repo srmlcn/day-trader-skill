@@ -1,17 +1,4 @@
 {
-  "cash": 5009.15,
-  "positions": [
-    {
-      "ticker": "HDB",
-      "shares": 2.0,
-      "lots": [
-        {
-          "id": "HDB-1",
-          "date": "2026-11-16",
-          "shares": 2.0,
-          "cost": 52.66
-        }
-      ]
-    }
-  ]
+  "cash": 5061.47,
+  "positions": []
 }
