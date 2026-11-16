@@ -16,3 +16,6 @@
 - 2026-11-13 11:00 AM  SELL 3 RMD @ 240.54  stop  P&L $-3.15  -1.13R
 - 2026-11-13 3:55 PM  SELL 108 IBN @ 34.54  flat  P&L $+1.08  +0.06R
 - 2026-11-13 3:55 PM  SELL 1 WEC @ 117.71  flat  P&L $+0.02  +0.04R
+- 2026-11-16 10:20 AM  BUY 12 AJG @ 289.08  stop 286.79  target 291.09  max loss $25.80  (time machine avg R 0.014)
+- 2026-11-16 10:20 AM  BUY 3 SHW @ 353.79  stop 351.47  target 355.75  max loss $6.42  (time machine avg R 0.206)
+- 2026-11-16 10:20 AM  BUY 2 HDB @ 26.33  stop 26.16  target 26.48  max loss $0.32  (time machine avg R 0.033)

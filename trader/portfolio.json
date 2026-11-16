@@ -1,4 +1,41 @@
 {
-  "cash": 5096.25,
-  "positions": []
+  "cash": 513.26,
+  "positions": [
+    {
+      "ticker": "AJG",
+      "shares": 12.0,
+      "lots": [
+        {
+          "id": "AJG-1",
+          "date": "2026-11-16",
+          "shares": 12.0,
+          "cost": 3468.96
+        }
+      ]
+    },
+    {
+      "ticker": "SHW",
+      "shares": 3.0,
+      "lots": [
+        {
+          "id": "SHW-1",
+          "date": "2026-11-16",
+          "shares": 3.0,
+          "cost": 1061.37
+        }
+      ]
+    },
+    {
+      "ticker": "HDB",
+      "shares": 2.0,
+      "lots": [
+        {
+          "id": "HDB-1",
+          "date": "2026-11-16",
+          "shares": 2.0,
+          "cost": 52.66
+        }
+      ]
+    }
+  ]
 }

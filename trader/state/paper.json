@@ -1,5 +1,87 @@
 {
-  "positions": [],
+  "positions": [
+    {
+      "id": "2026-11-16-AJG",
+      "symbol": "AJG",
+      "date": "2026-11-16",
+      "qty": 12,
+      "fill": 289.08,
+      "ref": 288.94,
+      "fill_ts": 1794842400,
+      "fill_time": "10:20 AM",
+      "stop": 286.79,
+      "target": 291.09,
+      "risk_per_share": 2.15,
+      "max_loss": 25.8,
+      "flat_by": "15:55",
+      "opening_range": {
+        "high": 288.85,
+        "low": 284.73,
+        "minutes": 15
+      },
+      "chase_pct": 0.031,
+      "timemachine": {
+        "avg_R": 0.014,
+        "p_target": 0.4764,
+        "p_stop": 0.4609,
+        "verdict": "Close to a coin flip: target first 47.6 % vs stop first 46.1 %."
+      }
+    },
+    {
+      "id": "2026-11-16-SHW",
+      "symbol": "SHW",
+      "date": "2026-11-16",
+      "qty": 3,
+      "fill": 353.79,
+      "ref": 353.61,
+      "fill_ts": 1794842400,
+      "fill_time": "10:20 AM",
+      "stop": 351.47,
+      "target": 355.75,
+      "risk_per_share": 2.14,
+      "max_loss": 6.42,
+      "flat_by": "15:55",
+      "opening_range": {
+        "high": 353.38,
+        "low": 349.57,
+        "minutes": 15
+      },
+      "chase_pct": 0.065,
+      "timemachine": {
+        "avg_R": 0.206,
+        "p_target": 0.5822,
+        "p_stop": 0.376,
+        "verdict": "Leans toward the target: target first 58.2 % vs stop first 37.6 %."
+      }
+    },
+    {
+      "id": "2026-11-16-HDB",
+      "symbol": "HDB",
+      "date": "2026-11-16",
+      "qty": 2,
+      "fill": 26.33,
+      "ref": 26.32,
+      "fill_ts": 1794842400,
+      "fill_time": "10:20 AM",
+      "stop": 26.16,
+      "target": 26.48,
+      "risk_per_share": 0.16,
+      "max_loss": 0.32,
+      "flat_by": "15:55",
+      "opening_range": {
+        "high": 26.28,
+        "low": 26.05,
+        "minutes": 15
+      },
+      "chase_pct": 0.152,
+      "timemachine": {
+        "avg_R": 0.033,
+        "p_target": 0.4696,
+        "p_stop": 0.4285,
+        "verdict": "Close to a coin flip: target first 47.0 % vs stop first 42.9 %."
+      }
+    }
+  ],
   "closed": [
     {
       "id": "2026-11-11-TLN",
@@ -260,39 +342,24 @@
   ],
   "skipped": [
     {
-      "symbol": "SHEL",
-      "why": "time machine avg R -0.106 <= 0.000",
-      "date": "2026-11-13"
+      "symbol": "BXDC",
+      "why": "time machine avg R -0.158 <= 0.000",
+      "date": "2026-11-16"
     },
     {
-      "symbol": "MSCI",
-      "why": "time machine avg R -0.042 <= 0.000",
-      "date": "2026-11-13"
+      "symbol": "XYZ",
+      "why": "time machine avg R -0.025 <= 0.000",
+      "date": "2026-11-16"
     },
     {
-      "symbol": "APO",
-      "why": "time machine avg R -0.063 <= 0.000",
-      "date": "2026-11-13"
+      "symbol": "EXC",
+      "why": "risk BLOCK: cash: leaves $506.97 cash, under your 10% buffer of $509.62",
+      "date": "2026-11-16"
     },
     {
-      "symbol": "ODFL",
-      "why": "budget: one share of ODFL costs $173.98, more than your cash limit (cash $644.29 in trader/portfolio.json minus the $500 buffer = $144.29 / 173.98). No order.",
-      "date": "2026-11-13"
-    },
-    {
-      "symbol": "CB",
-      "why": "budget: one share of CB costs $376.96, more than your cash limit (cash $644.29 in trader/portfolio.json minus the $500 buffer = $144.29 / 376.96). No order.",
-      "date": "2026-11-13"
-    },
-    {
-      "symbol": "CVX",
-      "why": "time machine avg R -0.031 <= 0.000",
-      "date": "2026-11-13"
-    },
-    {
-      "symbol": "ORLY",
-      "why": "time machine avg R -0.010 <= 0.000",
-      "date": "2026-11-13"
+      "symbol": "UL",
+      "why": "budget: one share of UL costs $67.10, more than your cash limit (cash $565.92 in trader/portfolio.json minus the $500 buffer = $65.92 / 67.10). No order.",
+      "date": "2026-11-16"
     }
   ]
 }

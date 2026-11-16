@@ -287,6 +287,84 @@
       "qty": "1",
       "price": 117.71,
       "plain": "SELL 1 WEC at 117.71"
+    },
+    {
+      "at": "2026-11-16T10:23:50-05:00",
+      "date": "2026-11-16",
+      "index": 1,
+      "fingerprint": "3918a9f48bdc3dfc",
+      "symbol": "AJG",
+      "side": "buy",
+      "plain": "BUY 12 AJG, market, good for today / stop-loss 286.79 / take-profit 291.09 / max loss about $25.80 if the stop fills at 286.79 (it can fill worse in a fast market)",
+      "status": "placed",
+      "qty": "12",
+      "kind": "entry",
+      "max_loss": 25.8,
+      "stop": 286.79,
+      "broker_order_id": "paper-sim",
+      "note": "simulated fill by trader-paper, no broker"
+    },
+    {
+      "at": "2026-11-16T10:23:50-05:00",
+      "date": "2026-11-16",
+      "status": "filled",
+      "symbol": "AJG",
+      "side": "buy",
+      "qty": "12",
+      "price": 289.08,
+      "plain": "BUY 12 AJG at 289.08"
+    },
+    {
+      "at": "2026-11-16T10:23:50-05:00",
+      "date": "2026-11-16",
+      "index": 1,
+      "fingerprint": "dfe51da137d167a9",
+      "symbol": "SHW",
+      "side": "buy",
+      "plain": "BUY 3 SHW, market, good for today / stop-loss 351.47 / take-profit 355.75 / max loss about $6.42 if the stop fills at 351.47 (it can fill worse in a fast market)",
+      "status": "placed",
+      "qty": "3",
+      "kind": "entry",
+      "max_loss": 6.42,
+      "stop": 351.47,
+      "broker_order_id": "paper-sim",
+      "note": "simulated fill by trader-paper, no broker"
+    },
+    {
+      "at": "2026-11-16T10:23:50-05:00",
+      "date": "2026-11-16",
+      "status": "filled",
+      "symbol": "SHW",
+      "side": "buy",
+      "qty": "3",
+      "price": 353.79,
+      "plain": "BUY 3 SHW at 353.79"
+    },
+    {
+      "at": "2026-11-16T10:23:50-05:00",
+      "date": "2026-11-16",
+      "index": 1,
+      "fingerprint": "da6706b97f1f3e3b",
+      "symbol": "HDB",
+      "side": "buy",
+      "plain": "BUY 2 HDB, market, good for today / stop-loss 26.16 / take-profit 26.48 / max loss about $0.32 if the stop fills at 26.16 (it can fill worse in a fast market)",
+      "status": "placed",
+      "qty": "2",
+      "kind": "entry",
+      "max_loss": 0.32,
+      "stop": 26.16,
+      "broker_order_id": "paper-sim",
+      "note": "simulated fill by trader-paper, no broker"
+    },
+    {
+      "at": "2026-11-16T10:23:50-05:00",
+      "date": "2026-11-16",
+      "status": "filled",
+      "symbol": "HDB",
+      "side": "buy",
+      "qty": "2",
+      "price": 26.33,
+      "plain": "BUY 2 HDB at 26.33"
     }
   ]
 }
