@@ -1,60 +1,6 @@
 {
   "positions": [
     {
-      "id": "2026-11-16-AJG",
-      "symbol": "AJG",
-      "date": "2026-11-16",
-      "qty": 12,
-      "fill": 289.08,
-      "ref": 288.94,
-      "fill_ts": 1794842400,
-      "fill_time": "10:20 AM",
-      "stop": 286.79,
-      "target": 291.09,
-      "risk_per_share": 2.15,
-      "max_loss": 25.8,
-      "flat_by": "15:55",
-      "opening_range": {
-        "high": 288.85,
-        "low": 284.73,
-        "minutes": 15
-      },
-      "chase_pct": 0.031,
-      "timemachine": {
-        "avg_R": 0.014,
-        "p_target": 0.4764,
-        "p_stop": 0.4609,
-        "verdict": "Close to a coin flip: target first 47.6 % vs stop first 46.1 %."
-      }
-    },
-    {
-      "id": "2026-11-16-SHW",
-      "symbol": "SHW",
-      "date": "2026-11-16",
-      "qty": 3,
-      "fill": 353.79,
-      "ref": 353.61,
-      "fill_ts": 1794842400,
-      "fill_time": "10:20 AM",
-      "stop": 351.47,
-      "target": 355.75,
-      "risk_per_share": 2.14,
-      "max_loss": 6.42,
-      "flat_by": "15:55",
-      "opening_range": {
-        "high": 353.38,
-        "low": 349.57,
-        "minutes": 15
-      },
-      "chase_pct": 0.065,
-      "timemachine": {
-        "avg_R": 0.206,
-        "p_target": 0.5822,
-        "p_stop": 0.376,
-        "verdict": "Leans toward the target: target first 58.2 % vs stop first 37.6 %."
-      }
-    },
-    {
       "id": "2026-11-16-HDB",
       "symbol": "HDB",
       "date": "2026-11-16",
@@ -338,6 +284,70 @@
       "exit_time": "3:55 PM",
       "pnl": 0.02,
       "R": 0.044
+    },
+    {
+      "id": "2026-11-16-AJG",
+      "symbol": "AJG",
+      "date": "2026-11-16",
+      "qty": 12,
+      "fill": 289.08,
+      "ref": 288.94,
+      "fill_ts": 1794842400,
+      "fill_time": "10:20 AM",
+      "stop": 286.79,
+      "target": 291.09,
+      "risk_per_share": 2.15,
+      "max_loss": 25.8,
+      "flat_by": "15:55",
+      "opening_range": {
+        "high": 288.85,
+        "low": 284.73,
+        "minutes": 15
+      },
+      "chase_pct": 0.031,
+      "timemachine": {
+        "avg_R": 0.014,
+        "p_target": 0.4764,
+        "p_stop": 0.4609,
+        "verdict": "Close to a coin flip: target first 47.6 % vs stop first 46.1 %."
+      },
+      "exit": 286.79,
+      "exit_reason": "stop",
+      "exit_time": "11:45 AM",
+      "pnl": -27.48,
+      "R": -1.065
+    },
+    {
+      "id": "2026-11-16-SHW",
+      "symbol": "SHW",
+      "date": "2026-11-16",
+      "qty": 3,
+      "fill": 353.79,
+      "ref": 353.61,
+      "fill_ts": 1794842400,
+      "fill_time": "10:20 AM",
+      "stop": 351.47,
+      "target": 355.75,
+      "risk_per_share": 2.14,
+      "max_loss": 6.42,
+      "flat_by": "15:55",
+      "opening_range": {
+        "high": 353.38,
+        "low": 349.57,
+        "minutes": 15
+      },
+      "chase_pct": 0.065,
+      "timemachine": {
+        "avg_R": 0.206,
+        "p_target": 0.5822,
+        "p_stop": 0.376,
+        "verdict": "Leans toward the target: target first 58.2 % vs stop first 37.6 %."
+      },
+      "exit": 351.47,
+      "exit_reason": "stop",
+      "exit_time": "11:20 AM",
+      "pnl": -6.96,
+      "R": -1.084
     }
   ],
   "skipped": [

@@ -365,6 +365,26 @@
       "qty": "2",
       "price": 26.33,
       "plain": "BUY 2 HDB at 26.33"
+    },
+    {
+      "at": "2026-11-16T11:45:00-05:00",
+      "date": "2026-11-16",
+      "status": "filled",
+      "symbol": "AJG",
+      "side": "sell",
+      "qty": "12",
+      "price": 286.79,
+      "plain": "SELL 12 AJG at 286.79"
+    },
+    {
+      "at": "2026-11-16T11:20:00-05:00",
+      "date": "2026-11-16",
+      "status": "filled",
+      "symbol": "SHW",
+      "side": "sell",
+      "qty": "3",
+      "price": 351.47,
+      "plain": "SELL 3 SHW at 351.47"
     }
   ]
 }
