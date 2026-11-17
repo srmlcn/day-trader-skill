@@ -22,3 +22,5 @@
 - 2026-11-16 11:45 AM  SELL 12 AJG @ 286.79  stop  P&L $-27.48  -1.06R
 - 2026-11-16 11:20 AM  SELL 3 SHW @ 351.47  stop  P&L $-6.96  -1.08R
 - 2026-11-16 1:40 PM  SELL 2 HDB @ 26.16  stop  P&L $-0.34  -1.06R
+- 2026-11-17 10:20 AM  BUY 25 STZ @ 145.86  stop 144.97  target 146.61  max loss $20.50  (time machine avg R 0.007)
+- 2026-11-17 10:20 AM  BUY 15 PYPL @ 58.93  stop 58.62  target 59.18  max loss $4.20  (time machine avg R 0.189)

@@ -395,6 +395,58 @@
       "qty": "2",
       "price": 26.16,
       "plain": "SELL 2 HDB at 26.16"
+    },
+    {
+      "at": "2026-11-17T10:23:00-05:00",
+      "date": "2026-11-17",
+      "index": 1,
+      "fingerprint": "a485b28a7c4cb7ec",
+      "symbol": "STZ",
+      "side": "buy",
+      "plain": "BUY 25 STZ, market, good for today / stop-loss 144.97 / take-profit 146.61 / max loss about $20.50 if the stop fills at 144.97 (it can fill worse in a fast market)",
+      "status": "placed",
+      "qty": "25",
+      "kind": "entry",
+      "max_loss": 20.5,
+      "stop": 144.97,
+      "broker_order_id": "paper-sim",
+      "note": "simulated fill by trader-paper, no broker"
+    },
+    {
+      "at": "2026-11-17T10:23:00-05:00",
+      "date": "2026-11-17",
+      "status": "filled",
+      "symbol": "STZ",
+      "side": "buy",
+      "qty": "25",
+      "price": 145.86,
+      "plain": "BUY 25 STZ at 145.86"
+    },
+    {
+      "at": "2026-11-17T10:23:00-05:00",
+      "date": "2026-11-17",
+      "index": 1,
+      "fingerprint": "bd9df88714db76f4",
+      "symbol": "PYPL",
+      "side": "buy",
+      "plain": "BUY 15 PYPL, market, good for today / stop-loss 58.62 / take-profit 59.18 / max loss about $4.20 if the stop fills at 58.62 (it can fill worse in a fast market)",
+      "status": "placed",
+      "qty": "15",
+      "kind": "entry",
+      "max_loss": 4.2,
+      "stop": 58.62,
+      "broker_order_id": "paper-sim",
+      "note": "simulated fill by trader-paper, no broker"
+    },
+    {
+      "at": "2026-11-17T10:23:00-05:00",
+      "date": "2026-11-17",
+      "status": "filled",
+      "symbol": "PYPL",
+      "side": "buy",
+      "qty": "15",
+      "price": 58.93,
+      "plain": "BUY 15 PYPL at 58.93"
     }
   ]
 }

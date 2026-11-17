@@ -1,4 +1,29 @@
 {
-  "cash": 5061.47,
-  "positions": []
+  "cash": 531.02,
+  "positions": [
+    {
+      "ticker": "STZ",
+      "shares": 25.0,
+      "lots": [
+        {
+          "id": "STZ-1",
+          "date": "2026-11-17",
+          "shares": 25.0,
+          "cost": 3646.5
+        }
+      ]
+    },
+    {
+      "ticker": "PYPL",
+      "shares": 15.0,
+      "lots": [
+        {
+          "id": "PYPL-1",
+          "date": "2026-11-17",
+          "shares": 15.0,
+          "cost": 883.95
+        }
+      ]
+    }
+  ]
 }
