@@ -447,6 +447,52 @@
       "qty": "15",
       "price": 58.93,
       "plain": "BUY 15 PYPL at 58.93"
+    },
+    {
+      "at": "2026-11-17T10:45:00-05:00",
+      "date": "2026-11-17",
+      "status": "filled",
+      "symbol": "STZ",
+      "side": "sell",
+      "qty": "25",
+      "price": 144.97,
+      "plain": "SELL 25 STZ at 144.97"
+    },
+    {
+      "at": "2026-11-17T10:40:00-05:00",
+      "date": "2026-11-17",
+      "status": "filled",
+      "symbol": "PYPL",
+      "side": "sell",
+      "qty": "15",
+      "price": 58.62,
+      "plain": "SELL 15 PYPL at 58.62"
+    },
+    {
+      "at": "2026-11-17T11:22:41-05:00",
+      "date": "2026-11-17",
+      "index": 1,
+      "fingerprint": "2a548cc482fc7d77",
+      "symbol": "LMT",
+      "side": "buy",
+      "plain": "BUY 6 LMT, market, good for today / stop-loss 586.45 / take-profit 594.47 / max loss about $24.06 if the stop fills at 586.45 (it can fill worse in a fast market)",
+      "status": "placed",
+      "qty": "6",
+      "kind": "entry",
+      "max_loss": 24.06,
+      "stop": 586.45,
+      "broker_order_id": "paper-sim",
+      "note": "simulated fill by trader-paper, no broker"
+    },
+    {
+      "at": "2026-11-17T11:22:41-05:00",
+      "date": "2026-11-17",
+      "status": "filled",
+      "symbol": "LMT",
+      "side": "buy",
+      "qty": "6",
+      "price": 590.76,
+      "plain": "BUY 6 LMT at 590.76"
     }
   ]
 }

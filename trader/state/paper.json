@@ -1,57 +1,30 @@
 {
   "positions": [
     {
-      "id": "2026-11-17-STZ",
-      "symbol": "STZ",
+      "id": "2026-11-17-LMT",
+      "symbol": "LMT",
       "date": "2026-11-17",
-      "qty": 25,
-      "fill": 145.86,
-      "ref": 145.79,
-      "fill_ts": 1794928800,
-      "fill_time": "10:20 AM",
-      "stop": 144.97,
-      "target": 146.61,
-      "risk_per_share": 0.82,
-      "max_loss": 20.5,
+      "qty": 6,
+      "fill": 590.76,
+      "ref": 590.46,
+      "fill_ts": 1794932400,
+      "fill_time": "11:20 AM",
+      "stop": 586.45,
+      "target": 594.47,
+      "risk_per_share": 4.01,
+      "max_loss": 24.06,
       "flat_by": "15:55",
       "opening_range": {
-        "high": 145.71,
-        "low": 144.23,
+        "high": 589.4,
+        "low": 583.5,
         "minutes": 15
       },
-      "chase_pct": 0.055,
+      "chase_pct": 0.18,
       "timemachine": {
-        "avg_R": 0.007,
-        "p_target": 0.4994,
-        "p_stop": 0.4927,
-        "verdict": "Close to a coin flip: target first 49.9 % vs stop first 49.3 %."
-      }
-    },
-    {
-      "id": "2026-11-17-PYPL",
-      "symbol": "PYPL",
-      "date": "2026-11-17",
-      "qty": 15,
-      "fill": 58.93,
-      "ref": 58.9,
-      "fill_ts": 1794928800,
-      "fill_time": "10:20 AM",
-      "stop": 58.62,
-      "target": 59.18,
-      "risk_per_share": 0.28,
-      "max_loss": 4.2,
-      "flat_by": "15:55",
-      "opening_range": {
-        "high": 58.88,
-        "low": 58.37,
-        "minutes": 15
-      },
-      "chase_pct": 0.034,
-      "timemachine": {
-        "avg_R": 0.189,
-        "p_target": 0.5926,
-        "p_stop": 0.4035,
-        "verdict": "Leans toward the target: target first 59.3 % vs stop first 40.4 %."
+        "avg_R": 0.088,
+        "p_target": 0.4493,
+        "p_stop": 0.3594,
+        "verdict": "Leans toward the target: target first 44.9 % vs stop first 35.9 %."
       }
     }
   ],
@@ -407,56 +380,75 @@
       "exit_time": "1:40 PM",
       "pnl": -0.34,
       "R": -1.062
+    },
+    {
+      "id": "2026-11-17-STZ",
+      "symbol": "STZ",
+      "date": "2026-11-17",
+      "qty": 25,
+      "fill": 145.86,
+      "ref": 145.79,
+      "fill_ts": 1794928800,
+      "fill_time": "10:20 AM",
+      "stop": 144.97,
+      "target": 146.61,
+      "risk_per_share": 0.82,
+      "max_loss": 20.5,
+      "flat_by": "15:55",
+      "opening_range": {
+        "high": 145.71,
+        "low": 144.23,
+        "minutes": 15
+      },
+      "chase_pct": 0.055,
+      "timemachine": {
+        "avg_R": 0.007,
+        "p_target": 0.4994,
+        "p_stop": 0.4927,
+        "verdict": "Close to a coin flip: target first 49.9 % vs stop first 49.3 %."
+      },
+      "exit": 144.97,
+      "exit_reason": "stop",
+      "exit_time": "10:45 AM",
+      "pnl": -22.25,
+      "R": -1.085
+    },
+    {
+      "id": "2026-11-17-PYPL",
+      "symbol": "PYPL",
+      "date": "2026-11-17",
+      "qty": 15,
+      "fill": 58.93,
+      "ref": 58.9,
+      "fill_ts": 1794928800,
+      "fill_time": "10:20 AM",
+      "stop": 58.62,
+      "target": 59.18,
+      "risk_per_share": 0.28,
+      "max_loss": 4.2,
+      "flat_by": "15:55",
+      "opening_range": {
+        "high": 58.88,
+        "low": 58.37,
+        "minutes": 15
+      },
+      "chase_pct": 0.034,
+      "timemachine": {
+        "avg_R": 0.189,
+        "p_target": 0.5926,
+        "p_stop": 0.4035,
+        "verdict": "Leans toward the target: target first 59.3 % vs stop first 40.4 %."
+      },
+      "exit": 58.62,
+      "exit_reason": "stop",
+      "exit_time": "10:40 AM",
+      "pnl": -4.65,
+      "R": -1.107
     }
   ],
   "skipped": [
     {
-      "symbol": "FER",
-      "why": "budget: one share of FER costs $61.34, more than your cash limit (cash $531.02 in trader/portfolio.json minus the $500 buffer = $31.02 / 61.34). No order.",
-      "date": "2026-11-17"
-    },
-    {
-      "symbol": "NEE",
-      "why": "budget: one share of NEE costs $84.88, more than your cash limit (cash $531.02 in trader/portfolio.json minus the $500 buffer = $31.02 / 84.88). No order.",
-      "date": "2026-11-17"
-    },
-    {
-      "symbol": "RIVN",
-      "why": "back under the range midpoint",
-      "date": "2026-11-17"
-    },
-    {
-      "symbol": "LYV",
-      "why": "budget: one share of LYV costs $179.69, more than your cash limit (cash $531.02 in trader/portfolio.json minus the $500 buffer = $31.02 / 179.69). No order.",
-      "date": "2026-11-17"
-    },
-    {
-      "symbol": "GE",
-      "why": "back under the range high",
-      "date": "2026-11-17"
-    },
-    {
-      "symbol": "CRWV",
-      "why": "back under the range midpoint",
-      "date": "2026-11-17"
-    },
-    {
-      "symbol": "AS",
-      "why": "back under the range high",
-      "date": "2026-11-17"
-    },
-    {
-      "symbol": "NOC",
-      "why": "back under the range high",
-      "date": "2026-11-17"
-    },
-    {
-      "symbol": "ASML",
-      "why": "back under the range midpoint",
-      "date": "2026-11-17"
-    },
-    {
-      "symbol": "MPC",
+      "symbol": "ELV",
       "why": "back under the range high",
       "date": "2026-11-17"
     }

@@ -24,3 +24,6 @@
 - 2026-11-16 1:40 PM  SELL 2 HDB @ 26.16  stop  P&L $-0.34  -1.06R
 - 2026-11-17 10:20 AM  BUY 25 STZ @ 145.86  stop 144.97  target 146.61  max loss $20.50  (time machine avg R 0.007)
 - 2026-11-17 10:20 AM  BUY 15 PYPL @ 58.93  stop 58.62  target 59.18  max loss $4.20  (time machine avg R 0.189)
+- 2026-11-17 10:45 AM  SELL 25 STZ @ 144.97  stop  P&L $-22.25  -1.08R
+- 2026-11-17 10:40 AM  SELL 15 PYPL @ 58.62  stop  P&L $-4.65  -1.11R
+- 2026-11-17 11:20 AM  BUY 6 LMT @ 590.76  stop 586.45  target 594.47  max loss $24.06  (time machine avg R 0.088)
