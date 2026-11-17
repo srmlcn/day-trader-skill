@@ -1,17 +1,4 @@
 {
-  "cash": 1490.01,
-  "positions": [
-    {
-      "ticker": "LMT",
-      "shares": 6.0,
-      "lots": [
-        {
-          "id": "LMT-1",
-          "date": "2026-11-17",
-          "shares": 6.0,
-          "cost": 3544.56
-        }
-      ]
-    }
-  ]
+  "cash": 5008.59,
+  "positions": []
 }

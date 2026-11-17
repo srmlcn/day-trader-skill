@@ -1,33 +1,5 @@
 {
-  "positions": [
-    {
-      "id": "2026-11-17-LMT",
-      "symbol": "LMT",
-      "date": "2026-11-17",
-      "qty": 6,
-      "fill": 590.76,
-      "ref": 590.46,
-      "fill_ts": 1794932400,
-      "fill_time": "11:20 AM",
-      "stop": 586.45,
-      "target": 594.47,
-      "risk_per_share": 4.01,
-      "max_loss": 24.06,
-      "flat_by": "15:55",
-      "opening_range": {
-        "high": 589.4,
-        "low": 583.5,
-        "minutes": 15
-      },
-      "chase_pct": 0.18,
-      "timemachine": {
-        "avg_R": 0.088,
-        "p_target": 0.4493,
-        "p_stop": 0.3594,
-        "verdict": "Leans toward the target: target first 44.9 % vs stop first 35.9 %."
-      }
-    }
-  ],
+  "positions": [],
   "closed": [
     {
       "id": "2026-11-11-TLN",
@@ -444,6 +416,38 @@
       "exit_time": "10:40 AM",
       "pnl": -4.65,
       "R": -1.107
+    },
+    {
+      "id": "2026-11-17-LMT",
+      "symbol": "LMT",
+      "date": "2026-11-17",
+      "qty": 6,
+      "fill": 590.76,
+      "ref": 590.46,
+      "fill_ts": 1794932400,
+      "fill_time": "11:20 AM",
+      "stop": 586.45,
+      "target": 594.47,
+      "risk_per_share": 4.01,
+      "max_loss": 24.06,
+      "flat_by": "15:55",
+      "opening_range": {
+        "high": 589.4,
+        "low": 583.5,
+        "minutes": 15
+      },
+      "chase_pct": 0.18,
+      "timemachine": {
+        "avg_R": 0.088,
+        "p_target": 0.4493,
+        "p_stop": 0.3594,
+        "verdict": "Leans toward the target: target first 44.9 % vs stop first 35.9 %."
+      },
+      "exit": 586.43,
+      "exit_reason": "stop",
+      "exit_time": "2:45 PM",
+      "pnl": -25.98,
+      "R": -1.08
     }
   ],
   "skipped": [

@@ -493,6 +493,16 @@
       "qty": "6",
       "price": 590.76,
       "plain": "BUY 6 LMT at 590.76"
+    },
+    {
+      "at": "2026-11-17T14:45:00-05:00",
+      "date": "2026-11-17",
+      "status": "filled",
+      "symbol": "LMT",
+      "side": "sell",
+      "qty": "6",
+      "price": 586.43,
+      "plain": "SELL 6 LMT at 586.43"
     }
   ]
 }
