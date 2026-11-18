@@ -507,53 +507,63 @@
   ],
   "skipped": [
     {
-      "symbol": "TPR",
-      "why": "time machine avg R -0.005 <= 0.000",
+      "symbol": "TTWO",
+      "why": "back under the range high",
       "date": "2026-11-18"
     },
     {
-      "symbol": "CCL",
-      "why": "time machine avg R -0.010 <= 0.000",
+      "symbol": "APH",
+      "why": "back under the range high",
       "date": "2026-11-18"
     },
     {
-      "symbol": "DE",
-      "why": "time machine avg R -0.063 <= 0.000",
+      "symbol": "JCI",
+      "why": "back under the range high",
       "date": "2026-11-18"
     },
     {
-      "symbol": "NXT",
-      "why": "time machine avg R -0.002 <= 0.000",
+      "symbol": "DDOG",
+      "why": "back under the range high",
       "date": "2026-11-18"
     },
     {
-      "symbol": "AVGO",
-      "why": "time machine avg R -0.061 <= 0.000",
-      "date": "2026-11-18"
-    },
-    {
-      "symbol": "NKE",
-      "why": "time machine avg R -0.032 <= 0.000",
-      "date": "2026-11-18"
-    },
-    {
-      "symbol": "SPCX",
-      "why": "time machine avg R -0.023 <= 0.000",
-      "date": "2026-11-18"
-    },
-    {
-      "symbol": "SNOW",
+      "symbol": "D",
       "why": "time machine could not run",
       "date": "2026-11-18"
     },
     {
-      "symbol": "FLEX",
-      "why": "time machine avg R -0.036 <= 0.000",
+      "symbol": "ORLY",
+      "why": "back under the range midpoint",
       "date": "2026-11-18"
     },
     {
-      "symbol": "ARGX",
-      "why": "back under the range midpoint",
+      "symbol": "HD",
+      "why": "back under the range high",
+      "date": "2026-11-18"
+    },
+    {
+      "symbol": "WCN",
+      "why": "budget: one share of WCN costs $182.05, more than your cash limit (cash $507.73 in trader/portfolio.json minus the $500 buffer = $7.73 / 182.05). No order.",
+      "date": "2026-11-18"
+    },
+    {
+      "symbol": "MOD",
+      "why": "back under the range high",
+      "date": "2026-11-18"
+    },
+    {
+      "symbol": "AZO",
+      "why": "back under the range high",
+      "date": "2026-11-18"
+    },
+    {
+      "symbol": "PWR",
+      "why": "back under the range high",
+      "date": "2026-11-18"
+    },
+    {
+      "symbol": "TPR",
+      "why": "time machine could not run",
       "date": "2026-11-18"
     }
   ]
