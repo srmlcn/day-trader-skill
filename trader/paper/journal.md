@@ -33,3 +33,4 @@
 - 2026-11-18 12:15 PM  SELL 2 CSL @ 396.58  target  P&L $+13.38  +0.97R
 - 2026-11-18 12:20 PM  BUY 15 EQT @ 51.00  stop 50.49  target 51.45  max loss $7.20  (time machine avg R 0.007)
 - 2026-11-18 12:50 PM  SELL 44 NEE @ 84.93  target  P&L $+15.84  +0.90R
+- 2026-11-18 3:55 PM  SELL 15 EQT @ 50.67  flat  P&L $-4.95  -0.69R

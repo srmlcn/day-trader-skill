@@ -1,33 +1,5 @@
 {
-  "positions": [
-    {
-      "id": "2026-11-18-EQT",
-      "symbol": "EQT",
-      "date": "2026-11-18",
-      "qty": 15,
-      "fill": 51.0,
-      "ref": 50.97,
-      "fill_ts": 1795022400,
-      "fill_time": "12:20 PM",
-      "stop": 50.49,
-      "target": 51.45,
-      "risk_per_share": 0.48,
-      "max_loss": 7.2,
-      "flat_by": "15:55",
-      "opening_range": {
-        "high": 50.9,
-        "low": 50.09,
-        "minutes": 15
-      },
-      "chase_pct": 0.138,
-      "timemachine": {
-        "avg_R": 0.007,
-        "p_target": 0.2924,
-        "p_stop": 0.2764,
-        "verdict": "Close to a coin flip: target first 29.2 % vs stop first 27.6 %."
-      }
-    }
-  ],
+  "positions": [],
   "closed": [
     {
       "id": "2026-11-11-TLN",
@@ -540,6 +512,38 @@
       "exit_time": "12:50 PM",
       "pnl": 15.84,
       "R": 0.9
+    },
+    {
+      "id": "2026-11-18-EQT",
+      "symbol": "EQT",
+      "date": "2026-11-18",
+      "qty": 15,
+      "fill": 51.0,
+      "ref": 50.97,
+      "fill_ts": 1795022400,
+      "fill_time": "12:20 PM",
+      "stop": 50.49,
+      "target": 51.45,
+      "risk_per_share": 0.48,
+      "max_loss": 7.2,
+      "flat_by": "15:55",
+      "opening_range": {
+        "high": 50.9,
+        "low": 50.09,
+        "minutes": 15
+      },
+      "chase_pct": 0.138,
+      "timemachine": {
+        "avg_R": 0.007,
+        "p_target": 0.2924,
+        "p_stop": 0.2764,
+        "verdict": "Close to a coin flip: target first 29.2 % vs stop first 27.6 %."
+      },
+      "exit": 50.67,
+      "exit_reason": "flat",
+      "exit_time": "3:55 PM",
+      "pnl": -4.95,
+      "R": -0.687
     }
   ],
   "skipped": [

@@ -601,6 +601,16 @@
       "qty": "44",
       "price": 84.93,
       "plain": "SELL 44 NEE at 84.93"
+    },
+    {
+      "at": "2026-11-18T15:55:00-05:00",
+      "date": "2026-11-18",
+      "status": "filled",
+      "symbol": "EQT",
+      "side": "sell",
+      "qty": "15",
+      "price": 50.67,
+      "plain": "SELL 15 EQT at 50.67"
     }
   ]
 }
