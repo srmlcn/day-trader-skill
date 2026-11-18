@@ -1,5 +1,5 @@
 {
-  "cash": 507.73,
+  "cash": 535.89,
   "positions": [
     {
       "ticker": "NEE",
@@ -14,14 +14,14 @@
       ]
     },
     {
-      "ticker": "CSL",
-      "shares": 2.0,
+      "ticker": "EQT",
+      "shares": 15.0,
       "lots": [
         {
-          "id": "CSL-1",
+          "id": "EQT-1",
           "date": "2026-11-18",
-          "shares": 2.0,
-          "cost": 779.78
+          "shares": 15.0,
+          "cost": 765.0
         }
       ]
     }

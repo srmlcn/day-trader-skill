@@ -555,6 +555,42 @@
       "qty": "2",
       "price": 389.89,
       "plain": "BUY 2 CSL at 389.89"
+    },
+    {
+      "at": "2026-11-18T12:15:00-05:00",
+      "date": "2026-11-18",
+      "status": "filled",
+      "symbol": "CSL",
+      "side": "sell",
+      "qty": "2",
+      "price": 396.58,
+      "plain": "SELL 2 CSL at 396.58"
+    },
+    {
+      "at": "2026-11-18T12:23:18-05:00",
+      "date": "2026-11-18",
+      "index": 1,
+      "fingerprint": "e2e66976522b0fd5",
+      "symbol": "EQT",
+      "side": "buy",
+      "plain": "BUY 15 EQT, market, good for today / stop-loss 50.49 / take-profit 51.45 / max loss about $7.20 if the stop fills at 50.49 (it can fill worse in a fast market)",
+      "status": "placed",
+      "qty": "15",
+      "kind": "entry",
+      "max_loss": 7.2,
+      "stop": 50.49,
+      "broker_order_id": "paper-sim",
+      "note": "simulated fill by trader-paper, no broker"
+    },
+    {
+      "at": "2026-11-18T12:23:18-05:00",
+      "date": "2026-11-18",
+      "status": "filled",
+      "symbol": "EQT",
+      "side": "buy",
+      "qty": "15",
+      "price": 51.0,
+      "plain": "BUY 15 EQT at 51.00"
     }
   ]
 }
