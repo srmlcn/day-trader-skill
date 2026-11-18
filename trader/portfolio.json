@@ -1,4 +1,29 @@
 {
-  "cash": 5008.59,
-  "positions": []
+  "cash": 507.73,
+  "positions": [
+    {
+      "ticker": "NEE",
+      "shares": 44.0,
+      "lots": [
+        {
+          "id": "NEE-1",
+          "date": "2026-11-18",
+          "shares": 44.0,
+          "cost": 3721.08
+        }
+      ]
+    },
+    {
+      "ticker": "CSL",
+      "shares": 2.0,
+      "lots": [
+        {
+          "id": "CSL-1",
+          "date": "2026-11-18",
+          "shares": 2.0,
+          "cost": 779.78
+        }
+      ]
+    }
+  ]
 }

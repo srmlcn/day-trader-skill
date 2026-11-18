@@ -28,3 +28,5 @@
 - 2026-11-17 10:40 AM  SELL 15 PYPL @ 58.62  stop  P&L $-4.65  -1.11R
 - 2026-11-17 11:20 AM  BUY 6 LMT @ 590.76  stop 586.45  target 594.47  max loss $24.06  (time machine avg R 0.088)
 - 2026-11-17 2:45 PM  SELL 6 LMT @ 586.43  stop  P&L $-25.98  -1.08R
+- 2026-11-18 10:20 AM  BUY 44 NEE @ 84.57  stop 84.13  target 84.93  max loss $17.60  (time machine avg R 0.092)
+- 2026-11-18 10:20 AM  BUY 2 CSL @ 389.89  stop 382.82  target 396.58  max loss $13.76  (time machine avg R 0.075)

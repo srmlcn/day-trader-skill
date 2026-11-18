@@ -503,6 +503,58 @@
       "qty": "6",
       "price": 586.43,
       "plain": "SELL 6 LMT at 586.43"
+    },
+    {
+      "at": "2026-11-18T10:22:57-05:00",
+      "date": "2026-11-18",
+      "index": 1,
+      "fingerprint": "d36b188b3a99e236",
+      "symbol": "NEE",
+      "side": "buy",
+      "plain": "BUY 44 NEE, market, good for today / stop-loss 84.13 / take-profit 84.93 / max loss about $17.60 if the stop fills at 84.13 (it can fill worse in a fast market)",
+      "status": "placed",
+      "qty": "44",
+      "kind": "entry",
+      "max_loss": 17.6,
+      "stop": 84.13,
+      "broker_order_id": "paper-sim",
+      "note": "simulated fill by trader-paper, no broker"
+    },
+    {
+      "at": "2026-11-18T10:22:57-05:00",
+      "date": "2026-11-18",
+      "status": "filled",
+      "symbol": "NEE",
+      "side": "buy",
+      "qty": "44",
+      "price": 84.57,
+      "plain": "BUY 44 NEE at 84.57"
+    },
+    {
+      "at": "2026-11-18T10:22:57-05:00",
+      "date": "2026-11-18",
+      "index": 1,
+      "fingerprint": "8a4f28b02889b8f1",
+      "symbol": "CSL",
+      "side": "buy",
+      "plain": "BUY 2 CSL, market, good for today / stop-loss 382.82 / take-profit 396.58 / max loss about $13.76 if the stop fills at 382.82 (it can fill worse in a fast market)",
+      "status": "placed",
+      "qty": "2",
+      "kind": "entry",
+      "max_loss": 13.76,
+      "stop": 382.82,
+      "broker_order_id": "paper-sim",
+      "note": "simulated fill by trader-paper, no broker"
+    },
+    {
+      "at": "2026-11-18T10:22:57-05:00",
+      "date": "2026-11-18",
+      "status": "filled",
+      "symbol": "CSL",
+      "side": "buy",
+      "qty": "2",
+      "price": 389.89,
+      "plain": "BUY 2 CSL at 389.89"
     }
   ]
 }

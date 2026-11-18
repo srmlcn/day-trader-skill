@@ -1,5 +1,60 @@
 {
-  "positions": [],
+  "positions": [
+    {
+      "id": "2026-11-18-NEE",
+      "symbol": "NEE",
+      "date": "2026-11-18",
+      "qty": 44,
+      "fill": 84.57,
+      "ref": 84.53,
+      "fill_ts": 1795015200,
+      "fill_time": "10:20 AM",
+      "stop": 84.13,
+      "target": 84.93,
+      "risk_per_share": 0.4,
+      "max_loss": 17.6,
+      "flat_by": "15:55",
+      "opening_range": {
+        "high": 84.46,
+        "low": 83.8,
+        "minutes": 15
+      },
+      "chase_pct": 0.083,
+      "timemachine": {
+        "avg_R": 0.092,
+        "p_target": 0.5252,
+        "p_stop": 0.4298,
+        "verdict": "Close to a coin flip: target first 52.5 % vs stop first 43.0 %."
+      }
+    },
+    {
+      "id": "2026-11-18-CSL",
+      "symbol": "CSL",
+      "date": "2026-11-18",
+      "qty": 2,
+      "fill": 389.89,
+      "ref": 389.7,
+      "fill_ts": 1795015200,
+      "fill_time": "10:20 AM",
+      "stop": 382.82,
+      "target": 396.58,
+      "risk_per_share": 6.88,
+      "max_loss": 13.76,
+      "flat_by": "15:55",
+      "opening_range": {
+        "high": 388.36,
+        "low": 377.29,
+        "minutes": 15
+      },
+      "chase_pct": 0.345,
+      "timemachine": {
+        "avg_R": 0.075,
+        "p_target": 0.2569,
+        "p_stop": 0.163,
+        "verdict": "Leans toward the target: target first 25.7 % vs stop first 16.3 %."
+      }
+    }
+  ],
   "closed": [
     {
       "id": "2026-11-11-TLN",
@@ -452,9 +507,54 @@
   ],
   "skipped": [
     {
-      "symbol": "ELV",
-      "why": "back under the range high",
-      "date": "2026-11-17"
+      "symbol": "TPR",
+      "why": "time machine avg R -0.005 <= 0.000",
+      "date": "2026-11-18"
+    },
+    {
+      "symbol": "CCL",
+      "why": "time machine avg R -0.010 <= 0.000",
+      "date": "2026-11-18"
+    },
+    {
+      "symbol": "DE",
+      "why": "time machine avg R -0.063 <= 0.000",
+      "date": "2026-11-18"
+    },
+    {
+      "symbol": "NXT",
+      "why": "time machine avg R -0.002 <= 0.000",
+      "date": "2026-11-18"
+    },
+    {
+      "symbol": "AVGO",
+      "why": "time machine avg R -0.061 <= 0.000",
+      "date": "2026-11-18"
+    },
+    {
+      "symbol": "NKE",
+      "why": "time machine avg R -0.032 <= 0.000",
+      "date": "2026-11-18"
+    },
+    {
+      "symbol": "SPCX",
+      "why": "time machine avg R -0.023 <= 0.000",
+      "date": "2026-11-18"
+    },
+    {
+      "symbol": "SNOW",
+      "why": "time machine could not run",
+      "date": "2026-11-18"
+    },
+    {
+      "symbol": "FLEX",
+      "why": "time machine avg R -0.036 <= 0.000",
+      "date": "2026-11-18"
+    },
+    {
+      "symbol": "ARGX",
+      "why": "back under the range midpoint",
+      "date": "2026-11-18"
     }
   ]
 }
