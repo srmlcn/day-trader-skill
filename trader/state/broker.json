@@ -611,6 +611,58 @@
       "qty": "15",
       "price": 50.67,
       "plain": "SELL 15 EQT at 50.67"
+    },
+    {
+      "at": "2026-11-19T10:22:46-05:00",
+      "date": "2026-11-19",
+      "index": 1,
+      "fingerprint": "0ef65a64393f1b5b",
+      "symbol": "DHR",
+      "side": "buy",
+      "plain": "BUY 16 DHR, market, good for today / stop-loss 229.27 / take-profit 231.71 / max loss about $19.52 if the stop fills at 229.27 (it can fill worse in a fast market)",
+      "status": "placed",
+      "qty": "16",
+      "kind": "entry",
+      "max_loss": 19.52,
+      "stop": 229.27,
+      "broker_order_id": "paper-sim",
+      "note": "simulated fill by trader-paper, no broker"
+    },
+    {
+      "at": "2026-11-19T10:22:46-05:00",
+      "date": "2026-11-19",
+      "status": "filled",
+      "symbol": "DHR",
+      "side": "buy",
+      "qty": "16",
+      "price": 230.61,
+      "plain": "BUY 16 DHR at 230.61"
+    },
+    {
+      "at": "2026-11-19T10:22:46-05:00",
+      "date": "2026-11-19",
+      "index": 1,
+      "fingerprint": "3c9764ce845215d7",
+      "symbol": "PCG",
+      "side": "buy",
+      "plain": "BUY 60 PCG, market, good for today / stop-loss 13.69 / take-profit 13.99 / max loss about $9 if the stop fills at 13.69 (it can fill worse in a fast market)",
+      "status": "placed",
+      "qty": "60",
+      "kind": "entry",
+      "max_loss": 9.0,
+      "stop": 13.69,
+      "broker_order_id": "paper-sim",
+      "note": "simulated fill by trader-paper, no broker"
+    },
+    {
+      "at": "2026-11-19T10:22:46-05:00",
+      "date": "2026-11-19",
+      "status": "filled",
+      "symbol": "PCG",
+      "side": "buy",
+      "qty": "60",
+      "price": 13.85,
+      "plain": "BUY 60 PCG at 13.85"
     }
   ]
 }

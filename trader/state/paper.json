@@ -1,5 +1,60 @@
 {
-  "positions": [],
+  "positions": [
+    {
+      "id": "2026-11-19-DHR",
+      "symbol": "DHR",
+      "date": "2026-11-19",
+      "qty": 16,
+      "fill": 230.61,
+      "ref": 230.49,
+      "fill_ts": 1795101600,
+      "fill_time": "10:20 AM",
+      "stop": 229.27,
+      "target": 231.71,
+      "risk_per_share": 1.22,
+      "max_loss": 19.52,
+      "flat_by": "15:55",
+      "opening_range": {
+        "high": 230.26,
+        "low": 228.28,
+        "minutes": 15
+      },
+      "chase_pct": 0.1,
+      "timemachine": {
+        "avg_R": 0.019,
+        "p_target": 0.5075,
+        "p_stop": 0.4884,
+        "verdict": "Close to a coin flip: target first 50.7 % vs stop first 48.8 %."
+      }
+    },
+    {
+      "id": "2026-11-19-PCG",
+      "symbol": "PCG",
+      "date": "2026-11-19",
+      "qty": 60,
+      "fill": 13.85,
+      "ref": 13.84,
+      "fill_ts": 1795101600,
+      "fill_time": "10:20 AM",
+      "stop": 13.69,
+      "target": 13.99,
+      "risk_per_share": 0.15,
+      "max_loss": 9.0,
+      "flat_by": "15:55",
+      "opening_range": {
+        "high": 13.77,
+        "low": 13.62,
+        "minutes": 15
+      },
+      "chase_pct": 0.508,
+      "timemachine": {
+        "avg_R": 0.089,
+        "p_target": 0.5113,
+        "p_stop": 0.4231,
+        "verdict": "Close to a coin flip: target first 51.1 % vs stop first 42.3 %."
+      }
+    }
+  ],
   "closed": [
     {
       "id": "2026-11-11-TLN",
@@ -548,9 +603,54 @@
   ],
   "skipped": [
     {
-      "symbol": "BX",
-      "why": "time machine avg R -0.151 <= 0.000",
-      "date": "2026-11-18"
+      "symbol": "AZO",
+      "why": "time machine avg R -0.036 <= 0.000",
+      "date": "2026-11-19"
+    },
+    {
+      "symbol": "PRAX",
+      "why": "back under the range high",
+      "date": "2026-11-19"
+    },
+    {
+      "symbol": "RVMD",
+      "why": "budget: one share of RVMD costs $165.24, more than your cash limit (cash $512.10 in trader/portfolio.json minus the $500 buffer = $12.10 / 165.24). No order.",
+      "date": "2026-11-19"
+    },
+    {
+      "symbol": "ORLY",
+      "why": "time machine avg R -0.035 <= 0.000",
+      "date": "2026-11-19"
+    },
+    {
+      "symbol": "LRCX",
+      "why": "back under the range midpoint",
+      "date": "2026-11-19"
+    },
+    {
+      "symbol": "MRVL",
+      "why": "back under the range midpoint",
+      "date": "2026-11-19"
+    },
+    {
+      "symbol": "EXPD",
+      "why": "time machine avg R -0.007 <= 0.000",
+      "date": "2026-11-19"
+    },
+    {
+      "symbol": "ALC",
+      "why": "chase 1.04% over the range high (max 1.00%)",
+      "date": "2026-11-19"
+    },
+    {
+      "symbol": "NOW",
+      "why": "back under the range midpoint",
+      "date": "2026-11-19"
+    },
+    {
+      "symbol": "GLW",
+      "why": "back under the range midpoint",
+      "date": "2026-11-19"
     }
   ]
 }

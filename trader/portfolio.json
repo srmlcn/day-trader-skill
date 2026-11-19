@@ -1,4 +1,29 @@
 {
-  "cash": 5032.86,
-  "positions": []
+  "cash": 512.1,
+  "positions": [
+    {
+      "ticker": "DHR",
+      "shares": 16.0,
+      "lots": [
+        {
+          "id": "DHR-1",
+          "date": "2026-11-19",
+          "shares": 16.0,
+          "cost": 3689.76
+        }
+      ]
+    },
+    {
+      "ticker": "PCG",
+      "shares": 60.0,
+      "lots": [
+        {
+          "id": "PCG-1",
+          "date": "2026-11-19",
+          "shares": 60.0,
+          "cost": 831.0
+        }
+      ]
+    }
+  ]
 }

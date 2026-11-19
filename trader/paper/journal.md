@@ -34,3 +34,5 @@
 - 2026-11-18 12:20 PM  BUY 15 EQT @ 51.00  stop 50.49  target 51.45  max loss $7.20  (time machine avg R 0.007)
 - 2026-11-18 12:50 PM  SELL 44 NEE @ 84.93  target  P&L $+15.84  +0.90R
 - 2026-11-18 3:55 PM  SELL 15 EQT @ 50.67  flat  P&L $-4.95  -0.69R
+- 2026-11-19 10:20 AM  BUY 16 DHR @ 230.61  stop 229.27  target 231.71  max loss $19.52  (time machine avg R 0.019)
+- 2026-11-19 10:20 AM  BUY 60 PCG @ 13.85  stop 13.69  target 13.99  max loss $9.00  (time machine avg R 0.089)
