@@ -1,5 +1,5 @@
 {
-  "cash": 643.6,
+  "cash": 4193.86,
   "positions": [
     {
       "ticker": "PCG",
@@ -10,18 +10,6 @@
           "date": "2026-11-19",
           "shares": 60.0,
           "cost": 831.0
-        }
-      ]
-    },
-    {
-      "ticker": "PG",
-      "shares": 21.0,
-      "lots": [
-        {
-          "id": "PG-1",
-          "date": "2026-11-19",
-          "shares": 21.0,
-          "cost": 3536.82
         }
       ]
     }

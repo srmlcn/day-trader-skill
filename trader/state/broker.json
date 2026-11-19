@@ -699,6 +699,16 @@
       "qty": "21",
       "price": 168.42,
       "plain": "BUY 21 PG at 168.42"
+    },
+    {
+      "at": "2026-11-19T14:15:00-05:00",
+      "date": "2026-11-19",
+      "status": "filled",
+      "symbol": "PG",
+      "side": "sell",
+      "qty": "21",
+      "price": 169.06,
+      "plain": "SELL 21 PG at 169.06"
     }
   ]
 }

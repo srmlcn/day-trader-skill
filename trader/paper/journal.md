@@ -38,3 +38,4 @@
 - 2026-11-19 10:20 AM  BUY 60 PCG @ 13.85  stop 13.69  target 13.99  max loss $9.00  (time machine avg R 0.089)
 - 2026-11-19 10:35 AM  SELL 16 DHR @ 229.27  stop  P&L $-21.44  -1.10R
 - 2026-11-19 11:20 AM  BUY 21 PG @ 168.42  stop 167.62  target 169.06  max loss $15.12  (time machine avg R 0.070)
+- 2026-11-19 2:15 PM  SELL 21 PG @ 169.06  target  P&L $+13.44  +0.89R
