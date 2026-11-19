@@ -1,33 +1,5 @@
 {
-  "positions": [
-    {
-      "id": "2026-11-19-PCG",
-      "symbol": "PCG",
-      "date": "2026-11-19",
-      "qty": 60,
-      "fill": 13.85,
-      "ref": 13.84,
-      "fill_ts": 1795101600,
-      "fill_time": "10:20 AM",
-      "stop": 13.69,
-      "target": 13.99,
-      "risk_per_share": 0.15,
-      "max_loss": 9.0,
-      "flat_by": "15:55",
-      "opening_range": {
-        "high": 13.77,
-        "low": 13.62,
-        "minutes": 15
-      },
-      "chase_pct": 0.508,
-      "timemachine": {
-        "avg_R": 0.089,
-        "p_target": 0.5113,
-        "p_stop": 0.4231,
-        "verdict": "Close to a coin flip: target first 51.1 % vs stop first 42.3 %."
-      }
-    }
-  ],
+  "positions": [],
   "closed": [
     {
       "id": "2026-11-11-TLN",
@@ -636,6 +608,38 @@
       "exit_time": "2:15 PM",
       "pnl": 13.44,
       "R": 0.889
+    },
+    {
+      "id": "2026-11-19-PCG",
+      "symbol": "PCG",
+      "date": "2026-11-19",
+      "qty": 60,
+      "fill": 13.85,
+      "ref": 13.84,
+      "fill_ts": 1795101600,
+      "fill_time": "10:20 AM",
+      "stop": 13.69,
+      "target": 13.99,
+      "risk_per_share": 0.15,
+      "max_loss": 9.0,
+      "flat_by": "15:55",
+      "opening_range": {
+        "high": 13.77,
+        "low": 13.62,
+        "minutes": 15
+      },
+      "chase_pct": 0.508,
+      "timemachine": {
+        "avg_R": 0.089,
+        "p_target": 0.5113,
+        "p_stop": 0.4231,
+        "verdict": "Close to a coin flip: target first 51.1 % vs stop first 42.3 %."
+      },
+      "exit": 13.99,
+      "exit_reason": "target",
+      "exit_time": "2:35 PM",
+      "pnl": 8.4,
+      "R": 0.933
     }
   ],
   "skipped": [

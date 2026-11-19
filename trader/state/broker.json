@@ -709,6 +709,16 @@
       "qty": "21",
       "price": 169.06,
       "plain": "SELL 21 PG at 169.06"
+    },
+    {
+      "at": "2026-11-19T14:35:00-05:00",
+      "date": "2026-11-19",
+      "status": "filled",
+      "symbol": "PCG",
+      "side": "sell",
+      "qty": "60",
+      "price": 13.99,
+      "plain": "SELL 60 PCG at 13.99"
     }
   ]
 }
