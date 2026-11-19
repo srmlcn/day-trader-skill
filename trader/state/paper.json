@@ -1,33 +1,6 @@
 {
   "positions": [
     {
-      "id": "2026-11-19-DHR",
-      "symbol": "DHR",
-      "date": "2026-11-19",
-      "qty": 16,
-      "fill": 230.61,
-      "ref": 230.49,
-      "fill_ts": 1795101600,
-      "fill_time": "10:20 AM",
-      "stop": 229.27,
-      "target": 231.71,
-      "risk_per_share": 1.22,
-      "max_loss": 19.52,
-      "flat_by": "15:55",
-      "opening_range": {
-        "high": 230.26,
-        "low": 228.28,
-        "minutes": 15
-      },
-      "chase_pct": 0.1,
-      "timemachine": {
-        "avg_R": 0.019,
-        "p_target": 0.5075,
-        "p_stop": 0.4884,
-        "verdict": "Close to a coin flip: target first 50.7 % vs stop first 48.8 %."
-      }
-    },
-    {
       "id": "2026-11-19-PCG",
       "symbol": "PCG",
       "date": "2026-11-19",
@@ -52,6 +25,33 @@
         "p_target": 0.5113,
         "p_stop": 0.4231,
         "verdict": "Close to a coin flip: target first 51.1 % vs stop first 42.3 %."
+      }
+    },
+    {
+      "id": "2026-11-19-PG",
+      "symbol": "PG",
+      "date": "2026-11-19",
+      "qty": 21,
+      "fill": 168.42,
+      "ref": 168.34,
+      "fill_ts": 1795105200,
+      "fill_time": "11:20 AM",
+      "stop": 167.62,
+      "target": 169.06,
+      "risk_per_share": 0.72,
+      "max_loss": 15.12,
+      "flat_by": "15:55",
+      "opening_range": {
+        "high": 168.29,
+        "low": 166.95,
+        "minutes": 15
+      },
+      "chase_pct": 0.03,
+      "timemachine": {
+        "avg_R": 0.07,
+        "p_target": 0.4609,
+        "p_stop": 0.3871,
+        "verdict": "Close to a coin flip: target first 46.1 % vs stop first 38.7 %."
       }
     }
   ],
@@ -599,56 +599,48 @@
       "exit_time": "3:55 PM",
       "pnl": -4.95,
       "R": -0.687
+    },
+    {
+      "id": "2026-11-19-DHR",
+      "symbol": "DHR",
+      "date": "2026-11-19",
+      "qty": 16,
+      "fill": 230.61,
+      "ref": 230.49,
+      "fill_ts": 1795101600,
+      "fill_time": "10:20 AM",
+      "stop": 229.27,
+      "target": 231.71,
+      "risk_per_share": 1.22,
+      "max_loss": 19.52,
+      "flat_by": "15:55",
+      "opening_range": {
+        "high": 230.26,
+        "low": 228.28,
+        "minutes": 15
+      },
+      "chase_pct": 0.1,
+      "timemachine": {
+        "avg_R": 0.019,
+        "p_target": 0.5075,
+        "p_stop": 0.4884,
+        "verdict": "Close to a coin flip: target first 50.7 % vs stop first 48.8 %."
+      },
+      "exit": 229.27,
+      "exit_reason": "stop",
+      "exit_time": "10:35 AM",
+      "pnl": -21.44,
+      "R": -1.098
     }
   ],
   "skipped": [
     {
-      "symbol": "AZO",
-      "why": "time machine avg R -0.036 <= 0.000",
-      "date": "2026-11-19"
-    },
-    {
-      "symbol": "PRAX",
+      "symbol": "TSCO",
       "why": "back under the range high",
       "date": "2026-11-19"
     },
     {
-      "symbol": "RVMD",
-      "why": "budget: one share of RVMD costs $165.24, more than your cash limit (cash $512.10 in trader/portfolio.json minus the $500 buffer = $12.10 / 165.24). No order.",
-      "date": "2026-11-19"
-    },
-    {
-      "symbol": "ORLY",
-      "why": "time machine avg R -0.035 <= 0.000",
-      "date": "2026-11-19"
-    },
-    {
-      "symbol": "LRCX",
-      "why": "back under the range midpoint",
-      "date": "2026-11-19"
-    },
-    {
-      "symbol": "MRVL",
-      "why": "back under the range midpoint",
-      "date": "2026-11-19"
-    },
-    {
-      "symbol": "EXPD",
-      "why": "time machine avg R -0.007 <= 0.000",
-      "date": "2026-11-19"
-    },
-    {
-      "symbol": "ALC",
-      "why": "chase 1.04% over the range high (max 1.00%)",
-      "date": "2026-11-19"
-    },
-    {
-      "symbol": "NOW",
-      "why": "back under the range midpoint",
-      "date": "2026-11-19"
-    },
-    {
-      "symbol": "GLW",
+      "symbol": "MDT",
       "why": "back under the range midpoint",
       "date": "2026-11-19"
     }

@@ -663,6 +663,42 @@
       "qty": "60",
       "price": 13.85,
       "plain": "BUY 60 PCG at 13.85"
+    },
+    {
+      "at": "2026-11-19T10:35:00-05:00",
+      "date": "2026-11-19",
+      "status": "filled",
+      "symbol": "DHR",
+      "side": "sell",
+      "qty": "16",
+      "price": 229.27,
+      "plain": "SELL 16 DHR at 229.27"
+    },
+    {
+      "at": "2026-11-19T11:22:37-05:00",
+      "date": "2026-11-19",
+      "index": 1,
+      "fingerprint": "479931293ee135fc",
+      "symbol": "PG",
+      "side": "buy",
+      "plain": "BUY 21 PG, market, good for today / stop-loss 167.62 / take-profit 169.06 / max loss about $15.12 if the stop fills at 167.62 (it can fill worse in a fast market)",
+      "status": "placed",
+      "qty": "21",
+      "kind": "entry",
+      "max_loss": 15.12,
+      "stop": 167.62,
+      "broker_order_id": "paper-sim",
+      "note": "simulated fill by trader-paper, no broker"
+    },
+    {
+      "at": "2026-11-19T11:22:37-05:00",
+      "date": "2026-11-19",
+      "status": "filled",
+      "symbol": "PG",
+      "side": "buy",
+      "qty": "21",
+      "price": 168.42,
+      "plain": "BUY 21 PG at 168.42"
     }
   ]
 }
