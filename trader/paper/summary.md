@@ -5,18 +5,19 @@ Simulated fills from real 5-minute bars. No broker, no real money. Not financial
 | | |
 | --- | --- |
 | starting budget | $5000.00 |
-| cash now | $5033.26 |
+| cash now | $5002.96 |
 | open positions | 0 |
-| closed trades | 20 |
-| win rate | 50.0 % |
-| realized P&L | $+33.26 |
-| average R | -0.138 |
-| exits | 8 target, 9 stop, 3 flat by the close |
+| closed trades | 22 |
+| win rate | 45.5 % |
+| realized P&L | $+2.96 |
+| average R | -0.223 |
+| exits | 8 target, 11 stop, 3 flat by the close |
 
 ## By day
 
 | day | trades | P&L |
 | --- | --- | --- |
+| 2026-11-20 | 2 | $-30.30 |
 | 2026-11-19 | 3 | $+0.40 |
 | 2026-11-18 | 3 | $+24.27 |
 | 2026-11-17 | 3 | $-52.88 |

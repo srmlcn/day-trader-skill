@@ -1,33 +1,5 @@
 {
-  "positions": [
-    {
-      "id": "2026-11-20-DUK",
-      "symbol": "DUK",
-      "date": "2026-11-20",
-      "qty": 6,
-      "fill": 130.92,
-      "ref": 130.85,
-      "fill_ts": 1795188000,
-      "fill_time": "10:20 AM",
-      "stop": 130.11,
-      "target": 131.59,
-      "risk_per_share": 0.74,
-      "max_loss": 4.44,
-      "flat_by": "15:55",
-      "opening_range": {
-        "high": 130.63,
-        "low": 129.6,
-        "minutes": 15
-      },
-      "chase_pct": 0.168,
-      "timemachine": {
-        "avg_R": 0.125,
-        "p_target": 0.467,
-        "p_stop": 0.3357,
-        "verdict": "Leans toward the target: target first 46.7 % vs stop first 33.6 %."
-      }
-    }
-  ],
+  "positions": [],
   "closed": [
     {
       "id": "2026-11-11-TLN",
@@ -700,6 +672,38 @@
       "exit_time": "12:40 PM",
       "pnl": -25.44,
       "R": -1.067
+    },
+    {
+      "id": "2026-11-20-DUK",
+      "symbol": "DUK",
+      "date": "2026-11-20",
+      "qty": 6,
+      "fill": 130.92,
+      "ref": 130.85,
+      "fill_ts": 1795188000,
+      "fill_time": "10:20 AM",
+      "stop": 130.11,
+      "target": 131.59,
+      "risk_per_share": 0.74,
+      "max_loss": 4.44,
+      "flat_by": "15:55",
+      "opening_range": {
+        "high": 130.63,
+        "low": 129.6,
+        "minutes": 15
+      },
+      "chase_pct": 0.168,
+      "timemachine": {
+        "avg_R": 0.125,
+        "p_target": 0.467,
+        "p_stop": 0.3357,
+        "verdict": "Leans toward the target: target first 46.7 % vs stop first 33.6 %."
+      },
+      "exit": 130.11,
+      "exit_reason": "stop",
+      "exit_time": "2:40 PM",
+      "pnl": -4.86,
+      "R": -1.095
     }
   ],
   "skipped": [

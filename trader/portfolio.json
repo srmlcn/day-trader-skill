@@ -1,17 +1,4 @@
 {
-  "cash": 4222.3,
-  "positions": [
-    {
-      "ticker": "DUK",
-      "shares": 6.0,
-      "lots": [
-        {
-          "id": "DUK-1",
-          "date": "2026-11-20",
-          "shares": 6.0,
-          "cost": 785.52
-        }
-      ]
-    }
-  ]
+  "cash": 5002.96,
+  "positions": []
 }
