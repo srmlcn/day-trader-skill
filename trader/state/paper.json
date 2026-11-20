@@ -699,53 +699,63 @@
   ],
   "skipped": [
     {
+      "symbol": "UL",
+      "why": "back under the range high",
+      "date": "2026-11-20"
+    },
+    {
+      "symbol": "WM",
+      "why": "back under the range high",
+      "date": "2026-11-20"
+    },
+    {
       "symbol": "AZO",
-      "why": "time machine avg R -0.030 <= 0.000",
+      "why": "back under the range high",
+      "date": "2026-11-20"
+    },
+    {
+      "symbol": "MRSH",
+      "why": "back under the range high",
+      "date": "2026-11-20"
+    },
+    {
+      "symbol": "CVS",
+      "why": "budget: one share of CVS costs $82.14, more than your cash limit (cash $558.94 in trader/portfolio.json minus the $500 buffer = $58.94 / 82.14). No order.",
+      "date": "2026-11-20"
+    },
+    {
+      "symbol": "MDLZ",
+      "why": "budget: one share of MDLZ costs $67.25, more than your cash limit (cash $558.94 in trader/portfolio.json minus the $500 buffer = $58.94 / 67.25). No order.",
+      "date": "2026-11-20"
+    },
+    {
+      "symbol": "CB",
+      "why": "budget: one share of CB costs $377.95, more than your cash limit (cash $558.94 in trader/portfolio.json minus the $500 buffer = $58.94 / 377.95). No order.",
+      "date": "2026-11-20"
+    },
+    {
+      "symbol": "CME",
+      "why": "back under the range high",
+      "date": "2026-11-20"
+    },
+    {
+      "symbol": "VZ",
+      "why": "time machine avg R -0.056 <= 0.000",
+      "date": "2026-11-20"
+    },
+    {
+      "symbol": "PGR",
+      "why": "budget: one share of PGR costs $236.43, more than your cash limit (cash $558.94 in trader/portfolio.json minus the $500 buffer = $58.94 / 236.43). No order.",
       "date": "2026-11-20"
     },
     {
       "symbol": "JNJ",
-      "why": "time machine avg R -0.046 <= 0.000",
+      "why": "back under the range high",
       "date": "2026-11-20"
     },
     {
       "symbol": "O",
       "why": "time machine avg R -0.056 <= 0.000",
-      "date": "2026-11-20"
-    },
-    {
-      "symbol": "HD",
-      "why": "back under the range high",
-      "date": "2026-11-20"
-    },
-    {
-      "symbol": "AMGN",
-      "why": "back under the range midpoint",
-      "date": "2026-11-20"
-    },
-    {
-      "symbol": "MCK",
-      "why": "budget: one share of MCK costs $1,082.34, more than your cash limit (cash $558.94 in trader/portfolio.json minus the $500 buffer = $58.94 / 1082.34). No order.",
-      "date": "2026-11-20"
-    },
-    {
-      "symbol": "TRV",
-      "why": "budget: one share of TRV costs $399.15, more than your cash limit (cash $558.94 in trader/portfolio.json minus the $500 buffer = $58.94 / 399.15). No order.",
-      "date": "2026-11-20"
-    },
-    {
-      "symbol": "WMT",
-      "why": "budget: one share of WMT costs $129.97, more than your cash limit (cash $558.94 in trader/portfolio.json minus the $500 buffer = $58.94 / 129.97). No order.",
-      "date": "2026-11-20"
-    },
-    {
-      "symbol": "XEL",
-      "why": "budget: one share of XEL costs $80.32, more than your cash limit (cash $558.94 in trader/portfolio.json minus the $500 buffer = $58.94 / 80.32). No order.",
-      "date": "2026-11-20"
-    },
-    {
-      "symbol": "NEE",
-      "why": "budget: one share of NEE costs $84.99, more than your cash limit (cash $558.94 in trader/portfolio.json minus the $500 buffer = $58.94 / 84.99). No order.",
       "date": "2026-11-20"
     }
   ]
