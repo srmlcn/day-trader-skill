@@ -1,18 +1,6 @@
 {
-  "cash": 558.94,
+  "cash": 4222.3,
   "positions": [
-    {
-      "ticker": "KR",
-      "shares": 53.0,
-      "lots": [
-        {
-          "id": "KR-1",
-          "date": "2026-11-20",
-          "shares": 53.0,
-          "cost": 3688.8
-        }
-      ]
-    },
     {
       "ticker": "DUK",
       "shares": 6.0,

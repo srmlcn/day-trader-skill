@@ -42,3 +42,4 @@
 - 2026-11-19 2:35 PM  SELL 60 PCG @ 13.99  target  P&L $+8.40  +0.93R
 - 2026-11-20 10:20 AM  BUY 53 KR @ 69.60  stop 69.12  target 70.02  max loss $23.85  (time machine avg R 0.035)
 - 2026-11-20 10:20 AM  BUY 6 DUK @ 130.92  stop 130.11  target 131.59  max loss $4.44  (time machine avg R 0.125)
+- 2026-11-20 12:40 PM  SELL 53 KR @ 69.12  stop  P&L $-25.44  -1.07R

@@ -771,6 +771,16 @@
       "qty": "6",
       "price": 130.92,
       "plain": "BUY 6 DUK at 130.92"
+    },
+    {
+      "at": "2026-11-20T12:40:00-05:00",
+      "date": "2026-11-20",
+      "status": "filled",
+      "symbol": "KR",
+      "side": "sell",
+      "qty": "53",
+      "price": 69.12,
+      "plain": "SELL 53 KR at 69.12"
     }
   ]
 }

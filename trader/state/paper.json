@@ -1,33 +1,6 @@
 {
   "positions": [
     {
-      "id": "2026-11-20-KR",
-      "symbol": "KR",
-      "date": "2026-11-20",
-      "qty": 53,
-      "fill": 69.6,
-      "ref": 69.57,
-      "fill_ts": 1795188000,
-      "fill_time": "10:20 AM",
-      "stop": 69.12,
-      "target": 70.02,
-      "risk_per_share": 0.45,
-      "max_loss": 23.85,
-      "flat_by": "15:55",
-      "opening_range": {
-        "high": 69.54,
-        "low": 68.71,
-        "minutes": 15
-      },
-      "chase_pct": 0.043,
-      "timemachine": {
-        "avg_R": 0.035,
-        "p_target": 0.4972,
-        "p_stop": 0.4597,
-        "verdict": "Close to a coin flip: target first 49.7 % vs stop first 46.0 %."
-      }
-    },
-    {
       "id": "2026-11-20-DUK",
       "symbol": "DUK",
       "date": "2026-11-20",
@@ -695,9 +668,46 @@
       "exit_time": "2:35 PM",
       "pnl": 8.4,
       "R": 0.933
+    },
+    {
+      "id": "2026-11-20-KR",
+      "symbol": "KR",
+      "date": "2026-11-20",
+      "qty": 53,
+      "fill": 69.6,
+      "ref": 69.57,
+      "fill_ts": 1795188000,
+      "fill_time": "10:20 AM",
+      "stop": 69.12,
+      "target": 70.02,
+      "risk_per_share": 0.45,
+      "max_loss": 23.85,
+      "flat_by": "15:55",
+      "opening_range": {
+        "high": 69.54,
+        "low": 68.71,
+        "minutes": 15
+      },
+      "chase_pct": 0.043,
+      "timemachine": {
+        "avg_R": 0.035,
+        "p_target": 0.4972,
+        "p_stop": 0.4597,
+        "verdict": "Close to a coin flip: target first 49.7 % vs stop first 46.0 %."
+      },
+      "exit": 69.12,
+      "exit_reason": "stop",
+      "exit_time": "12:40 PM",
+      "pnl": -25.44,
+      "R": -1.067
     }
   ],
   "skipped": [
+    {
+      "symbol": "ROST",
+      "why": "time machine avg R -0.080 <= 0.000",
+      "date": "2026-11-20"
+    },
     {
       "symbol": "SO",
       "why": "back under the range high",
@@ -720,12 +730,17 @@
     },
     {
       "symbol": "ELV",
-      "why": "time machine avg R -0.049 <= 0.000",
+      "why": "back under the range high",
       "date": "2026-11-20"
     },
     {
       "symbol": "CI",
-      "why": "budget: one share of CI costs $278.93, more than your cash limit (cash $558.94 in trader/portfolio.json minus the $500 buffer = $58.94 / 278.93). No order.",
+      "why": "back under the range midpoint",
+      "date": "2026-11-20"
+    },
+    {
+      "symbol": "WM",
+      "why": "back under the range midpoint",
       "date": "2026-11-20"
     },
     {
@@ -734,8 +749,8 @@
       "date": "2026-11-20"
     },
     {
-      "symbol": "CVS",
-      "why": "back under the range high",
+      "symbol": "MRSH",
+      "why": "back under the range midpoint",
       "date": "2026-11-20"
     },
     {
@@ -745,17 +760,7 @@
     },
     {
       "symbol": "MDLZ",
-      "why": "budget: one share of MDLZ costs $67.13, more than your cash limit (cash $558.94 in trader/portfolio.json minus the $500 buffer = $58.94 / 67.13). No order.",
-      "date": "2026-11-20"
-    },
-    {
-      "symbol": "CB",
       "why": "back under the range high",
-      "date": "2026-11-20"
-    },
-    {
-      "symbol": "CME",
-      "why": "budget: one share of CME costs $312.61, more than your cash limit (cash $558.94 in trader/portfolio.json minus the $500 buffer = $58.94 / 312.61). No order.",
       "date": "2026-11-20"
     }
   ]
