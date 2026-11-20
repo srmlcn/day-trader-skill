@@ -1,5 +1,60 @@
 {
-  "positions": [],
+  "positions": [
+    {
+      "id": "2026-11-20-KR",
+      "symbol": "KR",
+      "date": "2026-11-20",
+      "qty": 53,
+      "fill": 69.6,
+      "ref": 69.57,
+      "fill_ts": 1795188000,
+      "fill_time": "10:20 AM",
+      "stop": 69.12,
+      "target": 70.02,
+      "risk_per_share": 0.45,
+      "max_loss": 23.85,
+      "flat_by": "15:55",
+      "opening_range": {
+        "high": 69.54,
+        "low": 68.71,
+        "minutes": 15
+      },
+      "chase_pct": 0.043,
+      "timemachine": {
+        "avg_R": 0.035,
+        "p_target": 0.4972,
+        "p_stop": 0.4597,
+        "verdict": "Close to a coin flip: target first 49.7 % vs stop first 46.0 %."
+      }
+    },
+    {
+      "id": "2026-11-20-DUK",
+      "symbol": "DUK",
+      "date": "2026-11-20",
+      "qty": 6,
+      "fill": 130.92,
+      "ref": 130.85,
+      "fill_ts": 1795188000,
+      "fill_time": "10:20 AM",
+      "stop": 130.11,
+      "target": 131.59,
+      "risk_per_share": 0.74,
+      "max_loss": 4.44,
+      "flat_by": "15:55",
+      "opening_range": {
+        "high": 130.63,
+        "low": 129.6,
+        "minutes": 15
+      },
+      "chase_pct": 0.168,
+      "timemachine": {
+        "avg_R": 0.125,
+        "p_target": 0.467,
+        "p_stop": 0.3357,
+        "verdict": "Leans toward the target: target first 46.7 % vs stop first 33.6 %."
+      }
+    }
+  ],
   "closed": [
     {
       "id": "2026-11-11-TLN",
@@ -644,14 +699,54 @@
   ],
   "skipped": [
     {
-      "symbol": "TSCO",
-      "why": "back under the range high",
-      "date": "2026-11-19"
+      "symbol": "AZO",
+      "why": "time machine avg R -0.030 <= 0.000",
+      "date": "2026-11-20"
     },
     {
-      "symbol": "MDT",
+      "symbol": "JNJ",
+      "why": "time machine avg R -0.046 <= 0.000",
+      "date": "2026-11-20"
+    },
+    {
+      "symbol": "O",
+      "why": "time machine avg R -0.056 <= 0.000",
+      "date": "2026-11-20"
+    },
+    {
+      "symbol": "HD",
+      "why": "back under the range high",
+      "date": "2026-11-20"
+    },
+    {
+      "symbol": "AMGN",
       "why": "back under the range midpoint",
-      "date": "2026-11-19"
+      "date": "2026-11-20"
+    },
+    {
+      "symbol": "MCK",
+      "why": "budget: one share of MCK costs $1,082.34, more than your cash limit (cash $558.94 in trader/portfolio.json minus the $500 buffer = $58.94 / 1082.34). No order.",
+      "date": "2026-11-20"
+    },
+    {
+      "symbol": "TRV",
+      "why": "budget: one share of TRV costs $399.15, more than your cash limit (cash $558.94 in trader/portfolio.json minus the $500 buffer = $58.94 / 399.15). No order.",
+      "date": "2026-11-20"
+    },
+    {
+      "symbol": "WMT",
+      "why": "budget: one share of WMT costs $129.97, more than your cash limit (cash $558.94 in trader/portfolio.json minus the $500 buffer = $58.94 / 129.97). No order.",
+      "date": "2026-11-20"
+    },
+    {
+      "symbol": "XEL",
+      "why": "budget: one share of XEL costs $80.32, more than your cash limit (cash $558.94 in trader/portfolio.json minus the $500 buffer = $58.94 / 80.32). No order.",
+      "date": "2026-11-20"
+    },
+    {
+      "symbol": "NEE",
+      "why": "budget: one share of NEE costs $84.99, more than your cash limit (cash $558.94 in trader/portfolio.json minus the $500 buffer = $58.94 / 84.99). No order.",
+      "date": "2026-11-20"
     }
   ]
 }

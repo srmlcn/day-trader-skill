@@ -719,6 +719,58 @@
       "qty": "60",
       "price": 13.99,
       "plain": "SELL 60 PCG at 13.99"
+    },
+    {
+      "at": "2026-11-20T10:22:57-05:00",
+      "date": "2026-11-20",
+      "index": 1,
+      "fingerprint": "c64c10b64d9993bb",
+      "symbol": "KR",
+      "side": "buy",
+      "plain": "BUY 53 KR, market, good for today / stop-loss 69.12 / take-profit 70.02 / max loss about $23.85 if the stop fills at 69.12 (it can fill worse in a fast market)",
+      "status": "placed",
+      "qty": "53",
+      "kind": "entry",
+      "max_loss": 23.85,
+      "stop": 69.12,
+      "broker_order_id": "paper-sim",
+      "note": "simulated fill by trader-paper, no broker"
+    },
+    {
+      "at": "2026-11-20T10:22:57-05:00",
+      "date": "2026-11-20",
+      "status": "filled",
+      "symbol": "KR",
+      "side": "buy",
+      "qty": "53",
+      "price": 69.6,
+      "plain": "BUY 53 KR at 69.60"
+    },
+    {
+      "at": "2026-11-20T10:22:57-05:00",
+      "date": "2026-11-20",
+      "index": 1,
+      "fingerprint": "46196d7088698482",
+      "symbol": "DUK",
+      "side": "buy",
+      "plain": "BUY 6 DUK, market, good for today / stop-loss 130.11 / take-profit 131.59 / max loss about $4.44 if the stop fills at 130.11 (it can fill worse in a fast market)",
+      "status": "placed",
+      "qty": "6",
+      "kind": "entry",
+      "max_loss": 4.44,
+      "stop": 130.11,
+      "broker_order_id": "paper-sim",
+      "note": "simulated fill by trader-paper, no broker"
+    },
+    {
+      "at": "2026-11-20T10:22:57-05:00",
+      "date": "2026-11-20",
+      "status": "filled",
+      "symbol": "DUK",
+      "side": "buy",
+      "qty": "6",
+      "price": 130.92,
+      "plain": "BUY 6 DUK at 130.92"
     }
   ]
 }
