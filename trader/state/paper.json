@@ -704,13 +704,18 @@
   ],
   "skipped": [
     {
+      "symbol": "FISV",
+      "why": "back under the range midpoint",
+      "date": "2026-11-20"
+    },
+    {
       "symbol": "ROST",
-      "why": "time machine avg R -0.080 <= 0.000",
+      "why": "time machine avg R -0.048 <= 0.000",
       "date": "2026-11-20"
     },
     {
       "symbol": "SO",
-      "why": "back under the range high",
+      "why": "back under the range midpoint",
       "date": "2026-11-20"
     },
     {
@@ -720,12 +725,12 @@
     },
     {
       "symbol": "HUM",
-      "why": "back under the range high",
+      "why": "back under the range midpoint",
       "date": "2026-11-20"
     },
     {
       "symbol": "HCA",
-      "why": "back under the range high",
+      "why": "time machine avg R -0.042 <= 0.000",
       "date": "2026-11-20"
     },
     {
@@ -756,11 +761,6 @@
     {
       "symbol": "UNP",
       "why": "back under the range midpoint",
-      "date": "2026-11-20"
-    },
-    {
-      "symbol": "MDLZ",
-      "why": "back under the range high",
       "date": "2026-11-20"
     }
   ]
