@@ -879,6 +879,16 @@
       "qty": "34",
       "price": 108.68,
       "plain": "BUY 34 UPS at 108.68"
+    },
+    {
+      "at": "2026-11-23T13:00:00-05:00",
+      "date": "2026-11-23",
+      "status": "filled",
+      "symbol": "INSM",
+      "side": "sell",
+      "qty": "5",
+      "price": 148.93,
+      "plain": "SELL 5 INSM at 148.93"
     }
   ]
 }

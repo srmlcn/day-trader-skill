@@ -1,33 +1,6 @@
 {
   "positions": [
     {
-      "id": "2026-11-23-INSM",
-      "symbol": "INSM",
-      "date": "2026-11-23",
-      "qty": 5,
-      "fill": 146.9,
-      "ref": 146.83,
-      "fill_ts": 1795447200,
-      "fill_time": "10:20 AM",
-      "stop": 144.73,
-      "target": 148.93,
-      "risk_per_share": 2.1,
-      "max_loss": 10.5,
-      "flat_by": "15:55",
-      "opening_range": {
-        "high": 146.25,
-        "low": 143.22,
-        "minutes": 15
-      },
-      "chase_pct": 0.397,
-      "timemachine": {
-        "avg_R": 0.032,
-        "p_target": 0.4387,
-        "p_stop": 0.4147,
-        "verdict": "Close to a coin flip: target first 43.9 % vs stop first 41.5 %."
-      }
-    },
-    {
       "id": "2026-11-23-UPS",
       "symbol": "UPS",
       "date": "2026-11-23",
@@ -791,6 +764,38 @@
       "exit_time": "11:10 AM",
       "pnl": 27.28,
       "R": 0.936
+    },
+    {
+      "id": "2026-11-23-INSM",
+      "symbol": "INSM",
+      "date": "2026-11-23",
+      "qty": 5,
+      "fill": 146.9,
+      "ref": 146.83,
+      "fill_ts": 1795447200,
+      "fill_time": "10:20 AM",
+      "stop": 144.73,
+      "target": 148.93,
+      "risk_per_share": 2.1,
+      "max_loss": 10.5,
+      "flat_by": "15:55",
+      "opening_range": {
+        "high": 146.25,
+        "low": 143.22,
+        "minutes": 15
+      },
+      "chase_pct": 0.397,
+      "timemachine": {
+        "avg_R": 0.032,
+        "p_target": 0.4387,
+        "p_stop": 0.4147,
+        "verdict": "Close to a coin flip: target first 43.9 % vs stop first 41.5 %."
+      },
+      "exit": 148.93,
+      "exit_reason": "target",
+      "exit_time": "1:00 PM",
+      "pnl": 10.15,
+      "R": 0.967
     }
   ],
   "skipped": [

@@ -1,18 +1,6 @@
 {
-  "cash": 600.62,
+  "cash": 1345.27,
   "positions": [
-    {
-      "ticker": "INSM",
-      "shares": 5.0,
-      "lots": [
-        {
-          "id": "INSM-1",
-          "date": "2026-11-23",
-          "shares": 5.0,
-          "cost": 734.5
-        }
-      ]
-    },
     {
       "ticker": "UPS",
       "shares": 34.0,
