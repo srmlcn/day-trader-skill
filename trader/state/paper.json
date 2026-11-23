@@ -1,33 +1,6 @@
 {
   "positions": [
     {
-      "id": "2026-11-23-DIS",
-      "symbol": "DIS",
-      "date": "2026-11-23",
-      "qty": 31,
-      "fill": 119.23,
-      "ref": 119.17,
-      "fill_ts": 1795447200,
-      "fill_time": "10:20 AM",
-      "stop": 118.23,
-      "target": 120.11,
-      "risk_per_share": 0.94,
-      "max_loss": 29.14,
-      "flat_by": "15:55",
-      "opening_range": {
-        "high": 119.0,
-        "low": 117.46,
-        "minutes": 15
-      },
-      "chase_pct": 0.143,
-      "timemachine": {
-        "avg_R": 0.025,
-        "p_target": 0.3876,
-        "p_stop": 0.364,
-        "verdict": "Close to a coin flip: target first 38.8 % vs stop first 36.4 %."
-      }
-    },
-    {
       "id": "2026-11-23-INSM",
       "symbol": "INSM",
       "date": "2026-11-23",
@@ -52,6 +25,33 @@
         "p_target": 0.4387,
         "p_stop": 0.4147,
         "verdict": "Close to a coin flip: target first 43.9 % vs stop first 41.5 %."
+      }
+    },
+    {
+      "id": "2026-11-23-UPS",
+      "symbol": "UPS",
+      "date": "2026-11-23",
+      "qty": 34,
+      "fill": 108.68,
+      "ref": 108.63,
+      "fill_ts": 1795450800,
+      "fill_time": "11:20 AM",
+      "stop": 107.52,
+      "target": 109.74,
+      "risk_per_share": 1.11,
+      "max_loss": 37.74,
+      "flat_by": "15:55",
+      "opening_range": {
+        "high": 108.6,
+        "low": 106.45,
+        "minutes": 15
+      },
+      "chase_pct": 0.028,
+      "timemachine": {
+        "avg_R": 0.092,
+        "p_target": 0.2509,
+        "p_stop": 0.1678,
+        "verdict": "Leans toward the target: target first 25.1 % vs stop first 16.8 %."
       }
     }
   ],
@@ -759,57 +759,44 @@
       "exit_time": "2:40 PM",
       "pnl": -4.86,
       "R": -1.095
+    },
+    {
+      "id": "2026-11-23-DIS",
+      "symbol": "DIS",
+      "date": "2026-11-23",
+      "qty": 31,
+      "fill": 119.23,
+      "ref": 119.17,
+      "fill_ts": 1795447200,
+      "fill_time": "10:20 AM",
+      "stop": 118.23,
+      "target": 120.11,
+      "risk_per_share": 0.94,
+      "max_loss": 29.14,
+      "flat_by": "15:55",
+      "opening_range": {
+        "high": 119.0,
+        "low": 117.46,
+        "minutes": 15
+      },
+      "chase_pct": 0.143,
+      "timemachine": {
+        "avg_R": 0.025,
+        "p_target": 0.3876,
+        "p_stop": 0.364,
+        "verdict": "Close to a coin flip: target first 38.8 % vs stop first 36.4 %."
+      },
+      "exit": 120.11,
+      "exit_reason": "target",
+      "exit_time": "11:10 AM",
+      "pnl": 27.28,
+      "R": 0.936
     }
   ],
   "skipped": [
     {
-      "symbol": "UAL",
-      "why": "time machine avg R -0.124 <= 0.000",
-      "date": "2026-11-23"
-    },
-    {
-      "symbol": "UBER",
-      "why": "time machine avg R -0.041 <= 0.000",
-      "date": "2026-11-23"
-    },
-    {
-      "symbol": "FLEX",
-      "why": "time machine avg R -0.086 <= 0.000",
-      "date": "2026-11-23"
-    },
-    {
-      "symbol": "CIEN",
-      "why": "time machine avg R -0.018 <= 0.000",
-      "date": "2026-11-23"
-    },
-    {
-      "symbol": "SHOP",
-      "why": "time machine avg R -0.012 <= 0.000",
-      "date": "2026-11-23"
-    },
-    {
-      "symbol": "APH",
-      "why": "time machine avg R -0.011 <= 0.000",
-      "date": "2026-11-23"
-    },
-    {
-      "symbol": "VST",
-      "why": "time machine avg R -0.049 <= 0.000",
-      "date": "2026-11-23"
-    },
-    {
-      "symbol": "TSLA",
-      "why": "time machine avg R -0.084 <= 0.000",
-      "date": "2026-11-23"
-    },
-    {
-      "symbol": "EBAY",
-      "why": "back under the range high",
-      "date": "2026-11-23"
-    },
-    {
-      "symbol": "NOW",
-      "why": "time machine avg R -0.159 <= 0.000",
+      "symbol": "SE",
+      "why": "time machine avg R -0.165 <= 0.000",
       "date": "2026-11-23"
     }
   ]

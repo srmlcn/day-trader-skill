@@ -1,18 +1,6 @@
 {
-  "cash": 572.33,
+  "cash": 600.62,
   "positions": [
-    {
-      "ticker": "DIS",
-      "shares": 31.0,
-      "lots": [
-        {
-          "id": "DIS-1",
-          "date": "2026-11-23",
-          "shares": 31.0,
-          "cost": 3696.13
-        }
-      ]
-    },
     {
       "ticker": "INSM",
       "shares": 5.0,
@@ -22,6 +10,18 @@
           "date": "2026-11-23",
           "shares": 5.0,
           "cost": 734.5
+        }
+      ]
+    },
+    {
+      "ticker": "UPS",
+      "shares": 34.0,
+      "lots": [
+        {
+          "id": "UPS-1",
+          "date": "2026-11-23",
+          "shares": 34.0,
+          "cost": 3695.12
         }
       ]
     }

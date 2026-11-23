@@ -843,6 +843,42 @@
       "qty": "5",
       "price": 146.9,
       "plain": "BUY 5 INSM at 146.90"
+    },
+    {
+      "at": "2026-11-23T11:10:00-05:00",
+      "date": "2026-11-23",
+      "status": "filled",
+      "symbol": "DIS",
+      "side": "sell",
+      "qty": "31",
+      "price": 120.11,
+      "plain": "SELL 31 DIS at 120.11"
+    },
+    {
+      "at": "2026-11-23T11:22:48-05:00",
+      "date": "2026-11-23",
+      "index": 1,
+      "fingerprint": "a43191bc972abf10",
+      "symbol": "UPS",
+      "side": "buy",
+      "plain": "BUY 34 UPS, market, good for today / stop-loss 107.52 / take-profit 109.74 / max loss about $37.74 if the stop fills at 107.52 (it can fill worse in a fast market)",
+      "status": "placed",
+      "qty": "34",
+      "kind": "entry",
+      "max_loss": 37.74,
+      "stop": 107.52,
+      "broker_order_id": "paper-sim",
+      "note": "simulated fill by trader-paper, no broker"
+    },
+    {
+      "at": "2026-11-23T11:22:48-05:00",
+      "date": "2026-11-23",
+      "status": "filled",
+      "symbol": "UPS",
+      "side": "buy",
+      "qty": "34",
+      "price": 108.68,
+      "plain": "BUY 34 UPS at 108.68"
     }
   ]
 }

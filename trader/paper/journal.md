@@ -46,3 +46,5 @@
 - 2026-11-20 2:40 PM  SELL 6 DUK @ 130.11  stop  P&L $-4.86  -1.09R
 - 2026-11-23 10:20 AM  BUY 31 DIS @ 119.23  stop 118.23  target 120.11  max loss $29.14  (time machine avg R 0.025)
 - 2026-11-23 10:20 AM  BUY 5 INSM @ 146.90  stop 144.73  target 148.93  max loss $10.50  (time machine avg R 0.032)
+- 2026-11-23 11:10 AM  SELL 31 DIS @ 120.11  target  P&L $+27.28  +0.94R
+- 2026-11-23 11:20 AM  BUY 34 UPS @ 108.68  stop 107.52  target 109.74  max loss $37.74  (time machine avg R 0.092)
