@@ -1,4 +1,29 @@
 {
-  "cash": 5002.96,
-  "positions": []
+  "cash": 572.33,
+  "positions": [
+    {
+      "ticker": "DIS",
+      "shares": 31.0,
+      "lots": [
+        {
+          "id": "DIS-1",
+          "date": "2026-11-23",
+          "shares": 31.0,
+          "cost": 3696.13
+        }
+      ]
+    },
+    {
+      "ticker": "INSM",
+      "shares": 5.0,
+      "lots": [
+        {
+          "id": "INSM-1",
+          "date": "2026-11-23",
+          "shares": 5.0,
+          "cost": 734.5
+        }
+      ]
+    }
+  ]
 }

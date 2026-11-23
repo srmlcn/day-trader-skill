@@ -791,6 +791,58 @@
       "qty": "6",
       "price": 130.11,
       "plain": "SELL 6 DUK at 130.11"
+    },
+    {
+      "at": "2026-11-23T10:23:15-05:00",
+      "date": "2026-11-23",
+      "index": 1,
+      "fingerprint": "8e3b0c58958477db",
+      "symbol": "DIS",
+      "side": "buy",
+      "plain": "BUY 31 DIS, market, good for today / stop-loss 118.23 / take-profit 120.11 / max loss about $29.14 if the stop fills at 118.23 (it can fill worse in a fast market)",
+      "status": "placed",
+      "qty": "31",
+      "kind": "entry",
+      "max_loss": 29.14,
+      "stop": 118.23,
+      "broker_order_id": "paper-sim",
+      "note": "simulated fill by trader-paper, no broker"
+    },
+    {
+      "at": "2026-11-23T10:23:15-05:00",
+      "date": "2026-11-23",
+      "status": "filled",
+      "symbol": "DIS",
+      "side": "buy",
+      "qty": "31",
+      "price": 119.23,
+      "plain": "BUY 31 DIS at 119.23"
+    },
+    {
+      "at": "2026-11-23T10:23:15-05:00",
+      "date": "2026-11-23",
+      "index": 1,
+      "fingerprint": "a21655d0899289b8",
+      "symbol": "INSM",
+      "side": "buy",
+      "plain": "BUY 5 INSM, market, good for today / stop-loss 144.73 / take-profit 148.93 / max loss about $10.50 if the stop fills at 144.73 (it can fill worse in a fast market)",
+      "status": "placed",
+      "qty": "5",
+      "kind": "entry",
+      "max_loss": 10.5,
+      "stop": 144.73,
+      "broker_order_id": "paper-sim",
+      "note": "simulated fill by trader-paper, no broker"
+    },
+    {
+      "at": "2026-11-23T10:23:15-05:00",
+      "date": "2026-11-23",
+      "status": "filled",
+      "symbol": "INSM",
+      "side": "buy",
+      "qty": "5",
+      "price": 146.9,
+      "plain": "BUY 5 INSM at 146.90"
     }
   ]
 }
