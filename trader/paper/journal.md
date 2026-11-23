@@ -49,3 +49,4 @@
 - 2026-11-23 11:10 AM  SELL 31 DIS @ 120.11  target  P&L $+27.28  +0.94R
 - 2026-11-23 11:20 AM  BUY 34 UPS @ 108.68  stop 107.52  target 109.74  max loss $37.74  (time machine avg R 0.092)
 - 2026-11-23 1:00 PM  SELL 5 INSM @ 148.93  target  P&L $+10.15  +0.97R
+- 2026-11-23 3:55 PM  SELL 34 UPS @ 108.33  flat  P&L $-11.90  -0.32R

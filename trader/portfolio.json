@@ -1,17 +1,4 @@
 {
-  "cash": 1345.27,
-  "positions": [
-    {
-      "ticker": "UPS",
-      "shares": 34.0,
-      "lots": [
-        {
-          "id": "UPS-1",
-          "date": "2026-11-23",
-          "shares": 34.0,
-          "cost": 3695.12
-        }
-      ]
-    }
-  ]
+  "cash": 5028.49,
+  "positions": []
 }
