@@ -1,33 +1,6 @@
 {
   "positions": [
     {
-      "id": "2026-11-24-KMB",
-      "symbol": "KMB",
-      "date": "2026-11-24",
-      "qty": 34,
-      "fill": 108.86,
-      "ref": 108.81,
-      "fill_ts": 1795533600,
-      "fill_time": "10:20 AM",
-      "stop": 108.1,
-      "target": 109.52,
-      "risk_per_share": 0.71,
-      "max_loss": 24.14,
-      "flat_by": "15:55",
-      "opening_range": {
-        "high": 108.79,
-        "low": 107.42,
-        "minutes": 15
-      },
-      "chase_pct": 0.018,
-      "timemachine": {
-        "avg_R": 0.046,
-        "p_target": 0.4937,
-        "p_stop": 0.4472,
-        "verdict": "Close to a coin flip: target first 49.4 % vs stop first 44.7 %."
-      }
-    },
-    {
       "id": "2026-11-24-GILD",
       "symbol": "GILD",
       "date": "2026-11-24",
@@ -882,6 +855,38 @@
       "exit_time": "3:55 PM",
       "pnl": -11.9,
       "R": -0.315
+    },
+    {
+      "id": "2026-11-24-KMB",
+      "symbol": "KMB",
+      "date": "2026-11-24",
+      "qty": 34,
+      "fill": 108.86,
+      "ref": 108.81,
+      "fill_ts": 1795533600,
+      "fill_time": "10:20 AM",
+      "stop": 108.1,
+      "target": 109.52,
+      "risk_per_share": 0.71,
+      "max_loss": 24.14,
+      "flat_by": "15:55",
+      "opening_range": {
+        "high": 108.79,
+        "low": 107.42,
+        "minutes": 15
+      },
+      "chase_pct": 0.018,
+      "timemachine": {
+        "avg_R": 0.046,
+        "p_target": 0.4937,
+        "p_stop": 0.4472,
+        "verdict": "Close to a coin flip: target first 49.4 % vs stop first 44.7 %."
+      },
+      "exit": 108.1,
+      "exit_reason": "stop",
+      "exit_time": "1:10 PM",
+      "pnl": -25.84,
+      "R": -1.07
     }
   ],
   "skipped": [

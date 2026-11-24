@@ -1,18 +1,6 @@
 {
-  "cash": 518.45,
+  "cash": 4193.85,
   "positions": [
-    {
-      "ticker": "KMB",
-      "shares": 34.0,
-      "lots": [
-        {
-          "id": "KMB-1",
-          "date": "2026-11-24",
-          "shares": 34.0,
-          "cost": 3701.24
-        }
-      ]
-    },
     {
       "ticker": "GILD",
       "shares": 4.0,

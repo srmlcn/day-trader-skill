@@ -977,6 +977,16 @@
       "qty": "2",
       "price": 51.54,
       "plain": "BUY 2 SNY at 51.54"
+    },
+    {
+      "at": "2026-11-24T13:10:00-05:00",
+      "date": "2026-11-24",
+      "status": "filled",
+      "symbol": "KMB",
+      "side": "sell",
+      "qty": "34",
+      "price": 108.1,
+      "plain": "SELL 34 KMB at 108.10"
     }
   ]
 }
