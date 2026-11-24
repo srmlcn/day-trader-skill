@@ -951,6 +951,32 @@
       "qty": "4",
       "price": 176.43,
       "plain": "BUY 4 GILD at 176.43"
+    },
+    {
+      "at": "2026-11-24T11:22:55-05:00",
+      "date": "2026-11-24",
+      "index": 1,
+      "fingerprint": "5a065fd09ad70f78",
+      "symbol": "SNY",
+      "side": "buy",
+      "plain": "BUY 2 SNY, market, good for today / stop-loss 50.67 / take-profit 52.35 / max loss about $1.68 if the stop fills at 50.67 (it can fill worse in a fast market)",
+      "status": "placed",
+      "qty": "2",
+      "kind": "entry",
+      "max_loss": 1.68,
+      "stop": 50.67,
+      "broker_order_id": "paper-sim",
+      "note": "simulated fill by trader-paper, no broker"
+    },
+    {
+      "at": "2026-11-24T11:22:55-05:00",
+      "date": "2026-11-24",
+      "status": "filled",
+      "symbol": "SNY",
+      "side": "buy",
+      "qty": "2",
+      "price": 51.54,
+      "plain": "BUY 2 SNY at 51.54"
     }
   ]
 }

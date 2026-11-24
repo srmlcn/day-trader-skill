@@ -53,6 +53,33 @@
         "p_stop": 0.1237,
         "verdict": "Close to a coin flip: target first 15.1 % vs stop first 12.4 %."
       }
+    },
+    {
+      "id": "2026-11-24-SNY",
+      "symbol": "SNY",
+      "date": "2026-11-24",
+      "qty": 2,
+      "fill": 51.54,
+      "ref": 51.51,
+      "fill_ts": 1795537200,
+      "fill_time": "11:20 AM",
+      "stop": 50.67,
+      "target": 52.35,
+      "risk_per_share": 0.84,
+      "max_loss": 1.68,
+      "flat_by": "15:55",
+      "opening_range": {
+        "high": 51.06,
+        "low": 50.29,
+        "minutes": 15
+      },
+      "chase_pct": 0.881,
+      "timemachine": {
+        "avg_R": 0.014,
+        "p_target": 0.0088,
+        "p_stop": 0.0042,
+        "verdict": "Strongly toward the target: target first 0.9 % vs stop first 0.4 %."
+      }
     }
   ],
   "closed": [
@@ -859,53 +886,23 @@
   ],
   "skipped": [
     {
-      "symbol": "AAOI",
+      "symbol": "MNST",
       "why": "back under the range high",
       "date": "2026-11-24"
     },
     {
-      "symbol": "MAR",
+      "symbol": "AZN",
+      "why": "time machine avg R -0.084 <= 0.000",
+      "date": "2026-11-24"
+    },
+    {
+      "symbol": "MELI",
       "why": "back under the range high",
       "date": "2026-11-24"
     },
     {
-      "symbol": "MCD",
-      "why": "back under the range high",
-      "date": "2026-11-24"
-    },
-    {
-      "symbol": "HPQ",
-      "why": "back under the range high",
-      "date": "2026-11-24"
-    },
-    {
-      "symbol": "REGN",
-      "why": "budget: one share of REGN costs $977.20, more than your cash limit (cash $1,327.25 in trader/portfolio.json minus the $500 buffer = $827.25 / 977.20). No order.",
-      "date": "2026-11-24"
-    },
-    {
-      "symbol": "CMCSA",
-      "why": "time machine avg R -0.034 <= 0.000",
-      "date": "2026-11-24"
-    },
-    {
-      "symbol": "AXON",
-      "why": "time machine avg R -0.029 <= 0.000",
-      "date": "2026-11-24"
-    },
-    {
-      "symbol": "NKE",
-      "why": "time machine avg R -0.062 <= 0.000",
-      "date": "2026-11-24"
-    },
-    {
-      "symbol": "CSX",
-      "why": "time machine avg R -0.015 <= 0.000",
-      "date": "2026-11-24"
-    },
-    {
-      "symbol": "VZ",
-      "why": "time machine avg R -0.128 <= 0.000",
+      "symbol": "GMAB",
+      "why": "chase 1.52% over the range high (max 1.00%)",
       "date": "2026-11-24"
     }
   ]

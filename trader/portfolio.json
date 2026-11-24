@@ -1,5 +1,5 @@
 {
-  "cash": 621.53,
+  "cash": 518.45,
   "positions": [
     {
       "ticker": "KMB",
@@ -22,6 +22,18 @@
           "date": "2026-11-24",
           "shares": 4.0,
           "cost": 705.72
+        }
+      ]
+    },
+    {
+      "ticker": "SNY",
+      "shares": 2.0,
+      "lots": [
+        {
+          "id": "SNY-1",
+          "date": "2026-11-24",
+          "shares": 2.0,
+          "cost": 103.08
         }
       ]
     }
