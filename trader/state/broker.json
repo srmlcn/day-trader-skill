@@ -899,6 +899,58 @@
       "qty": "34",
       "price": 108.33,
       "plain": "SELL 34 UPS at 108.33"
+    },
+    {
+      "at": "2026-11-24T10:22:34-05:00",
+      "date": "2026-11-24",
+      "index": 1,
+      "fingerprint": "440338f338704416",
+      "symbol": "KMB",
+      "side": "buy",
+      "plain": "BUY 34 KMB, market, good for today / stop-loss 108.10 / take-profit 109.52 / max loss about $24.14 if the stop fills at 108.10 (it can fill worse in a fast market)",
+      "status": "placed",
+      "qty": "34",
+      "kind": "entry",
+      "max_loss": 24.14,
+      "stop": 108.1,
+      "broker_order_id": "paper-sim",
+      "note": "simulated fill by trader-paper, no broker"
+    },
+    {
+      "at": "2026-11-24T10:22:34-05:00",
+      "date": "2026-11-24",
+      "status": "filled",
+      "symbol": "KMB",
+      "side": "buy",
+      "qty": "34",
+      "price": 108.86,
+      "plain": "BUY 34 KMB at 108.86"
+    },
+    {
+      "at": "2026-11-24T10:22:34-05:00",
+      "date": "2026-11-24",
+      "index": 1,
+      "fingerprint": "349fa42dd9c23ad6",
+      "symbol": "GILD",
+      "side": "buy",
+      "plain": "BUY 4 GILD, market, good for today / stop-loss 173.45 / take-profit 179.23 / max loss about $11.56 if the stop fills at 173.45 (it can fill worse in a fast market)",
+      "status": "placed",
+      "qty": "4",
+      "kind": "entry",
+      "max_loss": 11.56,
+      "stop": 173.45,
+      "broker_order_id": "paper-sim",
+      "note": "simulated fill by trader-paper, no broker"
+    },
+    {
+      "at": "2026-11-24T10:22:34-05:00",
+      "date": "2026-11-24",
+      "status": "filled",
+      "symbol": "GILD",
+      "side": "buy",
+      "qty": "4",
+      "price": 176.43,
+      "plain": "BUY 4 GILD at 176.43"
     }
   ]
 }

@@ -1,5 +1,60 @@
 {
-  "positions": [],
+  "positions": [
+    {
+      "id": "2026-11-24-KMB",
+      "symbol": "KMB",
+      "date": "2026-11-24",
+      "qty": 34,
+      "fill": 108.86,
+      "ref": 108.81,
+      "fill_ts": 1795533600,
+      "fill_time": "10:20 AM",
+      "stop": 108.1,
+      "target": 109.52,
+      "risk_per_share": 0.71,
+      "max_loss": 24.14,
+      "flat_by": "15:55",
+      "opening_range": {
+        "high": 108.79,
+        "low": 107.42,
+        "minutes": 15
+      },
+      "chase_pct": 0.018,
+      "timemachine": {
+        "avg_R": 0.046,
+        "p_target": 0.4937,
+        "p_stop": 0.4472,
+        "verdict": "Close to a coin flip: target first 49.4 % vs stop first 44.7 %."
+      }
+    },
+    {
+      "id": "2026-11-24-GILD",
+      "symbol": "GILD",
+      "date": "2026-11-24",
+      "qty": 4,
+      "fill": 176.43,
+      "ref": 176.34,
+      "fill_ts": 1795533600,
+      "fill_time": "10:20 AM",
+      "stop": 173.45,
+      "target": 179.23,
+      "risk_per_share": 2.89,
+      "max_loss": 11.56,
+      "flat_by": "15:55",
+      "opening_range": {
+        "high": 175.76,
+        "low": 171.14,
+        "minutes": 15
+      },
+      "chase_pct": 0.33,
+      "timemachine": {
+        "avg_R": 0.037,
+        "p_target": 0.1509,
+        "p_stop": 0.1237,
+        "verdict": "Close to a coin flip: target first 15.1 % vs stop first 12.4 %."
+      }
+    }
+  ],
   "closed": [
     {
       "id": "2026-11-11-TLN",
@@ -804,9 +859,54 @@
   ],
   "skipped": [
     {
-      "symbol": "SE",
-      "why": "time machine avg R -0.165 <= 0.000",
-      "date": "2026-11-23"
+      "symbol": "AAOI",
+      "why": "back under the range high",
+      "date": "2026-11-24"
+    },
+    {
+      "symbol": "MAR",
+      "why": "back under the range high",
+      "date": "2026-11-24"
+    },
+    {
+      "symbol": "MCD",
+      "why": "back under the range high",
+      "date": "2026-11-24"
+    },
+    {
+      "symbol": "HPQ",
+      "why": "back under the range high",
+      "date": "2026-11-24"
+    },
+    {
+      "symbol": "REGN",
+      "why": "budget: one share of REGN costs $977.20, more than your cash limit (cash $1,327.25 in trader/portfolio.json minus the $500 buffer = $827.25 / 977.20). No order.",
+      "date": "2026-11-24"
+    },
+    {
+      "symbol": "CMCSA",
+      "why": "time machine avg R -0.034 <= 0.000",
+      "date": "2026-11-24"
+    },
+    {
+      "symbol": "AXON",
+      "why": "time machine avg R -0.029 <= 0.000",
+      "date": "2026-11-24"
+    },
+    {
+      "symbol": "NKE",
+      "why": "time machine avg R -0.062 <= 0.000",
+      "date": "2026-11-24"
+    },
+    {
+      "symbol": "CSX",
+      "why": "time machine avg R -0.015 <= 0.000",
+      "date": "2026-11-24"
+    },
+    {
+      "symbol": "VZ",
+      "why": "time machine avg R -0.128 <= 0.000",
+      "date": "2026-11-24"
     }
   ]
 }

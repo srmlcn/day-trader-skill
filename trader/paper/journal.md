@@ -50,3 +50,5 @@
 - 2026-11-23 11:20 AM  BUY 34 UPS @ 108.68  stop 107.52  target 109.74  max loss $37.74  (time machine avg R 0.092)
 - 2026-11-23 1:00 PM  SELL 5 INSM @ 148.93  target  P&L $+10.15  +0.97R
 - 2026-11-23 3:55 PM  SELL 34 UPS @ 108.33  flat  P&L $-11.90  -0.32R
+- 2026-11-24 10:20 AM  BUY 34 KMB @ 108.86  stop 108.10  target 109.52  max loss $24.14  (time machine avg R 0.046)
+- 2026-11-24 10:20 AM  BUY 4 GILD @ 176.43  stop 173.45  target 179.23  max loss $11.56  (time machine avg R 0.037)
