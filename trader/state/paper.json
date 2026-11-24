@@ -1,33 +1,5 @@
 {
-  "positions": [
-    {
-      "id": "2026-11-24-SNY",
-      "symbol": "SNY",
-      "date": "2026-11-24",
-      "qty": 2,
-      "fill": 51.54,
-      "ref": 51.51,
-      "fill_ts": 1795537200,
-      "fill_time": "11:20 AM",
-      "stop": 50.67,
-      "target": 52.35,
-      "risk_per_share": 0.84,
-      "max_loss": 1.68,
-      "flat_by": "15:55",
-      "opening_range": {
-        "high": 51.06,
-        "low": 50.29,
-        "minutes": 15
-      },
-      "chase_pct": 0.881,
-      "timemachine": {
-        "avg_R": 0.014,
-        "p_target": 0.0088,
-        "p_stop": 0.0042,
-        "verdict": "Strongly toward the target: target first 0.9 % vs stop first 0.4 %."
-      }
-    }
-  ],
+  "positions": [],
   "closed": [
     {
       "id": "2026-11-11-TLN",
@@ -892,6 +864,38 @@
       "exit_time": "2:00 PM",
       "pnl": 11.2,
       "R": 0.969
+    },
+    {
+      "id": "2026-11-24-SNY",
+      "symbol": "SNY",
+      "date": "2026-11-24",
+      "qty": 2,
+      "fill": 51.54,
+      "ref": 51.51,
+      "fill_ts": 1795537200,
+      "fill_time": "11:20 AM",
+      "stop": 50.67,
+      "target": 52.35,
+      "risk_per_share": 0.84,
+      "max_loss": 1.68,
+      "flat_by": "15:55",
+      "opening_range": {
+        "high": 51.06,
+        "low": 50.29,
+        "minutes": 15
+      },
+      "chase_pct": 0.881,
+      "timemachine": {
+        "avg_R": 0.014,
+        "p_target": 0.0088,
+        "p_stop": 0.0042,
+        "verdict": "Strongly toward the target: target first 0.9 % vs stop first 0.4 %."
+      },
+      "exit": 51.79,
+      "exit_reason": "flat",
+      "exit_time": "3:55 PM",
+      "pnl": 0.5,
+      "R": 0.298
     }
   ],
   "skipped": [

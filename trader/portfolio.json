@@ -1,17 +1,4 @@
 {
-  "cash": 4910.77,
-  "positions": [
-    {
-      "ticker": "SNY",
-      "shares": 2.0,
-      "lots": [
-        {
-          "id": "SNY-1",
-          "date": "2026-11-24",
-          "shares": 2.0,
-          "cost": 103.08
-        }
-      ]
-    }
-  ]
+  "cash": 5014.35,
+  "positions": []
 }
