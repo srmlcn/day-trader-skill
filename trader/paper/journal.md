@@ -54,3 +54,4 @@
 - 2026-11-24 10:20 AM  BUY 4 GILD @ 176.43  stop 173.45  target 179.23  max loss $11.56  (time machine avg R 0.037)
 - 2026-11-24 11:20 AM  BUY 2 SNY @ 51.54  stop 50.67  target 52.35  max loss $1.68  (time machine avg R 0.014)
 - 2026-11-24 1:10 PM  SELL 34 KMB @ 108.10  stop  P&L $-25.84  -1.07R
+- 2026-11-24 2:00 PM  SELL 4 GILD @ 179.23  target  P&L $+11.20  +0.97R

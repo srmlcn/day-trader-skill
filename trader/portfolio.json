@@ -1,18 +1,6 @@
 {
-  "cash": 4193.85,
+  "cash": 4910.77,
   "positions": [
-    {
-      "ticker": "GILD",
-      "shares": 4.0,
-      "lots": [
-        {
-          "id": "GILD-1",
-          "date": "2026-11-24",
-          "shares": 4.0,
-          "cost": 705.72
-        }
-      ]
-    },
     {
       "ticker": "SNY",
       "shares": 2.0,
