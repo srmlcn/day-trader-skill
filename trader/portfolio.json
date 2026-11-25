@@ -1,5 +1,5 @@
 {
-  "cash": 539.94,
+  "cash": 1018.95,
   "positions": [
     {
       "ticker": "CB",
@@ -14,14 +14,14 @@
       ]
     },
     {
-      "ticker": "PG",
-      "shares": 6.0,
+      "ticker": "VRTX",
+      "shares": 1.0,
       "lots": [
         {
-          "id": "PG-1",
+          "id": "VRTX-1",
           "date": "2026-11-25",
-          "shares": 6.0,
-          "cost": 1042.8
+          "shares": 1.0,
+          "cost": 566.37
         }
       ]
     }

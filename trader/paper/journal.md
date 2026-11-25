@@ -58,3 +58,5 @@
 - 2026-11-24 3:55 PM  SELL 2 SNY @ 51.79  flat  P&L $+0.50  +0.30R
 - 2026-11-25 10:20 AM  BUY 9 CB @ 381.29  stop 378.15  target 384.05  max loss $26.55  (time machine avg R 0.037)
 - 2026-11-25 11:20 AM  BUY 6 PG @ 173.80  stop 173.19  target 174.23  max loss $3.12  (time machine avg R 0.032)
+- 2026-11-25 12:20 PM  SELL 6 PG @ 174.23  target  P&L $+2.58  +0.83R
+- 2026-11-25 1:20 PM  BUY 1 VRTX @ 566.37  stop 559.99  target 572.19  max loss $6.10  (time machine avg R 0.005)

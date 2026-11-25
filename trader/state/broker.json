@@ -1059,6 +1059,42 @@
       "qty": "6",
       "price": 173.8,
       "plain": "BUY 6 PG at 173.80"
+    },
+    {
+      "at": "2026-11-25T12:20:00-05:00",
+      "date": "2026-11-25",
+      "status": "filled",
+      "symbol": "PG",
+      "side": "sell",
+      "qty": "6",
+      "price": 174.23,
+      "plain": "SELL 6 PG at 174.23"
+    },
+    {
+      "at": "2026-11-25T13:23:09-05:00",
+      "date": "2026-11-25",
+      "index": 1,
+      "fingerprint": "6968364b83347740",
+      "symbol": "VRTX",
+      "side": "buy",
+      "plain": "BUY 1 VRTX, market, good for today / stop-loss 559.99 / take-profit 572.19 / max loss about $6.10 if the stop fills at 559.99 (it can fill worse in a fast market)",
+      "status": "placed",
+      "qty": "1",
+      "kind": "entry",
+      "max_loss": 6.1,
+      "stop": 559.99,
+      "broker_order_id": "paper-sim",
+      "note": "simulated fill by trader-paper, no broker"
+    },
+    {
+      "at": "2026-11-25T13:23:09-05:00",
+      "date": "2026-11-25",
+      "status": "filled",
+      "symbol": "VRTX",
+      "side": "buy",
+      "qty": "1",
+      "price": 566.37,
+      "plain": "BUY 1 VRTX at 566.37"
     }
   ]
 }

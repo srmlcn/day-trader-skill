@@ -28,30 +28,30 @@
       }
     },
     {
-      "id": "2026-11-25-PG",
-      "symbol": "PG",
+      "id": "2026-11-25-VRTX",
+      "symbol": "VRTX",
       "date": "2026-11-25",
-      "qty": 6,
-      "fill": 173.8,
-      "ref": 173.71,
-      "fill_ts": 1795623600,
-      "fill_time": "11:20 AM",
-      "stop": 173.19,
-      "target": 174.23,
-      "risk_per_share": 0.52,
-      "max_loss": 3.12,
+      "qty": 1,
+      "fill": 566.37,
+      "ref": 566.09,
+      "fill_ts": 1795630800,
+      "fill_time": "1:20 PM",
+      "stop": 559.99,
+      "target": 572.19,
+      "risk_per_share": 6.1,
+      "max_loss": 6.1,
       "flat_by": "15:55",
       "opening_range": {
-        "high": 173.6,
-        "low": 172.78,
+        "high": 566.0,
+        "low": 553.98,
         "minutes": 15
       },
-      "chase_pct": 0.063,
+      "chase_pct": 0.016,
       "timemachine": {
-        "avg_R": 0.032,
-        "p_target": 0.5073,
-        "p_stop": 0.4757,
-        "verdict": "Close to a coin flip: target first 50.7 % vs stop first 47.6 %."
+        "avg_R": 0.005,
+        "p_target": 0.1541,
+        "p_stop": 0.1343,
+        "verdict": "Close to a coin flip: target first 15.4 % vs stop first 13.4 %."
       }
     }
   ],
@@ -951,68 +951,39 @@
       "exit_time": "3:55 PM",
       "pnl": 0.5,
       "R": 0.298
+    },
+    {
+      "id": "2026-11-25-PG",
+      "symbol": "PG",
+      "date": "2026-11-25",
+      "qty": 6,
+      "fill": 173.8,
+      "ref": 173.71,
+      "fill_ts": 1795623600,
+      "fill_time": "11:20 AM",
+      "stop": 173.19,
+      "target": 174.23,
+      "risk_per_share": 0.52,
+      "max_loss": 3.12,
+      "flat_by": "15:55",
+      "opening_range": {
+        "high": 173.6,
+        "low": 172.78,
+        "minutes": 15
+      },
+      "chase_pct": 0.063,
+      "timemachine": {
+        "avg_R": 0.032,
+        "p_target": 0.5073,
+        "p_stop": 0.4757,
+        "verdict": "Close to a coin flip: target first 50.7 % vs stop first 47.6 %."
+      },
+      "exit": 174.23,
+      "exit_reason": "target",
+      "exit_time": "12:20 PM",
+      "pnl": 2.58,
+      "R": 0.827
     }
   ],
-  "skipped": [
-    {
-      "symbol": "WELL",
-      "why": "time machine avg R -0.132 <= 0.000",
-      "date": "2026-11-25"
-    },
-    {
-      "symbol": "MAR",
-      "why": "budget: one share of MAR costs $415.24, more than your cash limit (cash $539.94 in trader/portfolio.json minus the $500 buffer = $39.94 / 415.24). No order.",
-      "date": "2026-11-25"
-    },
-    {
-      "symbol": "AMZN",
-      "why": "time machine avg R -0.144 <= 0.000",
-      "date": "2026-11-25"
-    },
-    {
-      "symbol": "APH",
-      "why": "time machine avg R -0.120 <= 0.000",
-      "date": "2026-11-25"
-    },
-    {
-      "symbol": "BLK",
-      "why": "time machine avg R -0.133 <= 0.000",
-      "date": "2026-11-25"
-    },
-    {
-      "symbol": "NXPI",
-      "why": "time machine avg R -0.019 <= 0.000",
-      "date": "2026-11-25"
-    },
-    {
-      "symbol": "ALAB",
-      "why": "time machine avg R -0.091 <= 0.000",
-      "date": "2026-11-25"
-    },
-    {
-      "symbol": "CRDO",
-      "why": "time machine avg R -0.071 <= 0.000",
-      "date": "2026-11-25"
-    },
-    {
-      "symbol": "COHR",
-      "why": "time machine avg R -0.097 <= 0.000",
-      "date": "2026-11-25"
-    },
-    {
-      "symbol": "DHR",
-      "why": "budget: one share of DHR costs $228.67, more than your cash limit (cash $539.94 in trader/portfolio.json minus the $500 buffer = $39.94 / 228.67). No order.",
-      "date": "2026-11-25"
-    },
-    {
-      "symbol": "ETN",
-      "why": "time machine avg R -0.113 <= 0.000",
-      "date": "2026-11-25"
-    },
-    {
-      "symbol": "ICE",
-      "why": "time machine avg R -0.013 <= 0.000",
-      "date": "2026-11-25"
-    }
-  ]
+  "skipped": []
 }
