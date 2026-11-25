@@ -1095,6 +1095,26 @@
       "qty": "1",
       "price": 566.37,
       "plain": "BUY 1 VRTX at 566.37"
+    },
+    {
+      "at": "2026-11-25T15:55:00-05:00",
+      "date": "2026-11-25",
+      "status": "filled",
+      "symbol": "CB",
+      "side": "sell",
+      "qty": "9",
+      "price": 382.05,
+      "plain": "SELL 9 CB at 382.05"
+    },
+    {
+      "at": "2026-11-25T15:55:00-05:00",
+      "date": "2026-11-25",
+      "status": "filled",
+      "symbol": "VRTX",
+      "side": "sell",
+      "qty": "1",
+      "price": 564.29,
+      "plain": "SELL 1 VRTX at 564.29"
     }
   ]
 }

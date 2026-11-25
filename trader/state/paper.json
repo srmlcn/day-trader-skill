@@ -1,60 +1,5 @@
 {
-  "positions": [
-    {
-      "id": "2026-11-25-CB",
-      "symbol": "CB",
-      "date": "2026-11-25",
-      "qty": 9,
-      "fill": 381.29,
-      "ref": 381.1,
-      "fill_ts": 1795620000,
-      "fill_time": "10:20 AM",
-      "stop": 378.15,
-      "target": 384.05,
-      "risk_per_share": 2.95,
-      "max_loss": 26.55,
-      "flat_by": "15:55",
-      "opening_range": {
-        "high": 379.86,
-        "low": 376.45,
-        "minutes": 15
-      },
-      "chase_pct": 0.326,
-      "timemachine": {
-        "avg_R": 0.037,
-        "p_target": 0.3055,
-        "p_stop": 0.248,
-        "verdict": "Leans toward the target: target first 30.6 % vs stop first 24.8 %."
-      }
-    },
-    {
-      "id": "2026-11-25-VRTX",
-      "symbol": "VRTX",
-      "date": "2026-11-25",
-      "qty": 1,
-      "fill": 566.37,
-      "ref": 566.09,
-      "fill_ts": 1795630800,
-      "fill_time": "1:20 PM",
-      "stop": 559.99,
-      "target": 572.19,
-      "risk_per_share": 6.1,
-      "max_loss": 6.1,
-      "flat_by": "15:55",
-      "opening_range": {
-        "high": 566.0,
-        "low": 553.98,
-        "minutes": 15
-      },
-      "chase_pct": 0.016,
-      "timemachine": {
-        "avg_R": 0.005,
-        "p_target": 0.1541,
-        "p_stop": 0.1343,
-        "verdict": "Close to a coin flip: target first 15.4 % vs stop first 13.4 %."
-      }
-    }
-  ],
+  "positions": [],
   "closed": [
     {
       "id": "2026-11-11-TLN",
@@ -983,6 +928,70 @@
       "exit_time": "12:20 PM",
       "pnl": 2.58,
       "R": 0.827
+    },
+    {
+      "id": "2026-11-25-CB",
+      "symbol": "CB",
+      "date": "2026-11-25",
+      "qty": 9,
+      "fill": 381.29,
+      "ref": 381.1,
+      "fill_ts": 1795620000,
+      "fill_time": "10:20 AM",
+      "stop": 378.15,
+      "target": 384.05,
+      "risk_per_share": 2.95,
+      "max_loss": 26.55,
+      "flat_by": "15:55",
+      "opening_range": {
+        "high": 379.86,
+        "low": 376.45,
+        "minutes": 15
+      },
+      "chase_pct": 0.326,
+      "timemachine": {
+        "avg_R": 0.037,
+        "p_target": 0.3055,
+        "p_stop": 0.248,
+        "verdict": "Leans toward the target: target first 30.6 % vs stop first 24.8 %."
+      },
+      "exit": 382.05,
+      "exit_reason": "flat",
+      "exit_time": "3:55 PM",
+      "pnl": 6.84,
+      "R": 0.258
+    },
+    {
+      "id": "2026-11-25-VRTX",
+      "symbol": "VRTX",
+      "date": "2026-11-25",
+      "qty": 1,
+      "fill": 566.37,
+      "ref": 566.09,
+      "fill_ts": 1795630800,
+      "fill_time": "1:20 PM",
+      "stop": 559.99,
+      "target": 572.19,
+      "risk_per_share": 6.1,
+      "max_loss": 6.1,
+      "flat_by": "15:55",
+      "opening_range": {
+        "high": 566.0,
+        "low": 553.98,
+        "minutes": 15
+      },
+      "chase_pct": 0.016,
+      "timemachine": {
+        "avg_R": 0.005,
+        "p_target": 0.1541,
+        "p_stop": 0.1343,
+        "verdict": "Close to a coin flip: target first 15.4 % vs stop first 13.4 %."
+      },
+      "exit": 564.29,
+      "exit_reason": "flat",
+      "exit_time": "3:55 PM",
+      "pnl": -2.08,
+      "R": -0.341
     }
   ],
   "skipped": []

@@ -60,3 +60,5 @@
 - 2026-11-25 11:20 AM  BUY 6 PG @ 173.80  stop 173.19  target 174.23  max loss $3.12  (time machine avg R 0.032)
 - 2026-11-25 12:20 PM  SELL 6 PG @ 174.23  target  P&L $+2.58  +0.83R
 - 2026-11-25 1:20 PM  BUY 1 VRTX @ 566.37  stop 559.99  target 572.19  max loss $6.10  (time machine avg R 0.005)
+- 2026-11-25 3:55 PM  SELL 9 CB @ 382.05  flat  P&L $+6.84  +0.26R
+- 2026-11-25 3:55 PM  SELL 1 VRTX @ 564.29  flat  P&L $-2.08  -0.34R

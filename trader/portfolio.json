@@ -1,29 +1,4 @@
 {
-  "cash": 1018.95,
-  "positions": [
-    {
-      "ticker": "CB",
-      "shares": 9.0,
-      "lots": [
-        {
-          "id": "CB-1",
-          "date": "2026-11-25",
-          "shares": 9.0,
-          "cost": 3431.61
-        }
-      ]
-    },
-    {
-      "ticker": "VRTX",
-      "shares": 1.0,
-      "lots": [
-        {
-          "id": "VRTX-1",
-          "date": "2026-11-25",
-          "shares": 1.0,
-          "cost": 566.37
-        }
-      ]
-    }
-  ]
+  "cash": 5021.69,
+  "positions": []
 }
