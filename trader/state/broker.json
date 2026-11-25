@@ -1033,6 +1033,32 @@
       "qty": "9",
       "price": 381.29,
       "plain": "BUY 9 CB at 381.29"
+    },
+    {
+      "at": "2026-11-25T11:22:59-05:00",
+      "date": "2026-11-25",
+      "index": 1,
+      "fingerprint": "3382a08fd7aa11c5",
+      "symbol": "PG",
+      "side": "buy",
+      "plain": "BUY 6 PG, market, good for today / stop-loss 173.19 / take-profit 174.23 / max loss about $3.12 if the stop fills at 173.19 (it can fill worse in a fast market)",
+      "status": "placed",
+      "qty": "6",
+      "kind": "entry",
+      "max_loss": 3.12,
+      "stop": 173.19,
+      "broker_order_id": "paper-sim",
+      "note": "simulated fill by trader-paper, no broker"
+    },
+    {
+      "at": "2026-11-25T11:22:59-05:00",
+      "date": "2026-11-25",
+      "status": "filled",
+      "symbol": "PG",
+      "side": "buy",
+      "qty": "6",
+      "price": 173.8,
+      "plain": "BUY 6 PG at 173.80"
     }
   ]
 }

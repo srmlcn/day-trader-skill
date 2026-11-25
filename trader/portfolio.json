@@ -1,5 +1,5 @@
 {
-  "cash": 1582.74,
+  "cash": 539.94,
   "positions": [
     {
       "ticker": "CB",
@@ -10,6 +10,18 @@
           "date": "2026-11-25",
           "shares": 9.0,
           "cost": 3431.61
+        }
+      ]
+    },
+    {
+      "ticker": "PG",
+      "shares": 6.0,
+      "lots": [
+        {
+          "id": "PG-1",
+          "date": "2026-11-25",
+          "shares": 6.0,
+          "cost": 1042.8
         }
       ]
     }
