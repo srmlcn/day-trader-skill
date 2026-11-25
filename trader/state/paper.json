@@ -955,58 +955,63 @@
   ],
   "skipped": [
     {
-      "symbol": "WFC",
-      "why": "back under the range midpoint",
+      "symbol": "WELL",
+      "why": "time machine avg R -0.132 <= 0.000",
       "date": "2026-11-25"
     },
     {
-      "symbol": "ASTS",
-      "why": "back under the range midpoint",
+      "symbol": "MAR",
+      "why": "budget: one share of MAR costs $415.24, more than your cash limit (cash $539.94 in trader/portfolio.json minus the $500 buffer = $39.94 / 415.24). No order.",
       "date": "2026-11-25"
     },
     {
-      "symbol": "LOW",
-      "why": "back under the range high",
+      "symbol": "AMZN",
+      "why": "time machine avg R -0.144 <= 0.000",
       "date": "2026-11-25"
     },
     {
-      "symbol": "AJG",
-      "why": "back under the range high",
+      "symbol": "APH",
+      "why": "time machine avg R -0.120 <= 0.000",
       "date": "2026-11-25"
     },
     {
-      "symbol": "UPS",
-      "why": "back under the range midpoint",
+      "symbol": "BLK",
+      "why": "time machine avg R -0.133 <= 0.000",
       "date": "2026-11-25"
     },
     {
-      "symbol": "MA",
-      "why": "back under the range high",
+      "symbol": "NXPI",
+      "why": "time machine avg R -0.019 <= 0.000",
       "date": "2026-11-25"
     },
     {
-      "symbol": "CMCSA",
-      "why": "time machine avg R -0.064 <= 0.000",
+      "symbol": "ALAB",
+      "why": "time machine avg R -0.091 <= 0.000",
       "date": "2026-11-25"
     },
     {
-      "symbol": "HD",
-      "why": "back under the range high",
+      "symbol": "CRDO",
+      "why": "time machine avg R -0.071 <= 0.000",
       "date": "2026-11-25"
     },
     {
-      "symbol": "HON",
-      "why": "budget: one share of HON costs $221.46, more than your cash limit (cash $539.94 in trader/portfolio.json minus the $500 buffer = $39.94 / 221.46). No order.",
+      "symbol": "COHR",
+      "why": "time machine avg R -0.097 <= 0.000",
       "date": "2026-11-25"
     },
     {
-      "symbol": "TTWO",
-      "why": "back under the range high",
+      "symbol": "DHR",
+      "why": "budget: one share of DHR costs $228.67, more than your cash limit (cash $539.94 in trader/portfolio.json minus the $500 buffer = $39.94 / 228.67). No order.",
       "date": "2026-11-25"
     },
     {
-      "symbol": "MCD",
-      "why": "budget: one share of MCD costs $284.41, more than your cash limit (cash $539.94 in trader/portfolio.json minus the $500 buffer = $39.94 / 284.41). No order.",
+      "symbol": "ETN",
+      "why": "time machine avg R -0.113 <= 0.000",
+      "date": "2026-11-25"
+    },
+    {
+      "symbol": "ICE",
+      "why": "time machine avg R -0.013 <= 0.000",
       "date": "2026-11-25"
     }
   ]
