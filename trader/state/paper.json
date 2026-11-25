@@ -1,5 +1,33 @@
 {
-  "positions": [],
+  "positions": [
+    {
+      "id": "2026-11-25-CB",
+      "symbol": "CB",
+      "date": "2026-11-25",
+      "qty": 9,
+      "fill": 381.29,
+      "ref": 381.1,
+      "fill_ts": 1795620000,
+      "fill_time": "10:20 AM",
+      "stop": 378.15,
+      "target": 384.05,
+      "risk_per_share": 2.95,
+      "max_loss": 26.55,
+      "flat_by": "15:55",
+      "opening_range": {
+        "high": 379.86,
+        "low": 376.45,
+        "minutes": 15
+      },
+      "chase_pct": 0.326,
+      "timemachine": {
+        "avg_R": 0.037,
+        "p_target": 0.3055,
+        "p_stop": 0.248,
+        "verdict": "Leans toward the target: target first 30.6 % vs stop first 24.8 %."
+      }
+    }
+  ],
   "closed": [
     {
       "id": "2026-11-11-TLN",
@@ -900,24 +928,59 @@
   ],
   "skipped": [
     {
-      "symbol": "MNST",
+      "symbol": "UNP",
       "why": "back under the range high",
-      "date": "2026-11-24"
+      "date": "2026-11-25"
     },
     {
-      "symbol": "AZN",
-      "why": "time machine avg R -0.084 <= 0.000",
-      "date": "2026-11-24"
-    },
-    {
-      "symbol": "MELI",
+      "symbol": "T",
       "why": "back under the range high",
-      "date": "2026-11-24"
+      "date": "2026-11-25"
     },
     {
-      "symbol": "GMAB",
-      "why": "chase 1.52% over the range high (max 1.00%)",
-      "date": "2026-11-24"
+      "symbol": "APP",
+      "why": "back under the range high",
+      "date": "2026-11-25"
+    },
+    {
+      "symbol": "PEP",
+      "why": "back under the range midpoint",
+      "date": "2026-11-25"
+    },
+    {
+      "symbol": "SO",
+      "why": "back under the range high",
+      "date": "2026-11-25"
+    },
+    {
+      "symbol": "CVS",
+      "why": "back under the range high",
+      "date": "2026-11-25"
+    },
+    {
+      "symbol": "URI",
+      "why": "back under the range high",
+      "date": "2026-11-25"
+    },
+    {
+      "symbol": "IR",
+      "why": "back under the range high",
+      "date": "2026-11-25"
+    },
+    {
+      "symbol": "WCN",
+      "why": "time machine avg R -0.011 <= 0.000",
+      "date": "2026-11-25"
+    },
+    {
+      "symbol": "PCAR",
+      "why": "time machine avg R -0.053 <= 0.000",
+      "date": "2026-11-25"
+    },
+    {
+      "symbol": "HCA",
+      "why": "time machine avg R -0.037 <= 0.000",
+      "date": "2026-11-25"
     }
   ]
 }

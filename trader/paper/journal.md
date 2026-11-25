@@ -56,3 +56,4 @@
 - 2026-11-24 1:10 PM  SELL 34 KMB @ 108.10  stop  P&L $-25.84  -1.07R
 - 2026-11-24 2:00 PM  SELL 4 GILD @ 179.23  target  P&L $+11.20  +0.97R
 - 2026-11-24 3:55 PM  SELL 2 SNY @ 51.79  flat  P&L $+0.50  +0.30R
+- 2026-11-25 10:20 AM  BUY 9 CB @ 381.29  stop 378.15  target 384.05  max loss $26.55  (time machine avg R 0.037)

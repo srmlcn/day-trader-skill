@@ -1,4 +1,17 @@
 {
-  "cash": 5014.35,
-  "positions": []
+  "cash": 1582.74,
+  "positions": [
+    {
+      "ticker": "CB",
+      "shares": 9.0,
+      "lots": [
+        {
+          "id": "CB-1",
+          "date": "2026-11-25",
+          "shares": 9.0,
+          "cost": 3431.61
+        }
+      ]
+    }
+  ]
 }

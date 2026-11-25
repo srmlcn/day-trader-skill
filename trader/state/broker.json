@@ -1007,6 +1007,32 @@
       "qty": "2",
       "price": 51.79,
       "plain": "SELL 2 SNY at 51.79"
+    },
+    {
+      "at": "2026-11-25T10:23:14-05:00",
+      "date": "2026-11-25",
+      "index": 1,
+      "fingerprint": "1cb8d854eb3b9030",
+      "symbol": "CB",
+      "side": "buy",
+      "plain": "BUY 9 CB, market, good for today / stop-loss 378.15 / take-profit 384.05 / max loss about $26.55 if the stop fills at 378.15 (it can fill worse in a fast market)",
+      "status": "placed",
+      "qty": "9",
+      "kind": "entry",
+      "max_loss": 26.55,
+      "stop": 378.15,
+      "broker_order_id": "paper-sim",
+      "note": "simulated fill by trader-paper, no broker"
+    },
+    {
+      "at": "2026-11-25T10:23:14-05:00",
+      "date": "2026-11-25",
+      "status": "filled",
+      "symbol": "CB",
+      "side": "buy",
+      "qty": "9",
+      "price": 381.29,
+      "plain": "BUY 9 CB at 381.29"
     }
   ]
 }
