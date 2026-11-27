@@ -1,5 +1,5 @@
 {
-  "cash": 574.22,
+  "cash": 1695.87,
   "positions": [
     {
       "ticker": "MA",
@@ -10,30 +10,6 @@
           "date": "2026-11-27",
           "shares": 5.0,
           "cost": 3332.75
-        }
-      ]
-    },
-    {
-      "ticker": "META",
-      "shares": 1.0,
-      "lots": [
-        {
-          "id": "META-1",
-          "date": "2026-11-27",
-          "shares": 1.0,
-          "cost": 630.76
-        }
-      ]
-    },
-    {
-      "ticker": "EMR",
-      "shares": 3.0,
-      "lots": [
-        {
-          "id": "EMR-1",
-          "date": "2026-11-27",
-          "shares": 3.0,
-          "cost": 483.96
         }
       ]
     }

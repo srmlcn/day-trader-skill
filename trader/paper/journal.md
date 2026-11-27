@@ -65,3 +65,5 @@
 - 2026-11-27 10:20 AM  BUY 5 MA @ 666.55  stop 662.89  target 669.55  max loss $16.65  (time machine avg R 0.072)
 - 2026-11-27 10:20 AM  BUY 1 META @ 630.76  stop 625.44  target 635.44  max loss $5.00  (time machine avg R 0.081)
 - 2026-11-27 10:20 AM  BUY 3 EMR @ 161.32  stop 160.41  target 162.07  max loss $2.49  (time machine avg R 0.029)
+- 2026-11-27 10:45 AM  SELL 1 META @ 635.44  target  P&L $+4.68  +0.94R
+- 2026-11-27 10:35 AM  SELL 3 EMR @ 162.07  target  P&L $+2.25  +0.90R

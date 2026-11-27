@@ -26,60 +26,6 @@
         "p_stop": 0.3509,
         "verdict": "Close to a coin flip: target first 41.2 % vs stop first 35.1 %."
       }
-    },
-    {
-      "id": "2026-11-27-META",
-      "symbol": "META",
-      "date": "2026-11-27",
-      "qty": 1,
-      "fill": 630.76,
-      "ref": 630.44,
-      "fill_ts": 1795792800,
-      "fill_time": "10:20 AM",
-      "stop": 625.44,
-      "target": 635.44,
-      "risk_per_share": 5.0,
-      "max_loss": 5.0,
-      "flat_by": "12:55",
-      "opening_range": {
-        "high": 630.09,
-        "low": 620.8,
-        "minutes": 15
-      },
-      "chase_pct": 0.056,
-      "timemachine": {
-        "avg_R": 0.081,
-        "p_target": 0.4927,
-        "p_stop": 0.4106,
-        "verdict": "Close to a coin flip: target first 49.3 % vs stop first 41.1 %."
-      }
-    },
-    {
-      "id": "2026-11-27-EMR",
-      "symbol": "EMR",
-      "date": "2026-11-27",
-      "qty": 3,
-      "fill": 161.32,
-      "ref": 161.24,
-      "fill_ts": 1795792800,
-      "fill_time": "10:20 AM",
-      "stop": 160.41,
-      "target": 162.07,
-      "risk_per_share": 0.83,
-      "max_loss": 2.49,
-      "flat_by": "12:55",
-      "opening_range": {
-        "high": 161.0,
-        "low": 159.82,
-        "minutes": 15
-      },
-      "chase_pct": 0.149,
-      "timemachine": {
-        "avg_R": 0.029,
-        "p_target": 0.5084,
-        "p_stop": 0.4793,
-        "verdict": "Close to a coin flip: target first 50.8 % vs stop first 47.9 %."
-      }
     }
   ],
   "closed": [
@@ -1074,6 +1020,70 @@
       "exit_time": "3:55 PM",
       "pnl": -2.08,
       "R": -0.341
+    },
+    {
+      "id": "2026-11-27-META",
+      "symbol": "META",
+      "date": "2026-11-27",
+      "qty": 1,
+      "fill": 630.76,
+      "ref": 630.44,
+      "fill_ts": 1795792800,
+      "fill_time": "10:20 AM",
+      "stop": 625.44,
+      "target": 635.44,
+      "risk_per_share": 5.0,
+      "max_loss": 5.0,
+      "flat_by": "12:55",
+      "opening_range": {
+        "high": 630.09,
+        "low": 620.8,
+        "minutes": 15
+      },
+      "chase_pct": 0.056,
+      "timemachine": {
+        "avg_R": 0.081,
+        "p_target": 0.4927,
+        "p_stop": 0.4106,
+        "verdict": "Close to a coin flip: target first 49.3 % vs stop first 41.1 %."
+      },
+      "exit": 635.44,
+      "exit_reason": "target",
+      "exit_time": "10:45 AM",
+      "pnl": 4.68,
+      "R": 0.936
+    },
+    {
+      "id": "2026-11-27-EMR",
+      "symbol": "EMR",
+      "date": "2026-11-27",
+      "qty": 3,
+      "fill": 161.32,
+      "ref": 161.24,
+      "fill_ts": 1795792800,
+      "fill_time": "10:20 AM",
+      "stop": 160.41,
+      "target": 162.07,
+      "risk_per_share": 0.83,
+      "max_loss": 2.49,
+      "flat_by": "12:55",
+      "opening_range": {
+        "high": 161.0,
+        "low": 159.82,
+        "minutes": 15
+      },
+      "chase_pct": 0.149,
+      "timemachine": {
+        "avg_R": 0.029,
+        "p_target": 0.5084,
+        "p_stop": 0.4793,
+        "verdict": "Close to a coin flip: target first 50.8 % vs stop first 47.9 %."
+      },
+      "exit": 162.07,
+      "exit_reason": "target",
+      "exit_time": "10:35 AM",
+      "pnl": 2.25,
+      "R": 0.904
     }
   ],
   "skipped": [
