@@ -62,3 +62,6 @@
 - 2026-11-25 1:20 PM  BUY 1 VRTX @ 566.37  stop 559.99  target 572.19  max loss $6.10  (time machine avg R 0.005)
 - 2026-11-25 3:55 PM  SELL 9 CB @ 382.05  flat  P&L $+6.84  +0.26R
 - 2026-11-25 3:55 PM  SELL 1 VRTX @ 564.29  flat  P&L $-2.08  -0.34R
+- 2026-11-27 10:20 AM  BUY 5 MA @ 666.55  stop 662.89  target 669.55  max loss $16.65  (time machine avg R 0.072)
+- 2026-11-27 10:20 AM  BUY 1 META @ 630.76  stop 625.44  target 635.44  max loss $5.00  (time machine avg R 0.081)
+- 2026-11-27 10:20 AM  BUY 3 EMR @ 161.32  stop 160.41  target 162.07  max loss $2.49  (time machine avg R 0.029)

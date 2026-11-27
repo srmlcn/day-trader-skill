@@ -1115,6 +1115,84 @@
       "qty": "1",
       "price": 564.29,
       "plain": "SELL 1 VRTX at 564.29"
+    },
+    {
+      "at": "2026-11-27T10:22:47-05:00",
+      "date": "2026-11-27",
+      "index": 1,
+      "fingerprint": "e9783e7910389000",
+      "symbol": "MA",
+      "side": "buy",
+      "plain": "BUY 5 MA, market, good for today / stop-loss 662.89 / take-profit 669.55 / max loss about $16.65 if the stop fills at 662.89 (it can fill worse in a fast market)",
+      "status": "placed",
+      "qty": "5",
+      "kind": "entry",
+      "max_loss": 16.65,
+      "stop": 662.89,
+      "broker_order_id": "paper-sim",
+      "note": "simulated fill by trader-paper, no broker"
+    },
+    {
+      "at": "2026-11-27T10:22:47-05:00",
+      "date": "2026-11-27",
+      "status": "filled",
+      "symbol": "MA",
+      "side": "buy",
+      "qty": "5",
+      "price": 666.55,
+      "plain": "BUY 5 MA at 666.55"
+    },
+    {
+      "at": "2026-11-27T10:22:47-05:00",
+      "date": "2026-11-27",
+      "index": 1,
+      "fingerprint": "96af24bc3e47c791",
+      "symbol": "META",
+      "side": "buy",
+      "plain": "BUY 1 META, market, good for today / stop-loss 625.44 / take-profit 635.44 / max loss about $5 if the stop fills at 625.44 (it can fill worse in a fast market)",
+      "status": "placed",
+      "qty": "1",
+      "kind": "entry",
+      "max_loss": 5.0,
+      "stop": 625.44,
+      "broker_order_id": "paper-sim",
+      "note": "simulated fill by trader-paper, no broker"
+    },
+    {
+      "at": "2026-11-27T10:22:47-05:00",
+      "date": "2026-11-27",
+      "status": "filled",
+      "symbol": "META",
+      "side": "buy",
+      "qty": "1",
+      "price": 630.76,
+      "plain": "BUY 1 META at 630.76"
+    },
+    {
+      "at": "2026-11-27T10:22:47-05:00",
+      "date": "2026-11-27",
+      "index": 1,
+      "fingerprint": "e676a5ed67f5980b",
+      "symbol": "EMR",
+      "side": "buy",
+      "plain": "BUY 3 EMR, market, good for today / stop-loss 160.41 / take-profit 162.07 / max loss about $2.49 if the stop fills at 160.41 (it can fill worse in a fast market)",
+      "status": "placed",
+      "qty": "3",
+      "kind": "entry",
+      "max_loss": 2.49,
+      "stop": 160.41,
+      "broker_order_id": "paper-sim",
+      "note": "simulated fill by trader-paper, no broker"
+    },
+    {
+      "at": "2026-11-27T10:22:47-05:00",
+      "date": "2026-11-27",
+      "status": "filled",
+      "symbol": "EMR",
+      "side": "buy",
+      "qty": "3",
+      "price": 161.32,
+      "plain": "BUY 3 EMR at 161.32"
     }
   ]
 }
