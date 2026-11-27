@@ -1,33 +1,5 @@
 {
-  "positions": [
-    {
-      "id": "2026-11-27-MA",
-      "symbol": "MA",
-      "date": "2026-11-27",
-      "qty": 5,
-      "fill": 666.55,
-      "ref": 666.22,
-      "fill_ts": 1795792800,
-      "fill_time": "10:20 AM",
-      "stop": 662.89,
-      "target": 669.55,
-      "risk_per_share": 3.33,
-      "max_loss": 16.65,
-      "flat_by": "12:55",
-      "opening_range": {
-        "high": 665.79,
-        "low": 660.0,
-        "minutes": 15
-      },
-      "chase_pct": 0.065,
-      "timemachine": {
-        "avg_R": 0.072,
-        "p_target": 0.4125,
-        "p_stop": 0.3509,
-        "verdict": "Close to a coin flip: target first 41.2 % vs stop first 35.1 %."
-      }
-    }
-  ],
+  "positions": [],
   "closed": [
     {
       "id": "2026-11-11-TLN",
@@ -1084,6 +1056,38 @@
       "exit_time": "10:35 AM",
       "pnl": 2.25,
       "R": 0.904
+    },
+    {
+      "id": "2026-11-27-MA",
+      "symbol": "MA",
+      "date": "2026-11-27",
+      "qty": 5,
+      "fill": 666.55,
+      "ref": 666.22,
+      "fill_ts": 1795792800,
+      "fill_time": "10:20 AM",
+      "stop": 662.89,
+      "target": 669.55,
+      "risk_per_share": 3.33,
+      "max_loss": 16.65,
+      "flat_by": "12:55",
+      "opening_range": {
+        "high": 665.79,
+        "low": 660.0,
+        "minutes": 15
+      },
+      "chase_pct": 0.065,
+      "timemachine": {
+        "avg_R": 0.072,
+        "p_target": 0.4125,
+        "p_stop": 0.3509,
+        "verdict": "Close to a coin flip: target first 41.2 % vs stop first 35.1 %."
+      },
+      "exit": 667.42,
+      "exit_reason": "flat",
+      "exit_time": "12:55 PM",
+      "pnl": 4.35,
+      "R": 0.261
     }
   ],
   "skipped": [

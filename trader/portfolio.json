@@ -1,17 +1,4 @@
 {
-  "cash": 1695.87,
-  "positions": [
-    {
-      "ticker": "MA",
-      "shares": 5.0,
-      "lots": [
-        {
-          "id": "MA-1",
-          "date": "2026-11-27",
-          "shares": 5.0,
-          "cost": 3332.75
-        }
-      ]
-    }
-  ]
+  "cash": 5032.97,
+  "positions": []
 }

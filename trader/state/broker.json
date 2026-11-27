@@ -1213,6 +1213,16 @@
       "qty": "3",
       "price": 162.07,
       "plain": "SELL 3 EMR at 162.07"
+    },
+    {
+      "at": "2026-11-27T12:55:00-05:00",
+      "date": "2026-11-27",
+      "status": "filled",
+      "symbol": "MA",
+      "side": "sell",
+      "qty": "5",
+      "price": 667.42,
+      "plain": "SELL 5 MA at 667.42"
     }
   ]
 }

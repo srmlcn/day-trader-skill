@@ -67,3 +67,4 @@
 - 2026-11-27 10:20 AM  BUY 3 EMR @ 161.32  stop 160.41  target 162.07  max loss $2.49  (time machine avg R 0.029)
 - 2026-11-27 10:45 AM  SELL 1 META @ 635.44  target  P&L $+4.68  +0.94R
 - 2026-11-27 10:35 AM  SELL 3 EMR @ 162.07  target  P&L $+2.25  +0.90R
+- 2026-11-27 12:55 PM  SELL 5 MA @ 667.42  flat  P&L $+4.35  +0.26R
